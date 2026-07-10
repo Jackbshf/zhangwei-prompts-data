@@ -1,0 +1,20 @@
+{
+  "name": "zhangwei-prompts-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "test": "node --test",
+    "migrate": "node scripts/migrate-from-gallery.mjs",
+    "migrate:report": "node scripts/rebuild-exclusion-report.mjs",
+    "validate": "node scripts/validate.mjs",
+    "verify": "npm run test && npm run validate"
+  },
+  "devDependencies": {
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

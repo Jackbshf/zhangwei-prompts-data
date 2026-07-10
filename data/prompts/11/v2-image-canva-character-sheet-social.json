@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-canva-character-sheet-social",
+  "content": {
+    "title": "Canva Magic Media · 原创角色设定三视图 · 社媒封面版",
+    "summary": "Canva Magic Media 适用的「原创角色设定三视图」社媒封面版：生成原创成年角色的正面、侧面、背面设定，便于后续保持一致，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Canva Magic Media 生成一张「原创角色设定三视图」图片。画面主体是 {角色职业}，使用场景为 {年龄段}，重点呈现 {服装}，整体风格、情绪和色彩氛围为 {色彩}，采用 {画面比例} 构图。保留标题区和安全边距，适合小红书、抖音、视频封面和轮播首图。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Canva",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "原创角色设定三视图",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:Canva Magic Media",
+      "模态:图像",
+      "用途:原创角色设定三视图",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "canva",
+      "character-sheet"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Canva Magic Media",
+      "原创角色设定三视图",
+      "图像提示词",
+      "Canva",
+      "工具:Canva Magic Media",
+      "模态:图像",
+      "用途:原创角色设定三视图",
+      "难度:中级",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Canva Magic Media",
+    "name": "canva"
+  },
+  "variables": {
+    "names": [
+      "{角色职业}",
+      "{年龄段}",
+      "{服装}",
+      "{色彩}",
+      "{道具}",
+      "{画面比例}",
+      "{姿态}",
+      "{风格}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "角色职业": "待定",
+      "年龄段": "待定",
+      "服装": "待定",
+      "色彩": "待定",
+      "道具": "待定",
+      "画面比例": "4:5",
+      "姿态": "待定",
+      "风格": "待定",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

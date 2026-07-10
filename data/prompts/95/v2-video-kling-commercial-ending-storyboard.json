@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-kling-commercial-ending-storyboard",
+  "content": {
+    "title": "可灵 Kling · 广告收尾定格 · 分镜版",
+    "summary": "可灵 Kling 适用的「广告收尾定格」分镜版：生成适合放置产品名和行动按钮的收尾画面，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 可灵 Kling 生成一段「广告收尾定格」视频。主体是 {产品}，发生在 {收尾动作}，核心动作围绕 {背景} 展开，镜头使用 {文字区} 或同等稳定运镜，画幅为 {比例}。拆成 3 到 5 个镜头，每个镜头只承担一个动作目标。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / 可灵",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "广告收尾定格",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "入门",
+    "tags": [
+      "工具:可灵 Kling",
+      "模态:视频",
+      "用途:广告收尾定格",
+      "难度:入门",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "kling",
+      "commercial-ending"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "可灵 Kling",
+      "广告收尾定格",
+      "视频提示词",
+      "可灵",
+      "工具:可灵 Kling",
+      "模态:视频",
+      "用途:广告收尾定格",
+      "难度:入门",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "可灵 Kling",
+    "name": "kling"
+  },
+  "variables": {
+    "names": [
+      "{产品}",
+      "{收尾动作}",
+      "{背景}",
+      "{文字区}",
+      "{镜头}",
+      "{比例}",
+      "{时长}",
+      "{CTA}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "产品": "虚构智能桌面灯",
+      "收尾动作": "待定",
+      "背景": "待定",
+      "文字区": "待定",
+      "镜头": "缓慢推进",
+      "比例": "9:16",
+      "时长": "8 秒",
+      "CTA": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

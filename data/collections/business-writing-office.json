@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "business-writing-office",
+  "title": "商务写作与办公",
+  "summary": "邮件、方案、汇报、会议纪要和跨部门沟通，强调语气、结构和可直接交付。",
+  "audience": "职场团队 / 销售 / 管理者",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-problem-framing.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 14,
+  "samplePrompts": [
+    {
+      "id": "community-task-product-ux-requirement-analysis-problem-framing",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 定义问题陈述",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-product-ux-requirement-analysis-scope-boundary",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 划定需求边界",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-product-ux-requirement-analysis-priority-ranking",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 排序需求优先级",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-product-ux-requirement-analysis-risk-assumption",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 列出风险假设",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-product-ux-competitor-research-competitor-list",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 生成竞品清单",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    }
+  ]
+}

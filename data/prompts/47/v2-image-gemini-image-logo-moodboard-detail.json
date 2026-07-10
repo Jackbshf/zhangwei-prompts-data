@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-gemini-image-logo-moodboard-detail",
+  "content": {
+    "title": "Gemini Image · Logo 方向情绪板 · 详情页版",
+    "summary": "Gemini Image 适用的「Logo 方向情绪板」详情页版：输出品牌标志方向情绪板，不复刻现有商标，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Gemini Image 生成一张「Logo 方向情绪板」图片。画面主体是 {品牌名}，使用场景为 {行业}，重点呈现 {关键词}，整体风格、情绪和色彩氛围为 {禁用元素}，采用 {画面比例} 构图。增加材质、纹理、边缘和功能细节，适合商品详情和案例页。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Gemini",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "Logo 方向情绪板",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Gemini Image",
+      "模态:图像",
+      "用途:Logo 方向情绪板",
+      "难度:进阶",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "gemini-image",
+      "logo-moodboard"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Gemini Image",
+      "Logo 方向情绪板",
+      "图像提示词",
+      "Gemini",
+      "工具:Gemini Image",
+      "模态:图像",
+      "用途:Logo 方向情绪板",
+      "难度:进阶",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Gemini Image",
+    "name": "gemini-image"
+  },
+  "variables": {
+    "names": [
+      "{品牌名}",
+      "{行业}",
+      "{关键词}",
+      "{禁用元素}",
+      "{配色}",
+      "{画面比例}",
+      "{标志形态}",
+      "{参考气质}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "品牌名": "待定",
+      "行业": "待定",
+      "关键词": "待定",
+      "禁用元素": "待定",
+      "配色": "待定",
+      "画面比例": "4:5",
+      "标志形态": "待定",
+      "参考气质": "待定",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

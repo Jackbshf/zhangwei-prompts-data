@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-canva-product-flatlay-hero",
+  "content": {
+    "title": "Canva Magic Media · 桌面平铺种草图 · 主视觉版",
+    "summary": "Canva Magic Media 适用的「桌面平铺种草图」主视觉版：把单个商品放入真实生活桌面场景，适合社媒种草和电商卡片，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Canva Magic Media 生成一张「桌面平铺种草图」图片。画面主体是 {商品类型}，使用场景为 {桌面场景}，重点呈现 {辅助物件}，整体风格、情绪和色彩氛围为 {季节}，采用 {画面比例} 构图。主体居中，第一眼识别产品或角色，适合首页和广告首图。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Canva",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "桌面平铺种草图",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:Canva Magic Media",
+      "模态:图像",
+      "用途:桌面平铺种草图",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "canva",
+      "product-flatlay"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Canva Magic Media",
+      "桌面平铺种草图",
+      "图像提示词",
+      "Canva",
+      "工具:Canva Magic Media",
+      "模态:图像",
+      "用途:桌面平铺种草图",
+      "难度:中级",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Canva Magic Media",
+    "name": "canva"
+  },
+  "variables": {
+    "names": [
+      "{商品类型}",
+      "{桌面场景}",
+      "{辅助物件}",
+      "{季节}",
+      "{色彩偏好}",
+      "{画面比例}",
+      "{目标平台}",
+      "{真实感程度}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "商品类型": "低糖燕麦饮",
+      "桌面场景": "待定",
+      "辅助物件": "待定",
+      "季节": "待定",
+      "色彩偏好": "待定",
+      "画面比例": "4:5",
+      "目标平台": "待定",
+      "真实感程度": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

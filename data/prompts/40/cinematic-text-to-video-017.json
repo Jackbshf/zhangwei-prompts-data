@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-text-to-video-017",
+  "content": {
+    "title": "影视导演工作台 · 音效提示",
+    "summary": "音效提示模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "音效提示，请生成一段电影感视频提示词。主体为中年警探与年轻嫌疑人，发生在昏暗审讯室，服化道为皱袖衬衫、深色夹克、简洁便装，情绪为紧张、压迫、心理博弈。镜头从全景开始，使用手持纪实 handheld，主体动作清楚而克制，环境中有可见运动，例如雨滴、光影闪烁、烟雾流动、衣摆轻动或人群从背景经过。镜头角度为门框构图，光影使用伦勃朗光，色彩为暖色治愈，画幅 1:1。如果是图生视频，请保持首帧人物身份、服装、脸部特征和构图稳定，不要重新描述图片已有内容，重点写主体如何移动、镜头如何移动、环境如何变化。输出要求：单镜头优先，节奏从安静到情绪加强，结尾停在可作为封面的稳定画面。负面约束：不要跳帧、不要变脸、不要换衣服、不要出现真实品牌或公众人物。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 文生视频",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "文生视频电影镜头",
+    "aspectRatio": "1:1",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:文生视频电影镜头",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "text-to-video"
+    ],
+    "styleTags": [
+      "黑色电影高对比光影",
+      "文生视频电影镜头",
+      "音效提示"
+    ],
+    "seoKeywords": [
+      "视频",
+      "Google Veo",
+      "文生视频电影镜头",
+      "影视提示词",
+      "文生视频",
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:文生视频电影镜头",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "Google Veo",
+    "name": "veo"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "中年警探与年轻嫌疑人",
+      "scene": "昏暗审讯室",
+      "mood": "紧张、压迫、心理博弈",
+      "clothing": "皱袖衬衫、深色夹克、简洁便装",
+      "lighting": "刺眼台灯切分明暗",
+      "camera": "过肩双人镜头",
+      "style": "黑色电影高对比光影",
+      "aspectRatio": "1:1"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

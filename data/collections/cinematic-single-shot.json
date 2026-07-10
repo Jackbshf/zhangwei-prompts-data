@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-single-shot",
+  "title": "电影感单镜头",
+  "summary": "人物、场景、光影、构图和负面词完整约束，适合 AIGC 视觉、短剧封面和分镜预演。",
+  "audience": "AIGC 视觉创作者 / 短剧团队 / 导演",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-product-hero.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 18,
+  "samplePrompts": [
+    {
+      "id": "community-task-film-aigc-visual-multi-person-image-team-scene",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 生成团队场景",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-multi-person-image-crowd-atmosphere",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 生成群像氛围图",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-multi-person-image-relationship-blocking",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 安排人物站位关系",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-multi-person-image-multi-person-negative",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 生成多人负面提示词",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-single-grid-image-single-product-hero",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 单宫格图片 · 生成单张产品主视觉",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    }
+  ]
+}

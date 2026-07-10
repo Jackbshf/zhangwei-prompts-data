@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "beauty-fashion-portrait",
+  "title": "美妆与人像大片",
+  "summary": "美妆、服饰、人像、质感肌理和直播场景，强调可控肤质、手部和品牌安全。",
+  "audience": "美妆品牌 / 服饰品牌 / 商业摄影",
+  "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-live-commerce-single-shot.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 14,
+  "samplePrompts": [
+    {
+      "id": "community-task-film-aigc-visual-image-to-video-portrait-motion",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 图生视频 · 生成人像动态镜头",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "v2-video-sora-skincare-routine-single-shot",
+      "title": "Sora · 护肤使用流程 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-beauty-texture-motion-single-shot",
+      "title": "Sora · 美妆质地动态 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-live-commerce-single-shot",
+      "title": "Sora · 直播间商品讲解片段 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-skincare-routine-three-act",
+      "title": "Sora · 护肤使用流程 · 三段式版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    }
+  ]
+}

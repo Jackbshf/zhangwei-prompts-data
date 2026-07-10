@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-multi-person-image-006",
+  "content": {
+    "title": "影视导演工作台 · 家庭群像",
+    "summary": "家庭群像模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "家庭群像，请生成一张可直接用于商业安全创作的电影感图像。主体为年轻女性侦探，位于雨夜城市巷口，穿着或携带黑色风衣与旧式录音笔，动作和表情保持克制但有明确戏剧动机。使用双人镜头 two-shot，俯拍，85mm 半身近景，构图有清晰视觉中心和前中后景层次。光影为低调光，色彩为电影胶片，情绪是浪漫，整体风格为低调电影胶片质感。背景只服务主体，不堆砌无关装饰；皮肤、布料、金属、雨水或玻璃反光要真实；眼神清晰，手部自然，身份稳定。输出为 21:9，画面不要文字、不要水印、不要可识别品牌标识、不要真人肖像冒用。质量标准：主体完整、景别准确、光线统一、色彩可控、情绪明确、可直接复制到图像模型使用。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 多人图片",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "影视多人关系画面",
+    "aspectRatio": "21:9",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Stable Diffusion / SDXL",
+      "模态:图像",
+      "用途:影视多人关系画面",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "multi-person-image"
+    ],
+    "styleTags": [
+      "低调电影胶片质感",
+      "影视多人关系画面",
+      "家庭群像"
+    ],
+    "seoKeywords": [
+      "图像",
+      "Stable Diffusion / SDXL",
+      "影视多人关系画面",
+      "影视提示词",
+      "多人图片",
+      "工具:Stable Diffusion / SDXL",
+      "模态:图像",
+      "用途:影视多人关系画面",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "Stable Diffusion / SDXL",
+    "name": "stable-diffusion"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "年轻女性侦探",
+      "scene": "雨夜城市巷口",
+      "mood": "克制、警觉、孤独",
+      "clothing": "黑色风衣与旧式录音笔",
+      "lighting": "冷蓝阴影与暖橙街灯",
+      "camera": "85mm 半身近景",
+      "style": "低调电影胶片质感",
+      "aspectRatio": "21:9"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": {
+    "assetPath": "proofs/generated/cinematic-multi-person-image-006.webp",
+    "type": "GPT Image 效果预览",
+    "model": "ChatGPT web / GPT Image",
+    "testedAt": "2026-05-21",
+    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "evidenceLevel": "generated-preview"
+  },
+  "publication": {
+    "status": "published-proofed",
+    "featured": true,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

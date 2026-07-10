@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-jimeng-seedance-app-walkthrough-single-shot",
+  "content": {
+    "title": "即梦 / Seedance · 应用功能走查 · 单镜头版",
+    "summary": "即梦 / Seedance 适用的「应用功能走查」单镜头版：用镜头推进展示虚构应用的关键功能界面，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 即梦 / Seedance 生成一段「应用功能走查」视频。主体是 {应用类型}，发生在 {功能流程}，核心动作围绕 {设备} 展开，镜头使用 {用户目标} 或同等稳定运镜，画幅为 {画面比例}。一个连续镜头完成动作，减少跳帧和身份漂移。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / 即梦 Seedance",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "应用功能走查",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:即梦 / Seedance",
+      "模态:视频",
+      "用途:应用功能走查",
+      "难度:进阶",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "jimeng-seedance",
+      "app-walkthrough"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "即梦 / Seedance",
+      "应用功能走查",
+      "视频提示词",
+      "即梦",
+      "Seedance",
+      "工具:即梦 / Seedance",
+      "模态:视频",
+      "用途:应用功能走查",
+      "难度:进阶"
+    ]
+  },
+  "model": {
+    "tool": "即梦 / Seedance",
+    "name": "jimeng-seedance"
+  },
+  "variables": {
+    "names": [
+      "{应用类型}",
+      "{功能流程}",
+      "{设备}",
+      "{用户目标}",
+      "{时长}",
+      "{画面比例}",
+      "{界面重点}",
+      "{手势}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "应用类型": "待定",
+      "功能流程": "待定",
+      "设备": "待定",
+      "用户目标": "待定",
+      "时长": "8 秒",
+      "画面比例": "9:16",
+      "界面重点": "待定",
+      "手势": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

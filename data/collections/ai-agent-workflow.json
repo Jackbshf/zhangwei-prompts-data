@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-agent-workflow",
+  "title": "AI Agent 工作流",
+  "summary": "研发、产品、运营和知识库场景的 Agent 任务拆解、工具调用、验收标准和风险边界。",
+  "audience": "产品经理 / 研发 / 自动化团队",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-opening-script.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 14,
+  "samplePrompts": [
+    {
+      "id": "community-task-ecommerce-local-life-live-stream-script-opening-script",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成直播开场话术",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-ecommerce-local-life-live-stream-script-product-demo",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成产品讲解话术",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-ecommerce-local-life-live-stream-script-limited-offer",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成限时促单话术",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-ecommerce-local-life-live-stream-script-objection-live",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 处理直播异议",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-ecommerce-local-life-live-stream-script-interaction-script",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成互动提问",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    }
+  ]
+}

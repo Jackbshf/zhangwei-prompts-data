@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-veo-music-video-scene-loop",
+  "content": {
+    "title": "Google Veo · 原创音乐短片场景 · 循环动效版",
+    "summary": "Google Veo 适用的「原创音乐短片场景」循环动效版：为原创歌曲生成一段可剪辑的音乐视频镜头，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Google Veo 生成一段「原创音乐短片场景」视频。主体是 {歌曲情绪}，发生在 {角色}，核心动作围绕 {场景} 展开，镜头使用 {动作} 或同等稳定运镜，画幅为 {比例}。首尾状态自然衔接，适合商品卡片、背景视频和社媒循环。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / Veo",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "原创音乐短片场景",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:原创音乐短片场景",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "veo",
+      "music-video-scene"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "Google Veo",
+      "原创音乐短片场景",
+      "视频提示词",
+      "Veo",
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:原创音乐短片场景",
+      "难度:中级",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Google Veo",
+    "name": "veo"
+  },
+  "variables": {
+    "names": [
+      "{歌曲情绪}",
+      "{角色}",
+      "{场景}",
+      "{动作}",
+      "{镜头}",
+      "{比例}",
+      "{色彩}",
+      "{节奏}",
+      "{时长}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "歌曲情绪": "待定",
+      "角色": "待定",
+      "场景": "夜晚书桌",
+      "动作": "从关闭到点亮，再切到使用细节",
+      "镜头": "缓慢推进",
+      "比例": "9:16",
+      "色彩": "待定",
+      "节奏": "待定",
+      "时长": "8 秒",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

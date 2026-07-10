@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-leonardo-icon-set-detail",
+  "content": {
+    "title": "Leonardo AI · 功能图标套组 · 详情页版",
+    "summary": "Leonardo AI 适用的「功能图标套组」详情页版：生成同一线宽和风格的功能图标套组，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Leonardo AI 生成一张「功能图标套组」图片。画面主体是 {功能列表}，使用场景为 {线宽}，重点呈现 {圆角}，整体风格、情绪和色彩氛围为 {色彩}，采用 {画面比例} 构图。增加材质、纹理、边缘和功能细节，适合商品详情和案例页。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Leonardo AI",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "功能图标套组",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:Leonardo AI",
+      "模态:图像",
+      "用途:功能图标套组",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "leonardo",
+      "icon-set"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Leonardo AI",
+      "功能图标套组",
+      "图像提示词",
+      "Leonardo",
+      "AI",
+      "工具:Leonardo AI",
+      "模态:图像",
+      "用途:功能图标套组",
+      "难度:中级"
+    ]
+  },
+  "model": {
+    "tool": "Leonardo AI",
+    "name": "leonardo"
+  },
+  "variables": {
+    "names": [
+      "{功能列表}",
+      "{线宽}",
+      "{圆角}",
+      "{色彩}",
+      "{背景}",
+      "{输出数量}",
+      "{图标尺寸}",
+      "{风格}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "功能列表": "待定",
+      "线宽": "待定",
+      "圆角": "待定",
+      "色彩": "待定",
+      "背景": "待定",
+      "输出数量": "待定",
+      "图标尺寸": "待定",
+      "风格": "待定",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

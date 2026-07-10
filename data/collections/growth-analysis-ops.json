@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "growth-analysis-ops",
+  "title": "增长分析与运营",
+  "summary": "投放复盘、用户分层、活动分析、私域转化和数据洞察，用于日常运营决策。",
+  "audience": "增长 / 运营 / 数据分析",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-campaign-review.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 14,
+  "samplePrompts": [
+    {
+      "id": "community-task-new-media-short-video-data-review-video-data-review",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 数据复盘 · 复盘单条视频数据",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-data-review-account-weekly-review",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 数据复盘 · 生成账号周报",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-data-review-retention-analysis",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 数据复盘 · 分析完播和停留",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-data-review-conversion-review",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 数据复盘 · 复盘转化数据",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-data-review-content-iteration",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 数据复盘 · 生成内容迭代建议",
+      "modality": "文本",
+      "tool": "ChatGPT / Gemini",
+      "qualityScore": 98
+    }
+  ]
+}

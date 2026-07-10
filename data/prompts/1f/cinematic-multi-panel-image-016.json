@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-multi-panel-image-016",
+  "content": {
+    "title": "影视导演工作台 · 多宫格同一人物不同景别",
+    "summary": "多宫格同一人物不同景别模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "多宫格同一人物不同景别，统一角色、统一场景、统一光影与统一色彩。主体为年轻女性侦探，场景设定在雨夜城市巷口，服化道为黑色风衣与旧式录音笔，整体情绪是克制、警觉、孤独。第 1 格用近景建立人物与环境关系；第 2 格让主体动作发生变化，保持脸部、服装和道具一致；第 3 格切到平视强化心理张力；第 4 格使用特写呈现关键道具或表情；若为 6 宫格或 9 宫格，后续画面继续按从左到右、从上到下编号，分别变化景别、动作、表情和环境细节。缓慢拉远 slow pull back，低调光，电影胶片，画面不要生成文字、不要水印、不要漫画气泡，避免多余肢体和脸部混乱。输出为 2.39:1，电影故事板质感，适合短剧分镜、角色设定和 AI 视频前期视觉化。质量标准：每格主次清楚、人物身份稳定、色调一致、故事线连续、画面可直接用于后期拆分。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 多宫格图片",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "多宫格分镜与角色海报",
+    "aspectRatio": "2.39:1",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:即梦 / Seedance",
+      "模态:图像",
+      "用途:多宫格分镜与角色海报",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "multi-panel-image"
+    ],
+    "styleTags": [
+      "低调电影胶片质感",
+      "多宫格分镜与角色海报",
+      "多宫格同一人物不同景别"
+    ],
+    "seoKeywords": [
+      "图像",
+      "即梦 / Seedance",
+      "多宫格分镜与角色海报",
+      "影视提示词",
+      "多宫格图片",
+      "工具:即梦 / Seedance",
+      "模态:图像",
+      "用途:多宫格分镜与角色海报",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "即梦 / Seedance",
+    "name": "seedance"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "年轻女性侦探",
+      "scene": "雨夜城市巷口",
+      "mood": "克制、警觉、孤独",
+      "clothing": "黑色风衣与旧式录音笔",
+      "lighting": "冷蓝阴影与暖橙街灯",
+      "camera": "85mm 半身近景",
+      "style": "低调电影胶片质感",
+      "aspectRatio": "2.39:1"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

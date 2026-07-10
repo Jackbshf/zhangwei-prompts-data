@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-pixverse-video-skincare-routine-single-shot",
+  "content": {
+    "title": "PixVerse Video · 护肤使用流程 · 单镜头版",
+    "summary": "PixVerse Video 适用的「护肤使用流程」单镜头版：用合规语言展示质地和使用步骤，不暗示治疗效果，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 PixVerse Video 生成一段「护肤使用流程」视频。主体是 {产品}，发生在 {步骤}，核心动作围绕 {人物或手部} 展开，镜头使用 {浴室或桌面} 或同等稳定运镜，画幅为 {画面比例}。一个连续镜头完成动作，减少跳帧和身份漂移。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / PixVerse",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "护肤使用流程",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "入门",
+    "tags": [
+      "工具:PixVerse Video",
+      "模态:视频",
+      "用途:护肤使用流程",
+      "难度:入门",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "pixverse-video",
+      "skincare-routine"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "PixVerse Video",
+      "护肤使用流程",
+      "视频提示词",
+      "PixVerse",
+      "工具:PixVerse Video",
+      "模态:视频",
+      "用途:护肤使用流程",
+      "难度:入门",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "PixVerse Video",
+    "name": "pixverse-video"
+  },
+  "variables": {
+    "names": [
+      "{产品}",
+      "{步骤}",
+      "{人物或手部}",
+      "{浴室或桌面}",
+      "{画面比例}",
+      "{质地}",
+      "{镜头}",
+      "{边界}",
+      "{时长}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "产品": "虚构智能桌面灯",
+      "步骤": "待定",
+      "人物或手部": "待定",
+      "浴室或桌面": "待定",
+      "画面比例": "9:16",
+      "质地": "待定",
+      "镜头": "缓慢推进",
+      "边界": "待定",
+      "时长": "8 秒",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

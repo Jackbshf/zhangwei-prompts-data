@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Jackbshf/zhangwei-prompts-data/schema/prompt-v1.schema.json",
+  "title": "ZhangWei Prompt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "content",
+    "classification",
+    "model",
+    "variables",
+    "provenance",
+    "proof",
+    "publication"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "minLength": 1, "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "content": {
+      "type": "object",
+      "required": ["title", "summary", "preview", "prompt", "copyPrompt", "language"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "preview": { "type": "string" },
+        "prompt": { "type": "string", "minLength": 1 },
+        "copyPrompt": { "type": "string" },
+        "language": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "classification": {
+      "type": "object",
+      "required": ["category", "department", "scenario", "task", "modality", "useCase", "aspectRatio", "difficulty", "tags", "styleTags", "seoKeywords"],
+      "properties": {
+        "category": { "type": "string", "minLength": 1 },
+        "department": { "type": "string" },
+        "scenario": { "type": "string" },
+        "task": { "type": "string" },
+        "modality": { "enum": ["图像", "视频", "文本"] },
+        "useCase": { "type": "string" },
+        "aspectRatio": { "type": "string" },
+        "difficulty": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "styleTags": { "type": "array", "items": { "type": "string" } },
+        "seoKeywords": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "model": {
+      "type": "object",
+      "required": ["tool", "name"],
+      "properties": {
+        "tool": { "type": "string", "minLength": 1 },
+        "name": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "variables": {
+      "type": "object",
+      "required": ["names", "defaults"],
+      "properties": {
+        "names": { "type": "array", "items": { "type": "string" }, "maxItems": 24 },
+        "defaults": { "type": "object", "additionalProperties": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source", "authorName", "authorUrl", "sourceUrl", "licenseType", "licenseConfirmed", "submissionIssueNumber"],
+      "properties": {
+        "source": { "type": "string", "minLength": 1 },
+        "authorName": { "type": "string" },
+        "authorUrl": { "type": "string" },
+        "sourceUrl": { "type": "string" },
+        "licenseType": { "type": "string" },
+        "licenseConfirmed": { "type": "boolean" },
+        "submissionIssueNumber": { "type": ["integer", "null"], "minimum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "proof": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["assetPath", "type", "model", "testedAt", "resultNote", "evidenceLevel"],
+          "properties": {
+            "assetPath": { "type": "string", "pattern": "^proofs/generated/[a-z0-9][a-z0-9._-]*\\.webp$" },
+            "type": { "type": "string" },
+            "model": { "type": "string", "minLength": 1 },
+            "testedAt": { "type": "string", "format": "date" },
+            "resultNote": { "type": "string", "minLength": 1 },
+            "evidenceLevel": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "publication": {
+      "type": "object",
+      "required": ["status", "featured", "copyReady", "qualityScore", "qualityLevel", "verifiedAt", "collectionIds", "createdAt", "updatedAt", "publishedAt"],
+      "properties": {
+        "status": { "enum": ["draft", "published", "published-no-image", "published-proofed", "archived"] },
+        "featured": { "type": "boolean" },
+        "copyReady": { "const": true },
+        "qualityScore": { "type": "number", "minimum": 0, "maximum": 100 },
+        "qualityLevel": { "type": "string" },
+        "verifiedAt": { "type": "string" },
+        "collectionIds": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "publishedAt": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

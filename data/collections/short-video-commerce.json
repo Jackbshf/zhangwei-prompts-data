@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "short-video-commerce",
+  "title": "短视频带货脚本",
+  "summary": "商品种草、直播间口播、信息流投放和短视频分镜，适合快速产出可拍摄脚本。",
+  "audience": "短视频运营 / 投放 / 主播团队",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-spoken-copy-product-review.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 16,
+  "samplePrompts": [
+    {
+      "id": "community-task-new-media-short-video-short-video-script-sixty-second-talk-script",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成 60 秒口播脚本",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-short-video-script-three-minute-knowledge-script",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成 3 分钟知识类视频脚本",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-short-video-script-douyin-reversal-script",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成抖音剧情反转脚本",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-short-video-script-xiaohongshu-note",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成小红书种草笔记",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-short-video-script-wechat-video-script",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成视频号中年用户内容",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    }
+  ]
+}

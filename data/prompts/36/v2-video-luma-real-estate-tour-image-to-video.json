@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-luma-real-estate-tour-image-to-video",
+  "content": {
+    "title": "Luma Dream Machine · 房源卖点短片 · 图生视频版",
+    "summary": "Luma Dream Machine 适用的「房源卖点短片」图生视频版：用三段镜头展示采光、收纳和生活方式，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Luma Dream Machine 生成一段「房源卖点短片」视频。主体是 {房源类型}，发生在 {卖点}，核心动作围绕 {镜头顺序} 展开，镜头使用 {目标客户} 或同等稳定运镜，画幅为 {画面比例}。把首帧作为构图和主体依据，只描述运动和环境变化。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / Luma",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "房源卖点短片",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Luma Dream Machine",
+      "模态:视频",
+      "用途:房源卖点短片",
+      "难度:进阶",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "luma",
+      "real-estate-tour"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "Luma Dream Machine",
+      "房源卖点短片",
+      "视频提示词",
+      "Luma",
+      "工具:Luma Dream Machine",
+      "模态:视频",
+      "用途:房源卖点短片",
+      "难度:进阶",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Luma Dream Machine",
+    "name": "luma"
+  },
+  "variables": {
+    "names": [
+      "{房源类型}",
+      "{卖点}",
+      "{镜头顺序}",
+      "{目标客户}",
+      "{画面比例}",
+      "{窗景}",
+      "{动线}",
+      "{字幕}",
+      "{时长}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "房源类型": "待定",
+      "卖点": "待定",
+      "镜头顺序": "待定",
+      "目标客户": "待定",
+      "画面比例": "9:16",
+      "窗景": "待定",
+      "动线": "待定",
+      "字幕": "待定",
+      "时长": "8 秒",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

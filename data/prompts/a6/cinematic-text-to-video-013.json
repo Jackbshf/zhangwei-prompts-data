@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-text-to-video-013",
+  "content": {
+    "title": "影视导演工作台 · 赛博朋克街头",
+    "summary": "赛博朋克街头模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "赛博朋克街头，请生成一段电影感视频提示词。主体为古风女侠，发生在雾气中的古城门与山崖，服化道为红黑配色长衣、披风、长剑，情绪为克制、凌厉、宿命感。镜头从半身近景开始，使用静态镜头 locked camera，主体动作清楚而克制，环境中有可见运动，例如雨滴、光影闪烁、烟雾流动、衣摆轻动或人群从背景经过。镜头角度为仰拍，光影使用黄金时刻，色彩为冷暖对比，画幅 9:16。如果是图生视频，请保持首帧人物身份、服装、脸部特征和构图稳定，不要重新描述图片已有内容，重点写主体如何移动、镜头如何移动、环境如何变化。输出要求：单镜头优先，节奏从安静到情绪加强，结尾停在可作为封面的稳定画面。负面约束：不要跳帧、不要变脸、不要换衣服、不要出现真实品牌或公众人物。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 文生视频",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "文生视频电影镜头",
+    "aspectRatio": "9:16",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:通用中文",
+      "模态:视频",
+      "用途:文生视频电影镜头",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "text-to-video"
+    ],
+    "styleTags": [
+      "古风电影海报质感",
+      "文生视频电影镜头",
+      "赛博朋克街头"
+    ],
+    "seoKeywords": [
+      "视频",
+      "通用中文",
+      "文生视频电影镜头",
+      "影视提示词",
+      "文生视频",
+      "工具:通用中文",
+      "模态:视频",
+      "用途:文生视频电影镜头",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "通用中文",
+    "name": "universal"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "古风女侠",
+      "scene": "雾气中的古城门与山崖",
+      "mood": "克制、凌厉、宿命感",
+      "clothing": "红黑配色长衣、披风、长剑",
+      "lighting": "烛光、雨水反光与薄雾轮廓光",
+      "camera": "低角度英雄镜头",
+      "style": "古风电影海报质感",
+      "aspectRatio": "9:16"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

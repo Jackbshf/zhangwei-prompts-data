@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-leonardo-festival-card-campaign",
+  "content": {
+    "title": "Leonardo AI · 节日祝福卡片 · 投放广告版",
+    "summary": "Leonardo AI 适用的「节日祝福卡片」投放广告版：生成品牌节日卡片，表达克制、不使用受保护形象，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Leonardo AI 生成一张「节日祝福卡片」图片。画面主体是 {节日}，使用场景为 {品牌语气}，重点呈现 {祝福语}，整体风格、情绪和色彩氛围为 {元素}，采用 {画面比例} 构图。突出利益点、行动区和品牌安全边界，适合信息流广告。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Leonardo AI",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "节日祝福卡片",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Leonardo AI",
+      "模态:图像",
+      "用途:节日祝福卡片",
+      "难度:进阶",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "leonardo",
+      "festival-card"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Leonardo AI",
+      "节日祝福卡片",
+      "图像提示词",
+      "Leonardo",
+      "AI",
+      "工具:Leonardo AI",
+      "模态:图像",
+      "用途:节日祝福卡片",
+      "难度:进阶"
+    ]
+  },
+  "model": {
+    "tool": "Leonardo AI",
+    "name": "leonardo"
+  },
+  "variables": {
+    "names": [
+      "{节日}",
+      "{品牌语气}",
+      "{祝福语}",
+      "{元素}",
+      "{色彩}",
+      "{画面比例}",
+      "{版式}",
+      "{目标人群}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "节日": "待定",
+      "品牌语气": "待定",
+      "祝福语": "待定",
+      "元素": "待定",
+      "色彩": "待定",
+      "画面比例": "4:5",
+      "版式": "待定",
+      "目标人群": "待定",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

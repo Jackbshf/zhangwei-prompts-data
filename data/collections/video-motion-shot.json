@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "video-motion-shot",
+  "title": "AI 视频运镜",
+  "summary": "Veo、Kling、Runway、Sora 等视频模型的运动、节奏、主体一致性和负面约束。",
+  "audience": "AI 视频创作者 / 广告视频 / 短片团队",
+  "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-three-d-character-ad-single-shot.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 16,
+  "samplePrompts": [
+    {
+      "id": "v2-video-sora-unboxing-hand-single-shot",
+      "title": "Sora · 无脸开箱展示 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-fashion-look-single-shot",
+      "title": "Sora · 单人穿搭展示 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-kitchen-device-single-shot",
+      "title": "Sora · 厨房设备演示 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-real-estate-tour-single-shot",
+      "title": "Sora · 房源卖点短片 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    },
+    {
+      "id": "v2-video-sora-event-promo-single-shot",
+      "title": "Sora · 活动预热视频 · 单镜头版",
+      "modality": "视频",
+      "tool": "Sora",
+      "qualityScore": 92
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "brand-campaign-visual",
+  "title": "品牌 campaign 视觉",
+  "summary": "从品牌主张到KV、海报、社媒图和视觉概念，适合提案阶段快速扩展方向。",
+  "audience": "品牌营销 / 创意总监 / 设计团队",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-festival-poster.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 14,
+  "samplePrompts": [
+    {
+      "id": "community-task-new-media-short-video-storyboard-shooting-script",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 分镜脚本 · 生成拍摄执行脚本",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-storyboard-edit-rhythm",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 分镜脚本 · 规划剪辑节奏",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-storyboard-b-roll-plan",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 分镜脚本 · 规划补充镜头",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-movie-poster-festival-poster",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成影展海报",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-movie-poster-concept-poster",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成概念海报",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    }
+  ]
+}

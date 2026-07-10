@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-single-person-image-022",
+  "content": {
+    "title": "影视导演工作台 · 霓虹街头人物",
+    "summary": "霓虹街头人物模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "霓虹街头人物，请生成一张可直接用于商业安全创作的电影感图像。主体为中年警探与年轻嫌疑人，位于昏暗审讯室，穿着或携带皱袖衬衫、深色夹克、简洁便装，动作和表情保持克制但有明确戏剧动机。使用大远景，俯拍，过肩双人镜头，构图有清晰视觉中心和前中后景层次。光影为霓虹灯，色彩为35mm film，情绪是梦幻，整体风格为黑色电影高对比光影。背景只服务主体，不堆砌无关装饰；皮肤、布料、金属、雨水或玻璃反光要真实；眼神清晰，手部自然，身份稳定。输出为 9:16，画面不要文字、不要水印、不要可识别品牌标识、不要真人肖像冒用。质量标准：主体完整、景别准确、光线统一、色彩可控、情绪明确、可直接复制到图像模型使用。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 单人图片",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "电影感单人肖像",
+    "aspectRatio": "9:16",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:通用中文",
+      "模态:图像",
+      "用途:电影感单人肖像",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "single-person-image"
+    ],
+    "styleTags": [
+      "黑色电影高对比光影",
+      "电影感单人肖像",
+      "霓虹街头人物"
+    ],
+    "seoKeywords": [
+      "图像",
+      "通用中文",
+      "电影感单人肖像",
+      "影视提示词",
+      "单人图片",
+      "工具:通用中文",
+      "模态:图像",
+      "用途:电影感单人肖像",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "通用中文",
+    "name": "universal"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "中年警探与年轻嫌疑人",
+      "scene": "昏暗审讯室",
+      "mood": "紧张、压迫、心理博弈",
+      "clothing": "皱袖衬衫、深色夹克、简洁便装",
+      "lighting": "刺眼台灯切分明暗",
+      "camera": "过肩双人镜头",
+      "style": "黑色电影高对比光影",
+      "aspectRatio": "9:16"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": {
+    "assetPath": "proofs/generated/cinematic-single-person-image-022.webp",
+    "type": "GPT Image 效果预览",
+    "model": "ChatGPT web / GPT Image",
+    "testedAt": "2026-05-21",
+    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "evidenceLevel": "generated-preview"
+  },
+  "publication": {
+    "status": "published-proofed",
+    "featured": true,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

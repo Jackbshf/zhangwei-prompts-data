@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-storyboard-009",
+  "content": {
+    "title": "影视导演工作台 · 一镜到底",
+    "summary": "一镜到底模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "一镜到底，请生成一段电影感视频提示词。主体为都市女企业家，发生在高层办公室与城市夜景，服化道为白色衬衫、深色西装、银色腕表，情绪为冷静、决断、疏离。镜头从全景开始，使用手持纪实 handheld，主体动作清楚而克制，环境中有可见运动，例如雨滴、光影闪烁、烟雾流动、衣摆轻动或人群从背景经过。镜头角度为平视，光影使用雨夜反光，色彩为赛博霓虹，画幅 3:4。如果是图生视频，请保持首帧人物身份、服装、脸部特征和构图稳定，不要重新描述图片已有内容，重点写主体如何移动、镜头如何移动、环境如何变化。输出要求：单镜头优先，节奏从安静到情绪加强，结尾停在可作为封面的稳定画面。负面约束：不要跳帧、不要变脸、不要换衣服、不要出现真实品牌或公众人物。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 多镜头分镜",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "多镜头分镜脚本",
+    "aspectRatio": "3:4",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Runway",
+      "模态:视频",
+      "用途:多镜头分镜脚本",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "storyboard"
+    ],
+    "styleTags": [
+      "商业大片质感",
+      "多镜头分镜脚本",
+      "一镜到底"
+    ],
+    "seoKeywords": [
+      "视频",
+      "Runway",
+      "多镜头分镜脚本",
+      "影视提示词",
+      "多镜头分镜",
+      "工具:Runway",
+      "模态:视频",
+      "用途:多镜头分镜脚本",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "Runway",
+    "name": "runway"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "都市女企业家",
+      "scene": "高层办公室与城市夜景",
+      "mood": "冷静、决断、疏离",
+      "clothing": "白色衬衫、深色西装、银色腕表",
+      "lighting": "窗边柔光与城市霓虹边缘光",
+      "camera": "50mm 中近景",
+      "style": "商业大片质感",
+      "aspectRatio": "3:4"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

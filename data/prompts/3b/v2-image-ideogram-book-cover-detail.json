@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-ideogram-book-cover-detail",
+  "content": {
+    "title": "Ideogram · 原创书封面 · 详情页版",
+    "summary": "Ideogram 适用的「原创书封面」详情页版：生成原创图书封面视觉，标题区清晰且不使用真实书名冒用，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Ideogram 生成一张「原创书封面」图片。画面主体是 {书籍类型}，使用场景为 {标题占位}，重点呈现 {情绪}，整体风格、情绪和色彩氛围为 {主体}，采用 {画面比例} 构图。增加材质、纹理、边缘和功能细节，适合商品详情和案例页。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Ideogram",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "原创书封面",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:Ideogram",
+      "模态:图像",
+      "用途:原创书封面",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "ideogram",
+      "book-cover"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Ideogram",
+      "原创书封面",
+      "图像提示词",
+      "工具:Ideogram",
+      "模态:图像",
+      "用途:原创书封面",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板"
+    ]
+  },
+  "model": {
+    "tool": "Ideogram",
+    "name": "ideogram"
+  },
+  "variables": {
+    "names": [
+      "{书籍类型}",
+      "{标题占位}",
+      "{情绪}",
+      "{主体}",
+      "{字体方向}",
+      "{画面比例}",
+      "{读者}",
+      "{材质}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "书籍类型": "待定",
+      "标题占位": "待定",
+      "情绪": "待定",
+      "主体": "待定",
+      "字体方向": "待定",
+      "画面比例": "4:5",
+      "读者": "待定",
+      "材质": "磨砂金属与半透明玻璃",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

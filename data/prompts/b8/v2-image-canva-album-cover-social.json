@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-canva-album-cover-social",
+  "content": {
+    "title": "Canva Magic Media · 原创音乐封面 · 社媒封面版",
+    "summary": "Canva Magic Media 适用的「原创音乐封面」社媒封面版：生成原创歌曲或播客封面，匹配曲风和情绪，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Canva Magic Media 生成一张「原创音乐封面」图片。画面主体是 {音乐风格}，使用场景为 {情绪}，重点呈现 {标题占位}，整体风格、情绪和色彩氛围为 {主体}，采用 {画面比例} 构图。保留标题区和安全边距，适合小红书、抖音、视频封面和轮播首图。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Canva",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "原创音乐封面",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Canva Magic Media",
+      "模态:图像",
+      "用途:原创音乐封面",
+      "难度:进阶",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "canva",
+      "album-cover"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Canva Magic Media",
+      "原创音乐封面",
+      "图像提示词",
+      "Canva",
+      "工具:Canva Magic Media",
+      "模态:图像",
+      "用途:原创音乐封面",
+      "难度:进阶",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Canva Magic Media",
+    "name": "canva"
+  },
+  "variables": {
+    "names": [
+      "{音乐风格}",
+      "{情绪}",
+      "{标题占位}",
+      "{主体}",
+      "{色彩}",
+      "{画面比例}",
+      "{纹理}",
+      "{构图}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "音乐风格": "待定",
+      "情绪": "待定",
+      "标题占位": "待定",
+      "主体": "待定",
+      "色彩": "待定",
+      "画面比例": "4:5",
+      "纹理": "待定",
+      "构图": "待定",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

@@ -1,0 +1,1247 @@
+{
+  "version": "prompt-preview-images-2026-05-24",
+  "updatedAt": "2026-07-05T04:37:00.093Z",
+  "images": {
+    "cinematic-multi-person-image-001": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:40:49.477Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-001.webp",
+      "title": "影视导演工作台 · 双人对峙",
+      "promptId": "cinematic-multi-person-image-001"
+    },
+    "cinematic-multi-person-image-002": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:48:10.840Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-002.webp",
+      "title": "影视导演工作台 · 双人告别",
+      "promptId": "cinematic-multi-person-image-002"
+    },
+    "cinematic-multi-person-image-003": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:56:09.203Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-003.webp",
+      "title": "影视导演工作台 · 双人重逢",
+      "promptId": "cinematic-multi-person-image-003"
+    },
+    "cinematic-multi-person-image-004": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:59:21.459Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-004.webp",
+      "title": "影视导演工作台 · 过肩对话",
+      "promptId": "cinematic-multi-person-image-004"
+    },
+    "cinematic-multi-person-image-005": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T12:02:38.646Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-005.webp",
+      "title": "影视导演工作台 · 三人关系张力",
+      "promptId": "cinematic-multi-person-image-005"
+    },
+    "cinematic-multi-person-image-006": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T12:06:07.984Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-006.webp",
+      "title": "影视导演工作台 · 家庭群像",
+      "promptId": "cinematic-multi-person-image-006"
+    },
+    "cinematic-multi-person-image-007": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T12:09:33.614Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-007.webp",
+      "title": "影视导演工作台 · 警匪审讯",
+      "promptId": "cinematic-multi-person-image-007"
+    },
+    "cinematic-multi-person-image-008": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T12:34:12.642Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-008.webp",
+      "title": "影视导演工作台 · 古风群像",
+      "promptId": "cinematic-multi-person-image-008"
+    },
+    "cinematic-multi-person-image-009": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T12:47:37.383Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-009.webp",
+      "title": "影视导演工作台 · 武侠门派群像",
+      "promptId": "cinematic-multi-person-image-009"
+    },
+    "cinematic-multi-person-image-010": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T12:55:39.005Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-010.webp",
+      "title": "影视导演工作台 · 职场会议群像",
+      "promptId": "cinematic-multi-person-image-010"
+    },
+    "cinematic-multi-person-image-011": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T13:04:01.953Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-011.webp",
+      "title": "影视导演工作台 · 医院走廊群像",
+      "promptId": "cinematic-multi-person-image-011"
+    },
+    "cinematic-multi-person-image-012": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T13:13:18.465Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-012.webp",
+      "title": "影视导演工作台 · 校园青春群像",
+      "promptId": "cinematic-multi-person-image-012"
+    },
+    "cinematic-multi-person-image-013": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T15:22:23.227Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-013.webp",
+      "title": "影视导演工作台 · 黑帮群像",
+      "promptId": "cinematic-multi-person-image-013"
+    },
+    "cinematic-multi-person-image-014": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T15:48:41.338Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-014.webp",
+      "title": "影视导演工作台 · 末日幸存者群像",
+      "promptId": "cinematic-multi-person-image-014"
+    },
+    "cinematic-multi-person-image-015": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T15:55:30.451Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-015.webp",
+      "title": "影视导演工作台 · 科幻飞船乘员",
+      "promptId": "cinematic-multi-person-image-015"
+    },
+    "cinematic-multi-person-image-016": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T15:57:49.301Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-016.webp",
+      "title": "影视导演工作台 · 复古婚礼",
+      "promptId": "cinematic-multi-person-image-016"
+    },
+    "cinematic-multi-person-image-017": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:00:39.943Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-017.webp",
+      "title": "影视导演工作台 · 餐桌冲突",
+      "promptId": "cinematic-multi-person-image-017"
+    },
+    "cinematic-multi-person-image-018": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:03:56.126Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-018.webp",
+      "title": "影视导演工作台 · 地铁车厢多人",
+      "promptId": "cinematic-multi-person-image-018"
+    },
+    "cinematic-multi-person-image-019": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:08:07.645Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-019.webp",
+      "title": "影视导演工作台 · 雨夜街头双人",
+      "promptId": "cinematic-multi-person-image-019"
+    },
+    "cinematic-multi-person-image-020": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:13:59.877Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-020.webp",
+      "title": "影视导演工作台 · 战场小队",
+      "promptId": "cinematic-multi-person-image-020"
+    },
+    "cinematic-multi-person-image-021": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:18:32.918Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-021.webp",
+      "title": "影视导演工作台 · 新闻纪实多人",
+      "promptId": "cinematic-multi-person-image-021"
+    },
+    "cinematic-multi-person-image-022": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:25:04.057Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-022.webp",
+      "title": "影视导演工作台 · 群像海报",
+      "promptId": "cinematic-multi-person-image-022"
+    },
+    "cinematic-multi-person-image-023": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:35:06.624Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-023.webp",
+      "title": "影视导演工作台 · 舞台剧照",
+      "promptId": "cinematic-multi-person-image-023"
+    },
+    "cinematic-multi-person-image-024": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:41:12.117Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-024.webp",
+      "title": "影视导演工作台 · 多人广告大片",
+      "promptId": "cinematic-multi-person-image-024"
+    },
+    "cinematic-multi-person-image-025": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:46:23.373Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-multi-person-image-025.webp",
+      "title": "影视导演工作台 · 角色关系图",
+      "promptId": "cinematic-multi-person-image-025"
+    },
+    "cinematic-single-panel-image-001": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T16:54:56.568Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-001.webp",
+      "title": "影视导演工作台 · 单张电影海报",
+      "promptId": "cinematic-single-panel-image-001"
+    },
+    "cinematic-single-panel-image-002": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T17:06:24.312Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-002.webp",
+      "title": "影视导演工作台 · 单张短剧封面",
+      "promptId": "cinematic-single-panel-image-002"
+    },
+    "cinematic-single-panel-image-003": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T17:30:48.928Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-003.webp",
+      "title": "影视导演工作台 · 单张人物剧照",
+      "promptId": "cinematic-single-panel-image-003"
+    },
+    "cinematic-single-panel-image-004": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:03:18.234Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-004.webp",
+      "title": "影视导演工作台 · 单张场景剧照",
+      "promptId": "cinematic-single-panel-image-004"
+    },
+    "cinematic-single-panel-image-005": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:05:36.454Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-005.webp",
+      "title": "影视导演工作台 · 单张商业广告电影画面",
+      "promptId": "cinematic-single-panel-image-005"
+    },
+    "cinematic-single-panel-image-006": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:08:00.697Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-006.webp",
+      "title": "影视导演工作台 · 单张悬疑封面",
+      "promptId": "cinematic-single-panel-image-006"
+    },
+    "cinematic-single-panel-image-007": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:10:51.782Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-007.webp",
+      "title": "影视导演工作台 · 单张武侠封面",
+      "promptId": "cinematic-single-panel-image-007"
+    },
+    "cinematic-single-panel-image-008": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:14:24.782Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-008.webp",
+      "title": "影视导演工作台 · 单张古风虐恋封面",
+      "promptId": "cinematic-single-panel-image-008"
+    },
+    "cinematic-single-panel-image-009": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:25:56.539Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-009.webp",
+      "title": "影视导演工作台 · 单张都市情感封面",
+      "promptId": "cinematic-single-panel-image-009"
+    },
+    "cinematic-single-panel-image-010": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:37:31.294Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-010.webp",
+      "title": "影视导演工作台 · 单张科幻电影概念图",
+      "promptId": "cinematic-single-panel-image-010"
+    },
+    "cinematic-single-panel-image-011": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:49:20.794Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-011.webp",
+      "title": "影视导演工作台 · 单张恐怖氛围图",
+      "promptId": "cinematic-single-panel-image-011"
+    },
+    "cinematic-single-panel-image-012": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T03:56:09.498Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-012.webp",
+      "title": "影视导演工作台 · 单张治愈日系图",
+      "promptId": "cinematic-single-panel-image-012"
+    },
+    "cinematic-single-panel-image-013": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T04:27:05.260Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-013.webp",
+      "title": "影视导演工作台 · 单张港风霓虹图",
+      "promptId": "cinematic-single-panel-image-013"
+    },
+    "cinematic-single-panel-image-014": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T04:44:40.859Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-014.webp",
+      "title": "影视导演工作台 · 单张黑白电影图",
+      "promptId": "cinematic-single-panel-image-014"
+    },
+    "cinematic-single-panel-image-015": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T05:04:17.177Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-015.webp",
+      "title": "影视导演工作台 · 单张复古胶片图",
+      "promptId": "cinematic-single-panel-image-015"
+    },
+    "cinematic-single-panel-image-016": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T05:20:55.096Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-016.webp",
+      "title": "影视导演工作台 · 单张宽银幕电影图",
+      "promptId": "cinematic-single-panel-image-016"
+    },
+    "cinematic-single-panel-image-017": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T05:27:15.325Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-017.webp",
+      "title": "影视导演工作台 · 单张抖音竖版封面",
+      "promptId": "cinematic-single-panel-image-017"
+    },
+    "cinematic-single-panel-image-018": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-25T06:13:42.134Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-panel-image-018.webp",
+      "title": "影视导演工作台 · 单张小红书封面",
+      "promptId": "cinematic-single-panel-image-018"
+    },
+    "cinematic-single-person-image-001": {
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-001.webp",
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T09:51:10.993Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "cinematic-single-person-image-001"
+    },
+    "cinematic-single-person-image-002": {
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-002.webp",
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T09:55:55.762Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "title": "影视导演工作台 · 女性角色定妆照",
+      "promptId": "cinematic-single-person-image-002"
+    },
+    "cinematic-single-person-image-003": {
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-003.webp",
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T09:55:55.762Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "title": "影视导演工作台 · 男性角色定妆照",
+      "promptId": "cinematic-single-person-image-003"
+    },
+    "cinematic-single-person-image-004": {
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-004.webp",
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T09:55:55.762Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "title": "影视导演工作台 · 古风人物",
+      "promptId": "cinematic-single-person-image-004"
+    },
+    "cinematic-single-person-image-005": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:00:04.787Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-005.webp",
+      "title": "影视导演工作台 · 武侠人物",
+      "promptId": "cinematic-single-person-image-005"
+    },
+    "cinematic-single-person-image-006": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:02:25.622Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-006.webp",
+      "title": "影视导演工作台 · 赛博朋克人物",
+      "promptId": "cinematic-single-person-image-006"
+    },
+    "cinematic-single-person-image-007": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:07:15.831Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-007.webp",
+      "title": "影视导演工作台 · 都市悬疑人物",
+      "promptId": "cinematic-single-person-image-007"
+    },
+    "cinematic-single-person-image-008": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:12:03.732Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-008.webp",
+      "title": "影视导演工作台 · 港风雨夜人物",
+      "promptId": "cinematic-single-person-image-008"
+    },
+    "cinematic-single-person-image-009": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:14:00.249Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-009.webp",
+      "title": "影视导演工作台 · 复古胶片人物",
+      "promptId": "cinematic-single-person-image-009"
+    },
+    "cinematic-single-person-image-010": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:15:38.362Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-010.webp",
+      "title": "影视导演工作台 · 商业大片人物",
+      "promptId": "cinematic-single-person-image-010"
+    },
+    "cinematic-single-person-image-011": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:17:48.437Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-011.webp",
+      "title": "影视导演工作台 · 纪实人物",
+      "promptId": "cinematic-single-person-image-011"
+    },
+    "cinematic-single-person-image-012": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:20:53.277Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-012.webp",
+      "title": "影视导演工作台 · 黑白电影人物",
+      "promptId": "cinematic-single-person-image-012"
+    },
+    "cinematic-single-person-image-013": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:24:08.891Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-013.webp",
+      "title": "影视导演工作台 · 角色海报",
+      "promptId": "cinematic-single-person-image-013"
+    },
+    "cinematic-single-person-image-014": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:26:21.517Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-014.webp",
+      "title": "影视导演工作台 · 半身近景",
+      "promptId": "cinematic-single-person-image-014"
+    },
+    "cinematic-single-person-image-015": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:25:46.733Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-015.webp",
+      "title": "影视导演工作台 · 全身海报",
+      "promptId": "cinematic-single-person-image-015"
+    },
+    "cinematic-single-person-image-016": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:11:50.957Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-016.webp",
+      "title": "影视导演工作台 · 特写情绪照",
+      "promptId": "cinematic-single-person-image-016"
+    },
+    "cinematic-single-person-image-017": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:13:27.090Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-017.webp",
+      "title": "影视导演工作台 · 低角度英雄感",
+      "promptId": "cinematic-single-person-image-017"
+    },
+    "cinematic-single-person-image-018": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:41:24.326Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-018.webp",
+      "title": "影视导演工作台 · 高角度脆弱感",
+      "promptId": "cinematic-single-person-image-018"
+    },
+    "cinematic-single-person-image-019": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T15:52:38.751Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-019.webp",
+      "title": "影视导演工作台 · 镜中人物",
+      "promptId": "cinematic-single-person-image-019"
+    },
+    "cinematic-single-person-image-020": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:53:47.701Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-020.webp",
+      "title": "影视导演工作台 · 背影人物",
+      "promptId": "cinematic-single-person-image-020"
+    },
+    "cinematic-single-person-image-021": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T10:55:47.858Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-021.webp",
+      "title": "影视导演工作台 · 雨中人物",
+      "promptId": "cinematic-single-person-image-021"
+    },
+    "cinematic-single-person-image-022": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:30:25.005Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-022.webp",
+      "title": "影视导演工作台 · 霓虹街头人物",
+      "promptId": "cinematic-single-person-image-022"
+    },
+    "cinematic-single-person-image-023": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:32:41.002Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-023.webp",
+      "title": "影视导演工作台 · 烛光室内人物",
+      "promptId": "cinematic-single-person-image-023"
+    },
+    "cinematic-single-person-image-024": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:34:54.205Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-024.webp",
+      "title": "影视导演工作台 · 窗边人物",
+      "promptId": "cinematic-single-person-image-024"
+    },
+    "cinematic-single-person-image-025": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-05-24T11:38:15.595Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "coverImageUrl": "/prompts/proofs/generated/cinematic-single-person-image-025.webp",
+      "title": "影视导演工作台 · 孤独车站人物",
+      "promptId": "cinematic-single-person-image-025"
+    },
+    "community-task-brand-marketing-content-brand-story-product-story": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-brand-marketing-content-brand-story-product-story",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-brand-marketing-content-brand-story-product-story.webp",
+      "title": "社区分享 · 品牌 / 市场 / 内容营销 · 品牌故事 · 生成产品故事"
+    },
+    "community-task-brand-marketing-content-launch-copy-product-intro": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-brand-marketing-content-launch-copy-product-intro",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-brand-marketing-content-launch-copy-product-intro.webp",
+      "title": "社区分享 · 品牌 / 市场 / 内容营销 · 发布会文案 · 生成新品介绍"
+    },
+    "community-task-brand-marketing-content-slogan-product-slogan": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-brand-marketing-content-slogan-product-slogan",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-brand-marketing-content-slogan-product-slogan.webp",
+      "title": "社区分享 · 品牌 / 市场 / 内容营销 · 广告语 · 生成产品广告语"
+    },
+    "community-task-ecommerce-local-life-after-sales-script-appeasement-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-after-sales-script-appeasement-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-after-sales-script-appeasement-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 售后话术 · 生成安抚补偿话术"
+    },
+    "community-task-ecommerce-local-life-after-sales-script-logistics-response": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-after-sales-script-logistics-response",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-after-sales-script-logistics-response.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 售后话术 · 处理物流问题"
+    },
+    "community-task-ecommerce-local-life-after-sales-script-quality-issue": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-after-sales-script-quality-issue",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-after-sales-script-quality-issue.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 售后话术 · 处理质量投诉"
+    },
+    "community-task-ecommerce-local-life-after-sales-script-refund-response": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-after-sales-script-refund-response",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-after-sales-script-refund-response.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 售后话术 · 处理退款咨询"
+    },
+    "community-task-ecommerce-local-life-after-sales-script-risk-escalation": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-after-sales-script-risk-escalation",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-after-sales-script-risk-escalation.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 售后话术 · 识别升级风险"
+    },
+    "community-task-ecommerce-local-life-after-sales-script-service-sop": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-after-sales-script-service-sop",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-after-sales-script-service-sop.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 售后话术 · 生成售后 SOP"
+    },
+    "community-task-ecommerce-local-life-detail-page-comparison-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-detail-page-comparison-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-comparison-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 生成对比模块文案"
+    },
+    "community-task-ecommerce-local-life-detail-page-detail-audit": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-detail-page-detail-audit",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-detail-audit.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 检查详情页缺口"
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-feature-callout": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-hero-image-selling-feature-callout",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-feature-callout.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 生成卖点标注"
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-main-image-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-hero-image-selling-main-image-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-main-image-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 生成主图文案"
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-price-benefit": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-hero-image-selling-price-benefit",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-price-benefit.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 生成价格利益点"
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-scenario-visual": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 生成场景主图提示词"
+    },
+    "community-task-ecommerce-local-life-influencer-store-visit-store-visit-script": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-influencer-store-visit-store-visit-script",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-store-visit-script.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 生成探店脚本"
+    },
+    "community-task-ecommerce-local-life-live-stream-script-closing-script": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-live-stream-script-closing-script",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-closing-script.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成收口转化话术"
+    },
+    "community-task-ecommerce-local-life-live-stream-script-interaction-script": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-live-stream-script-interaction-script",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-interaction-script.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成互动提问"
+    },
+    "community-task-ecommerce-local-life-live-stream-script-limited-offer": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-live-stream-script-limited-offer",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-limited-offer.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成限时促单话术"
+    },
+    "community-task-ecommerce-local-life-live-stream-script-objection-live": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-live-stream-script-objection-live",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-objection-live.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 处理直播异议"
+    },
+    "community-task-ecommerce-local-life-live-stream-script-opening-script": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-live-stream-script-opening-script",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-opening-script.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成直播开场话术"
+    },
+    "community-task-ecommerce-local-life-live-stream-script-product-demo": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-live-stream-script-product-demo",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-product-demo.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成产品讲解话术"
+    },
+    "community-task-ecommerce-local-life-private-repeat-repeat-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-private-repeat-repeat-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-repeat-review.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 复盘复购路径"
+    },
+    "community-task-ecommerce-local-life-promotion-campaign-campaign-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-promotion-campaign-campaign-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-campaign-review.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 复盘促销活动"
+    },
+    "community-task-film-aigc-visual-image-to-video-portrait-motion": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-image-to-video-portrait-motion",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-image-to-video-portrait-motion.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 图生视频 · 生成人像动态镜头"
+    },
+    "community-task-film-aigc-visual-image-to-video-product-motion": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-image-to-video-product-motion",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-image-to-video-product-motion.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 图生视频 · 生成产品动态镜头"
+    },
+    "community-task-film-aigc-visual-movie-poster-character-poster": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-movie-poster-character-poster",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-character-poster.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成角色海报"
+    },
+    "community-task-film-aigc-visual-movie-poster-cinematic-poster": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-movie-poster-cinematic-poster",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-cinematic-poster.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成电影感海报"
+    },
+    "community-task-film-aigc-visual-movie-poster-concept-poster": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-movie-poster-concept-poster",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-concept-poster.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成概念海报"
+    },
+    "community-task-film-aigc-visual-movie-poster-festival-poster": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-movie-poster-festival-poster",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-festival-poster.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成影展海报"
+    },
+    "community-task-film-aigc-visual-movie-poster-poster-negative": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-movie-poster-poster-negative",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-poster-negative.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成海报负面提示词"
+    },
+    "community-task-film-aigc-visual-movie-poster-poster-typography": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-movie-poster-poster-typography",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-poster-typography.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成海报字体说明"
+    },
+    "community-task-film-aigc-visual-multi-grid-image-multi-angle-product": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-multi-grid-image-multi-angle-product",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-multi-grid-image-multi-angle-product.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多宫格图片 · 生成产品多角度组图"
+    },
+    "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多宫格图片 · 生成九宫格小红书图"
+    },
+    "community-task-film-aigc-visual-short-drama-cover-cover-text-prompt": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-short-drama-cover-cover-text-prompt",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-cover-text-prompt.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 短剧封面 · 生成封面文字提示"
+    },
+    "community-task-film-aigc-visual-short-drama-cover-drama-cover-hook": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-short-drama-cover-drama-cover-hook",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-drama-cover-hook.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 短剧封面 · 生成短剧封面钩子"
+    },
+    "community-task-film-aigc-visual-short-drama-cover-emotion-cover": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-short-drama-cover-emotion-cover",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-emotion-cover.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 短剧封面 · 生成强情绪封面"
+    },
+    "community-task-film-aigc-visual-short-drama-cover-episode-cover-set": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-short-drama-cover-episode-cover-set",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-episode-cover-set.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 短剧封面 · 生成分集封面组"
+    },
+    "community-task-film-aigc-visual-short-drama-cover-reversal-cover": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-short-drama-cover-reversal-cover",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-reversal-cover.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 短剧封面 · 生成反转剧情封面"
+    },
+    "community-task-film-aigc-visual-short-drama-cover-vertical-cover": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-short-drama-cover-vertical-cover",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-vertical-cover.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 短剧封面 · 生成竖版短剧封面"
+    },
+    "community-task-film-aigc-visual-single-grid-image-single-cover": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-single-grid-image-single-cover",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-cover.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 单宫格图片 · 生成单张封面图"
+    },
+    "community-task-film-aigc-visual-single-grid-image-single-poster": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-single-grid-image-single-poster",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-poster.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 单宫格图片 · 生成单张海报"
+    },
+    "community-task-film-aigc-visual-single-grid-image-single-product-hero": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-single-grid-image-single-product-hero",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-product-hero.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 单宫格图片 · 生成单张产品主视觉"
+    },
+    "community-task-film-aigc-visual-single-person-image-fashion-portrait": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-film-aigc-visual-single-person-image-fashion-portrait",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 单人图片 · 生成时尚人像大片"
+    },
+    "community-task-new-media-short-video-cover-design-cover-image-prompt": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-new-media-short-video-cover-design-cover-image-prompt",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 生成封面图像提示词"
+    },
+    "community-task-new-media-short-video-cover-design-cover-text-check": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-new-media-short-video-cover-design-cover-text-check",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-cover-design-cover-text-check.webp",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 检查封面文字可读性"
+    },
+    "community-task-new-media-short-video-short-video-script-title-cover-tags": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-06-20T17:39:50.608Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-new-media-short-video-short-video-script-title-cover-tags",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-short-video-script-title-cover-tags.webp",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成标题 + 封面文案 + 话题标签"
+    },
+    "community-task-new-media-short-video-spoken-copy-product-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-new-media-short-video-spoken-copy-product-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-spoken-copy-product-review.webp",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 口播文案 · 生成产品体验口播"
+    },
+    "community-task-product-ux-competitor-research-competitor-list": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-competitor-research-competitor-list",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-competitor-research-competitor-list.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 生成竞品清单"
+    },
+    "community-task-product-ux-competitor-research-competitor-report": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-competitor-research-competitor-report",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-competitor-research-competitor-report.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 生成竞品报告"
+    },
+    "community-task-product-ux-competitor-research-feature-compare": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-competitor-research-feature-compare",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-competitor-research-feature-compare.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 对比功能差异"
+    },
+    "community-task-product-ux-competitor-research-opportunity-gap": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-competitor-research-opportunity-gap",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-competitor-research-opportunity-gap.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 发现机会点"
+    },
+    "community-task-product-ux-competitor-research-pricing-compare": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-competitor-research-pricing-compare",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-competitor-research-pricing-compare.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 对比定价模式"
+    },
+    "community-task-product-ux-competitor-research-ux-compare": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-competitor-research-ux-compare",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-competitor-research-ux-compare.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 分析体验差异"
+    },
+    "community-task-product-ux-launch-review-issue-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-launch-review-issue-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-issue-review.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 整理上线问题"
+    },
+    "community-task-product-ux-launch-review-launch-summary": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-launch-review-launch-summary",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-launch-summary.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 生成上线复盘"
+    },
+    "community-task-product-ux-launch-review-metric-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-launch-review-metric-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-metric-review.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 复盘核心指标"
+    },
+    "community-task-product-ux-requirement-analysis-priority-ranking": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-requirement-analysis-priority-ranking",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-priority-ranking.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 排序需求优先级"
+    },
+    "community-task-product-ux-requirement-analysis-problem-framing": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-requirement-analysis-problem-framing",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-problem-framing.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 定义问题陈述"
+    },
+    "community-task-product-ux-requirement-analysis-requirement-clarify": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-requirement-analysis-requirement-clarify",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-requirement-clarify.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 澄清业务需求"
+    },
+    "community-task-product-ux-requirement-analysis-risk-assumption": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-requirement-analysis-risk-assumption",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-risk-assumption.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 列出风险假设"
+    },
+    "community-task-product-ux-requirement-analysis-scope-boundary": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-requirement-analysis-scope-boundary",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-scope-boundary.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 划定需求边界"
+    },
+    "community-task-product-ux-requirement-analysis-user-story": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-requirement-analysis-user-story",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-user-story.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 生成用户故事"
+    },
+    "community-task-product-ux-user-persona-motivation-map": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-user-persona-motivation-map",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-user-persona-motivation-map.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 用户画像 · 分析用户动机"
+    },
+    "v2-video-runway-live-commerce-three-act": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "v2-video-runway-live-commerce-three-act",
+      "coverImageUrl": "/prompts/proofs/generated/v2-video-runway-live-commerce-three-act.webp",
+      "title": "Runway · 直播间商品讲解片段 · 三段式版"
+    },
+    "v2-video-sora-live-commerce-image-to-video": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "v2-video-sora-live-commerce-image-to-video",
+      "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-live-commerce-image-to-video.webp",
+      "title": "Sora · 直播间商品讲解片段 · 图生视频版"
+    },
+    "v2-video-sora-live-commerce-loop": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "v2-video-sora-live-commerce-loop",
+      "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-live-commerce-loop.webp",
+      "title": "Sora · 直播间商品讲解片段 · 循环动效版"
+    },
+    "v2-video-sora-live-commerce-single-shot": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "v2-video-sora-live-commerce-single-shot",
+      "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-live-commerce-single-shot.webp",
+      "title": "Sora · 直播间商品讲解片段 · 单镜头版"
+    },
+    "v2-video-sora-pet-product-single-shot": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "v2-video-sora-pet-product-single-shot",
+      "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-pet-product-single-shot.webp",
+      "title": "Sora · 宠物用品展示 · 单镜头版"
+    },
+    "v2-video-sora-three-d-character-ad-single-shot": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-07-05T04:37:00.093Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "v2-video-sora-three-d-character-ad-single-shot",
+      "coverImageUrl": "/prompts/proofs/generated/v2-video-sora-three-d-character-ad-single-shot.webp",
+      "title": "Sora · 3D角色产品剧情 · 单镜头版"
+    }
+  }
+}

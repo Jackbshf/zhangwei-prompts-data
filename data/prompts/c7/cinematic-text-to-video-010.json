@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-text-to-video-010",
+  "content": {
+    "title": "影视导演工作台 · 雨夜街头",
+    "summary": "雨夜街头模板，覆盖主体、场景、镜头、光影、色彩、情绪、画幅和负面约束，可复制中文、英文、Midjourney、视频版和负面词。",
+    "preview": "",
+    "prompt": "雨夜街头，请生成一段电影感视频提示词。主体为原创机甲骑手，发生在赛博城市街头，服化道为银色轻型机甲与黑色头盔，情绪为速度感、孤勇、危险。镜头从大远景开始，使用环绕镜头 orbit shot，主体动作清楚而克制，环境中有可见运动，例如雨滴、光影闪烁、烟雾流动、衣摆轻动或人群从背景经过。镜头角度为低角度，光影使用体积光，色彩为黑白电影，画幅 1:1。如果是图生视频，请保持首帧人物身份、服装、脸部特征和构图稳定，不要重新描述图片已有内容，重点写主体如何移动、镜头如何移动、环境如何变化。输出要求：单镜头优先，节奏从安静到情绪加强，结尾停在可作为封面的稳定画面。负面约束：不要跳帧、不要变脸、不要换衣服、不要出现真实品牌或公众人物。",
+    "copyPrompt": "",
+    "language": "bilingual"
+  },
+  "classification": {
+    "category": "影视提示词 / 文生视频",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "文生视频电影镜头",
+    "aspectRatio": "1:1",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:文生视频电影镜头",
+      "难度:进阶",
+      "影视提示词",
+      "电影感",
+      "变量替换",
+      "一键复制",
+      "text-to-video"
+    ],
+    "styleTags": [
+      "赛博霓虹电影感",
+      "文生视频电影镜头",
+      "雨夜街头"
+    ],
+    "seoKeywords": [
+      "视频",
+      "Google Veo",
+      "文生视频电影镜头",
+      "影视提示词",
+      "文生视频",
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:文生视频电影镜头",
+      "难度:进阶",
+      "电影感"
+    ]
+  },
+  "model": {
+    "tool": "Google Veo",
+    "name": "veo"
+  },
+  "variables": {
+    "names": [
+      "{subject}",
+      "{scene}",
+      "{mood}",
+      "{clothing}",
+      "{lighting}",
+      "{camera}",
+      "{aspectRatio}",
+      "{style}"
+    ],
+    "defaults": {
+      "subject": "原创机甲骑手",
+      "scene": "赛博城市街头",
+      "mood": "速度感、孤勇、危险",
+      "clothing": "银色轻型机甲与黑色头盔",
+      "lighting": "霓虹逆光、雨夜反光、体积光",
+      "camera": "广角低角度",
+      "style": "赛博霓虹电影感",
+      "aspectRatio": "1:1"
+    }
+  },
+  "provenance": {
+    "source": "原创影视提示词导演工作台 / 官方结构参考",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "usable",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

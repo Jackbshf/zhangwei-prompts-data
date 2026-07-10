@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-jimeng-seedance-character-continuity-single-shot",
+  "content": {
+    "title": "即梦 / Seedance · 角色一致性视频 · 单镜头版",
+    "summary": "即梦 / Seedance 适用的「角色一致性视频」单镜头版：保持原创角色在多个动作中身份稳定，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 即梦 / Seedance 生成一段「角色一致性视频」视频。主体是 {角色设定}，发生在 {服装}，核心动作围绕 {动作} 展开，镜头使用 {场景} 或同等稳定运镜，画幅为 {比例}。一个连续镜头完成动作，减少跳帧和身份漂移。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / 即梦 Seedance",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "角色一致性视频",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:即梦 / Seedance",
+      "模态:视频",
+      "用途:角色一致性视频",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "jimeng-seedance",
+      "character-continuity"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "即梦 / Seedance",
+      "角色一致性视频",
+      "视频提示词",
+      "即梦",
+      "Seedance",
+      "工具:即梦 / Seedance",
+      "模态:视频",
+      "用途:角色一致性视频",
+      "难度:中级"
+    ]
+  },
+  "model": {
+    "tool": "即梦 / Seedance",
+    "name": "jimeng-seedance"
+  },
+  "variables": {
+    "names": [
+      "{角色设定}",
+      "{服装}",
+      "{动作}",
+      "{场景}",
+      "{镜头}",
+      "{比例}",
+      "{时长}",
+      "{稳定要求}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "角色设定": "待定",
+      "服装": "待定",
+      "动作": "从关闭到点亮，再切到使用细节",
+      "场景": "夜晚书桌",
+      "镜头": "缓慢推进",
+      "比例": "9:16",
+      "时长": "8 秒",
+      "稳定要求": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

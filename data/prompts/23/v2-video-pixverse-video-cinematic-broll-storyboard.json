@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-pixverse-video-cinematic-broll-storyboard",
+  "content": {
+    "title": "PixVerse Video · 电影感 B-roll · 分镜版",
+    "summary": "PixVerse Video 适用的「电影感 B-roll」分镜版：生成可插入广告或 Vlog 的质感空镜，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 PixVerse Video 生成一段「电影感 B-roll」视频。主体是 {主体}，发生在 {环境}，核心动作围绕 {镜头} 展开，镜头使用 {光线} 或同等稳定运镜，画幅为 {画面比例}。拆成 3 到 5 个镜头，每个镜头只承担一个动作目标。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / PixVerse",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "电影感 B-roll",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "入门",
+    "tags": [
+      "工具:PixVerse Video",
+      "模态:视频",
+      "用途:电影感 B-roll",
+      "难度:入门",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "pixverse-video",
+      "cinematic-broll"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "PixVerse Video",
+      "电影感 B-roll",
+      "视频提示词",
+      "PixVerse",
+      "工具:PixVerse Video",
+      "模态:视频",
+      "用途:电影感 B-roll",
+      "难度:入门",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "PixVerse Video",
+    "name": "pixverse-video"
+  },
+  "variables": {
+    "names": [
+      "{主体}",
+      "{环境}",
+      "{镜头}",
+      "{光线}",
+      "{动作}",
+      "{画面比例}",
+      "{节奏}",
+      "{结尾}",
+      "{时长}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "主体": "原创成年角色与产品",
+      "环境": "待定",
+      "镜头": "缓慢推进",
+      "光线": "暖色桌面灯与冷色环境对比",
+      "动作": "从关闭到点亮，再切到使用细节",
+      "画面比例": "9:16",
+      "节奏": "待定",
+      "结尾": "待定",
+      "时长": "8 秒",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

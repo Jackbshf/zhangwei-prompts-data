@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-kling-cosmetic-swatch-image-to-video",
+  "content": {
+    "title": "可灵 Kling · 彩妆试色动态 · 图生视频版",
+    "summary": "可灵 Kling 适用的「彩妆试色动态」图生视频版：展示原创彩妆色块、刷头和质地变化，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 可灵 Kling 生成一段「彩妆试色动态」视频。主体是 {产品}，发生在 {颜色}，核心动作围绕 {动作} 展开，镜头使用 {肤色或背景} 或同等稳定运镜，画幅为 {比例}。把首帧作为构图和主体依据，只描述运动和环境变化。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / 可灵",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "彩妆试色动态",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:可灵 Kling",
+      "模态:视频",
+      "用途:彩妆试色动态",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "kling",
+      "cosmetic-swatch"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "可灵 Kling",
+      "彩妆试色动态",
+      "视频提示词",
+      "可灵",
+      "工具:可灵 Kling",
+      "模态:视频",
+      "用途:彩妆试色动态",
+      "难度:中级",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "可灵 Kling",
+    "name": "kling"
+  },
+  "variables": {
+    "names": [
+      "{产品}",
+      "{颜色}",
+      "{动作}",
+      "{肤色或背景}",
+      "{镜头}",
+      "{比例}",
+      "{光线}",
+      "{边界}",
+      "{时长}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "产品": "虚构智能桌面灯",
+      "颜色": "待定",
+      "动作": "从关闭到点亮，再切到使用细节",
+      "肤色或背景": "待定",
+      "镜头": "缓慢推进",
+      "比例": "9:16",
+      "光线": "暖色桌面灯与冷色环境对比",
+      "边界": "待定",
+      "时长": "8 秒",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

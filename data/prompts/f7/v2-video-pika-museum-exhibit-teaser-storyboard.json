@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-pika-museum-exhibit-teaser-storyboard",
+  "content": {
+    "title": "Pika · 展览空间预告视频 · 分镜版",
+    "summary": "Pika 适用的「展览空间预告视频」分镜版：用展品、观众动线和灯光变化生成展览或快闪空间预热视频，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Pika 生成一段「展览空间预告视频」视频。主体是 {展览主题}，发生在 {展品}，核心动作围绕 {观众} 展开，镜头使用 {动线} 或同等稳定运镜，画幅为 {比例}。拆成 3 到 5 个镜头，每个镜头只承担一个动作目标。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / Pika",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "展览空间预告视频",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:Pika",
+      "模态:视频",
+      "用途:展览空间预告视频",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "pika",
+      "museum-exhibit-teaser"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "Pika",
+      "展览空间预告视频",
+      "视频提示词",
+      "工具:Pika",
+      "模态:视频",
+      "用途:展览空间预告视频",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板"
+    ]
+  },
+  "model": {
+    "tool": "Pika",
+    "name": "pika"
+  },
+  "variables": {
+    "names": [
+      "{展览主题}",
+      "{展品}",
+      "{观众}",
+      "{动线}",
+      "{镜头}",
+      "{比例}",
+      "{时长}",
+      "{灯光}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "展览主题": "待定",
+      "展品": "待定",
+      "观众": "待定",
+      "动线": "待定",
+      "镜头": "缓慢推进",
+      "比例": "9:16",
+      "时长": "8 秒",
+      "灯光": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

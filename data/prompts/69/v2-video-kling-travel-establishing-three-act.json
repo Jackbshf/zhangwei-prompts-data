@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-kling-travel-establishing-three-act",
+  "content": {
+    "title": "可灵 Kling · 旅行开场空镜 · 三段式版",
+    "summary": "可灵 Kling 适用的「旅行开场空镜」三段式版：为旅行短片生成环境开场镜头，建立地点氛围，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 可灵 Kling 生成一段「旅行开场空镜」视频。主体是 {地点类型}，发生在 {时间}，核心动作围绕 {天气} 展开，镜头使用 {镜头运动} 或同等稳定运镜，画幅为 {画面比例}。开头交代问题，中段展示变化，结尾形成可截图的稳定画面。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / 可灵",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "旅行开场空镜",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "中级",
+    "tags": [
+      "工具:可灵 Kling",
+      "模态:视频",
+      "用途:旅行开场空镜",
+      "难度:中级",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "kling",
+      "travel-establishing"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "可灵 Kling",
+      "旅行开场空镜",
+      "视频提示词",
+      "可灵",
+      "工具:可灵 Kling",
+      "模态:视频",
+      "用途:旅行开场空镜",
+      "难度:中级",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "可灵 Kling",
+    "name": "kling"
+  },
+  "variables": {
+    "names": [
+      "{地点类型}",
+      "{时间}",
+      "{天气}",
+      "{镜头运动}",
+      "{时长}",
+      "{画面比例}",
+      "{人流}",
+      "{情绪}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "地点类型": "待定",
+      "时间": "待定",
+      "天气": "待定",
+      "镜头运动": "slow dolly in",
+      "时长": "8 秒",
+      "画面比例": "9:16",
+      "人流": "待定",
+      "情绪": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

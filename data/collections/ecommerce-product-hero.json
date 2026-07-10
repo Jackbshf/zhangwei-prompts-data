@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ecommerce-product-hero",
+  "title": "电商产品主图",
+  "summary": "面向淘宝、抖音、小红书和独立站的商品主图、质感棚拍、卖点视觉和详情页首屏。",
+  "audience": "电商运营 / 视觉设计 / 品牌方",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-short-video-script-title-cover-tags.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 18,
+  "samplePrompts": [
+    {
+      "id": "community-task-new-media-short-video-account-positioning-persona-positioning",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 账号定位 · 设计账号人设",
+      "modality": "图像",
+      "tool": "通用图像模型",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-short-video-script-title-cover-tags",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成标题 + 封面文案 + 话题标签",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-cover-design-cover-title",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 生成封面大字标题",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-cover-design-thumbnail-layout",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 生成封面版式方案",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-new-media-short-video-cover-design-cover-image-prompt",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 生成封面图像提示词",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    }
+  ]
+}

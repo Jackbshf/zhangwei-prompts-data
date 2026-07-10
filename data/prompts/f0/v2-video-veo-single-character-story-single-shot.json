@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-video-veo-single-character-story-single-shot",
+  "content": {
+    "title": "Google Veo · 单人微剧情 · 单镜头版",
+    "summary": "Google Veo 适用的「单人微剧情」单镜头版：单个原创角色经历发现问题、尝试、解决的短剧情，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Google Veo 生成一段「单人微剧情」视频。主体是 {角色}，发生在 {问题}，核心动作围绕 {转折} 展开，镜头使用 {产品或方案} 或同等稳定运镜，画幅为 {画面比例}。一个连续镜头完成动作，减少跳帧和身份漂移。 前 3 秒交代主体和目标，中段展示动作变化，结尾停在可作为封面的稳定画面。保持主体、服装、道具、产品外观、光线和空间方向一致；不要突然切换场景、不要身份漂移、不要生成随机文字。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "视频提示词 / Veo",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "视频",
+    "useCase": "单人微剧情",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "入门",
+    "tags": [
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:单人微剧情",
+      "难度:入门",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "veo",
+      "single-character-story"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "视频",
+      "Google Veo",
+      "单人微剧情",
+      "视频提示词",
+      "Veo",
+      "工具:Google Veo",
+      "模态:视频",
+      "用途:单人微剧情",
+      "难度:入门",
+      "官方结构参考:否"
+    ]
+  },
+  "model": {
+    "tool": "Google Veo",
+    "name": "veo"
+  },
+  "variables": {
+    "names": [
+      "{角色}",
+      "{问题}",
+      "{转折}",
+      "{产品或方案}",
+      "{对白}",
+      "{画面比例}",
+      "{情绪}",
+      "{结尾}",
+      "{时长}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "角色": "待定",
+      "问题": "待定",
+      "转折": "待定",
+      "产品或方案": "待定",
+      "对白": "待定",
+      "画面比例": "9:16",
+      "情绪": "待定",
+      "结尾": "待定",
+      "时长": "8 秒",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 92,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

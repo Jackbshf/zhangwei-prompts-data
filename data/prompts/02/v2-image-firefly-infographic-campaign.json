@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "v2-image-firefly-infographic-campaign",
+  "content": {
+    "title": "Adobe Firefly · 信息图背景与图标 · 投放广告版",
+    "summary": "Adobe Firefly 适用的「信息图背景与图标」投放广告版：为数据说明或流程说明生成清晰的信息图视觉底稿，包含复制即用正文、可替换关键词、平台参数、失败修正和安全边界。",
+    "preview": "",
+    "prompt": "请使用 Adobe Firefly 生成一张「信息图背景与图标」图片。画面主体是 {主题}，使用场景为 {信息层级}，重点呈现 {图标风格}，整体风格、情绪和色彩氛围为 {色彩}，采用 {画面比例} 构图。突出利益点、行动区和品牌安全边界，适合信息流广告。 构图需要有清晰视觉中心、前中后景层次、可见材质细节、可控光影和后期排版留白。文字只允许出现用户明确填写的短句，其他区域保持无文字。输出必须商业安全、原创、可直接用于图片生成。",
+    "copyPrompt": "",
+    "language": "zh-CN"
+  },
+  "classification": {
+    "category": "图像提示词 / Adobe Firefly",
+    "department": "",
+    "scenario": "",
+    "task": "",
+    "modality": "图像",
+    "useCase": "信息图背景与图标",
+    "aspectRatio": "{画面比例}",
+    "difficulty": "进阶",
+    "tags": [
+      "工具:Adobe Firefly",
+      "模态:图像",
+      "用途:信息图背景与图标",
+      "难度:进阶",
+      "官方结构参考:否",
+      "一键复制模板",
+      "可替换关键词",
+      "图片视频生成",
+      "firefly",
+      "infographic"
+    ],
+    "styleTags": [],
+    "seoKeywords": [
+      "图像",
+      "Adobe Firefly",
+      "信息图背景与图标",
+      "图像提示词",
+      "Adobe",
+      "Firefly",
+      "工具:Adobe Firefly",
+      "模态:图像",
+      "用途:信息图背景与图标",
+      "难度:进阶"
+    ]
+  },
+  "model": {
+    "tool": "Adobe Firefly",
+    "name": "firefly"
+  },
+  "variables": {
+    "names": [
+      "{主题}",
+      "{信息层级}",
+      "{图标风格}",
+      "{色彩}",
+      "{阅读顺序}",
+      "{画面比例}",
+      "{模块数量}",
+      "{留白}",
+      "{目标平台}",
+      "{输出格式}"
+    ],
+    "defaults": {
+      "主题": "待定",
+      "信息层级": "待定",
+      "图标风格": "待定",
+      "色彩": "待定",
+      "阅读顺序": "待定",
+      "画面比例": "4:5",
+      "模块数量": "待定",
+      "留白": "待定",
+      "目标平台": "待定",
+      "输出格式": "待定"
+    }
+  },
+  "provenance": {
+    "source": "v2 5000 visual copy-ready templates / original platform-adapted library",
+    "authorName": "",
+    "authorUrl": "",
+    "sourceUrl": "",
+    "licenseType": "",
+    "licenseConfirmed": false,
+    "submissionIssueNumber": null
+  },
+  "proof": null,
+  "publication": {
+    "status": "published",
+    "featured": false,
+    "copyReady": true,
+    "qualityScore": 90,
+    "qualityLevel": "professional",
+    "verifiedAt": "2026-05-21",
+    "collectionIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "publishedAt": ""
+  }
+}

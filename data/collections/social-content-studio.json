@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "social-content-studio",
+  "title": "小红书与社媒内容",
+  "summary": "标题、封面、笔记、账号定位和选题拆解，适合批量生成但保留人工编辑口径。",
+  "audience": "新媒体 / 内容运营 / 个人品牌",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-image-to-video-product-motion.webp",
+  "proofModel": "ChatGPT web / GPT Image",
+  "proofType": "GPT Image 效果预览",
+  "promptCount": 14,
+  "samplePrompts": [
+    {
+      "id": "community-task-film-aigc-visual-text-to-video-camera-movement",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成镜头运动提示词",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-text-to-video-subject-motion",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成主体运动提示词",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-text-to-video-scene-transition",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成场景变化提示词",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-text-to-video-duration-rhythm",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成时长和节奏约束",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    },
+    {
+      "id": "community-task-film-aigc-visual-text-to-video-video-stability",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成稳定性约束",
+      "modality": "图像",
+      "tool": "ChatGPT / GPT Image",
+      "qualityScore": 98
+    }
+  ]
+}
