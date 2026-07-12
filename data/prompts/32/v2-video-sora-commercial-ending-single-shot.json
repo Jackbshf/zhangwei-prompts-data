@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-video-sora-commercial-ending-single-shot",
   "content": {
     "title": "Sora · 广告收尾定格 · 单镜头版",
@@ -79,19 +79,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "professional",
+    "qualityScore": 100,
+    "qualityLevel": "quality-v2-passed",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v2",
+      "score": 100,
+      "checkedAt": "2026-07-12",
+      "issues": []
+    }
   }
 }

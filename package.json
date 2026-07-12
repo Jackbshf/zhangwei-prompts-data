@@ -9,7 +9,9 @@
   "scripts": {
     "test": "node --test",
     "migrate": "node scripts/migrate-from-gallery.mjs",
+    "migrate:v2": "node scripts/migrate-schema-v2.mjs --checked-at=2026-07-12",
     "migrate:report": "node scripts/rebuild-exclusion-report.mjs",
+    "proofs:plan": "node scripts/build-proof-stage-plan.mjs",
     "validate": "node scripts/validate.mjs",
     "verify": "npm run test && npm run validate"
   },

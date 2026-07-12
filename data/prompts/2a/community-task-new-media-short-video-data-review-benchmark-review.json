@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-new-media-short-video-data-review-benchmark-review",
   "content": {
     "title": "社区分享 · 新媒体 / 短视频运营 · 数据复盘 · 对标竞品数据",
@@ -64,21 +64,29 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 100,
+    "qualityLevel": "quality-v2-passed",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "growth-analysis-ops"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v2",
+      "score": 100,
+      "checkedAt": "2026-07-12",
+      "issues": []
+    }
   }
 }

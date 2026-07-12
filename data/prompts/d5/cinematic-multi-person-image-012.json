@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "cinematic-multi-person-image-012",
   "content": {
     "title": "影视导演工作台 · 校园青春群像",
@@ -80,26 +80,63 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/cinematic-multi-person-image-012.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "image",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
     "testedAt": "2026-05-21",
     "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/cinematic-multi-person-image-012.webp",
+        "url": "/prompts/proofs/generated/cinematic-multi-person-image-012.webp",
+        "mimeType": "image/webp",
+        "sha256": "9b115864b7d268d45f211b0385f68e1145eacd6a4e46c0559de8886ba03836d1",
+        "bytes": 180008,
+        "width": null,
+        "height": null,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "",
+      "inputSha256": "",
+      "outputSha256": "",
+      "parameters": {},
+      "attempt": 0
+    },
+    "qa": {
+      "automatedStatus": "pending",
+      "humanStatus": "not-reviewed",
+      "checks": [],
+      "reviewedAt": "",
+      "failureReason": ""
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "usable",
+    "qualityScore": 100,
+    "qualityLevel": "quality-v2-passed",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v2",
+      "score": 100,
+      "checkedAt": "2026-07-12",
+      "issues": []
+    }
   }
 }

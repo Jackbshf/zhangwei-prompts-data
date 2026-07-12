@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-new-media-short-video-short-video-script-sixty-second-talk-script",
   "content": {
     "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成 60 秒口播脚本",
@@ -65,21 +65,29 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 100,
+    "qualityLevel": "quality-v2-passed",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "short-video-commerce"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v2",
+      "score": 100,
+      "checkedAt": "2026-07-12",
+      "issues": []
+    }
   }
 }

@@ -5,6 +5,7 @@ import os from "node:os";
 import path from "node:path";
 
 import { promptPathForId, toPromptV1 } from "../src/prompt-schema.mjs";
+import { toPromptV2 } from "../src/prompt-schema-v2.mjs";
 import { validateRepository } from "../src/repository-validation.mjs";
 import { exclusionReportDigest } from "../src/migration.mjs";
 
@@ -65,6 +66,44 @@ test("validateRepository verifies prompt paths, counts, collections, and reports
   });
 
   assert.deepEqual(result, { prompts: 1, collections: 1, proofs: 0, excluded: 1 });
+});
+
+test("validateRepository accepts Schema v2 R2 evidence with a canonical manifest", async () => {
+  const { root, prompt: promptV1 } = await fixtureRepository();
+  const prompt = toPromptV2(promptV1);
+  const digest = "a".repeat(64);
+  prompt.proof = {
+    status: "run-verified",
+    modality: "image",
+    provider: "openai",
+    model: "gpt-image",
+    testedAt: "2026-07-12",
+    resultNote: "真实图像结果通过自动检查。",
+    evidenceLevel: "verified-output",
+    assets: [{
+      role: "primary",
+      storage: "r2",
+      key: "proofs/v2/valid-001/run-001/result.webp",
+      url: "/prompts/media/proofs/v2/valid-001/run-001/result.webp",
+      mimeType: "image/webp",
+      sha256: digest,
+      bytes: 1024,
+      width: 1536,
+      height: 1152,
+      durationMs: null
+    }],
+    run: { runId: "run-001", inputSha256: digest, outputSha256: digest, parameters: {}, attempt: 1 },
+    qa: { automatedStatus: "passed", humanStatus: "not-reviewed", checks: ["decode"], reviewedAt: "", failureReason: "" }
+  };
+  await writeJson(path.join(root, promptPathForId(prompt.id)), prompt);
+  await writeJson(path.join(root, "data/proofs/manifest-v2.json"), {
+    schemaVersion: 2,
+    releaseBatch: "test",
+    entries: { [prompt.id]: { status: prompt.proof.status, modality: prompt.proof.modality, assets: prompt.proof.assets } }
+  });
+
+  const result = await validateRepository(root, { expectedPrompts: 1, expectedProofs: 0 });
+  assert.equal(result.prompts, 1);
 });
 
 test("validateRepository rejects a prompt stored under the wrong shard", async () => {

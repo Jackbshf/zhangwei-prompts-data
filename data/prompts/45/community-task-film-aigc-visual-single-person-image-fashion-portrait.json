@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-film-aigc-visual-single-person-image-fashion-portrait",
   "content": {
     "title": "社区分享 · 影视 / AIGC 视觉创作 · 单人图片 · 生成时尚人像大片",
@@ -65,28 +65,65 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "image",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
     "testedAt": "2026-05-24",
     "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
+        "url": "/prompts/proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
+        "mimeType": "image/webp",
+        "sha256": "80c63c583b6d9a6a5fa38e543c2cce16200058447a144f91557aa61e0dfdbf9a",
+        "bytes": 89104,
+        "width": null,
+        "height": null,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "",
+      "inputSha256": "",
+      "outputSha256": "",
+      "parameters": {},
+      "attempt": 0
+    },
+    "qa": {
+      "automatedStatus": "pending",
+      "humanStatus": "not-reviewed",
+      "checks": [],
+      "reviewedAt": "",
+      "failureReason": ""
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 100,
+    "qualityLevel": "quality-v2-passed",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "ecommerce-product-hero"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v2",
+      "score": 100,
+      "checkedAt": "2026-07-12",
+      "issues": []
+    }
   }
 }

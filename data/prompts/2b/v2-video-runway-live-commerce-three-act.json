@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-video-runway-live-commerce-three-act",
   "content": {
     "title": "Runway · 直播间商品讲解片段 · 三段式版",
@@ -81,28 +81,65 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/v2-video-runway-live-commerce-three-act.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "video",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
     "testedAt": "2026-05-21",
     "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/v2-video-runway-live-commerce-three-act.webp",
+        "url": "/prompts/proofs/generated/v2-video-runway-live-commerce-three-act.webp",
+        "mimeType": "image/webp",
+        "sha256": "cafd336a60c90e08c92ea7d6f7d0735e8dfc2ddbbc50eb6d8fc0287e6207cecb",
+        "bytes": 105722,
+        "width": null,
+        "height": null,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "",
+      "inputSha256": "",
+      "outputSha256": "",
+      "parameters": {},
+      "attempt": 0
+    },
+    "qa": {
+      "automatedStatus": "pending",
+      "humanStatus": "not-reviewed",
+      "checks": [],
+      "reviewedAt": "",
+      "failureReason": ""
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "professional",
+    "qualityScore": 100,
+    "qualityLevel": "quality-v2-passed",
     "verifiedAt": "2026-05-21",
     "collectionIds": [
       "beauty-fashion-portrait"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v2",
+      "score": 100,
+      "checkedAt": "2026-07-12",
+      "issues": []
+    }
   }
 }
