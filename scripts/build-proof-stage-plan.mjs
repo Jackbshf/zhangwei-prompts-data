@@ -42,7 +42,17 @@ const output = {
     estimatedR2Bytes: null
   },
   credentialsRequired: ["OPENAI_API_KEY", "Dreamina CLI login", "Cloudflare R2 write credentials"],
-  paidExecutionInCi: false
+  paidExecutionInCi: false,
+  approvalTemplate: {
+    approved: false,
+    stageTarget,
+    batchId: "001",
+    approvedAt: "",
+    estimatedUsd: null,
+    maximumUsd: null,
+    estimatedDreaminaCredits: null,
+    maximumDreaminaCredits: null
+  }
 };
 const outputDir = path.join(root, "output");
 const outputFile = path.join(outputDir, `proof-stage-${stageTarget}-plan.json`);

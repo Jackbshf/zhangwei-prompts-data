@@ -12,6 +12,9 @@
     "migrate:v2": "node scripts/migrate-schema-v2.mjs --checked-at=2026-07-12",
     "migrate:report": "node scripts/rebuild-exclusion-report.mjs",
     "proofs:plan": "node scripts/build-proof-stage-plan.mjs",
+    "proofs:execution-manifest": "node scripts/create-proof-execution-manifest.mjs",
+    "proofs:openai": "node scripts/execute-openai-proof-batch.mjs",
+    "proofs:dreamina-review": "node scripts/build-dreamina-review-pack.mjs",
     "validate": "node scripts/validate.mjs",
     "verify": "npm run test && npm run validate"
   },
