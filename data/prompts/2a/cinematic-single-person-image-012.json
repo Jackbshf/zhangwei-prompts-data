@@ -86,10 +86,10 @@
   "proof": {
     "status": "preview",
     "modality": "image",
-    "provider": "legacy-gallery",
+    "provider": "openai",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-21",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "testedAt": "2026-05-24T10:20:53.277Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
     "evidenceLevel": "generated-preview",
     "assets": [
       {
@@ -100,24 +100,41 @@
         "mimeType": "image/webp",
         "sha256": "d4ec6a549b45f728627e610286d16d924e1a4a6d4def31c4978ac30b47984a36",
         "bytes": 71774,
-        "width": null,
-        "height": null,
+        "width": 1200,
+        "height": 900,
         "durationMs": null
       }
     ],
     "run": {
-      "runId": "",
+      "runId": "legacy-cinematic-single-person-image-012",
       "inputSha256": "",
-      "outputSha256": "",
-      "parameters": {},
-      "attempt": 0
+      "outputSha256": "d4ec6a549b45f728627e610286d16d924e1a4a6d4def31c4978ac30b47984a36",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "",
+        "inputRecovery": "missing",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
     },
     "qa": {
-      "automatedStatus": "pending",
+      "automatedStatus": "failed",
       "humanStatus": "not-reviewed",
-      "checks": [],
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-missing",
+        "asset-rights-confirmed",
+        "modality-output-matched"
+      ],
       "reviewedAt": "",
-      "failureReason": ""
+      "failureReason": "missing-original-input"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
     }
   },
   "publication": {

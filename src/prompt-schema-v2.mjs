@@ -26,6 +26,12 @@ function legacyProof(prompt) {
     testedAt: prompt.proof.testedAt,
     resultNote: prompt.proof.resultNote,
     evidenceLevel: prompt.proof.evidenceLevel || "generated-preview",
+    rights: {
+      status: "pending",
+      basis: "",
+      confirmedAt: "",
+      note: ""
+    },
     assets: [{
       role: "cover",
       storage: "repository",
@@ -98,6 +104,8 @@ export function validatePromptV2(prompt) {
     if (!/^[0-9a-f]{64}$/.test(proof.run?.inputSha256 || "")) fields.push("proof.run.inputSha256");
     if (!/^[0-9a-f]{64}$/.test(proof.run?.outputSha256 || "")) fields.push("proof.run.outputSha256");
     if (proof.qa?.automatedStatus !== "passed") fields.push("proof.qa.automatedStatus");
+    if (proof.rights?.status !== "confirmed") fields.push("proof.rights.status");
+    if (Number(prompt.publication?.qualityScore || 0) < 85) fields.push("publication.qualityScore");
   }
   if (proof?.status === "human-reviewed" && proof.qa?.humanStatus !== "passed") fields.push("proof.qa.humanStatus");
   return [...new Set(fields)].sort();

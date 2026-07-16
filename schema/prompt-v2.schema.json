@@ -127,10 +127,21 @@
         "failureReason": { "type": "string" }
       }
     },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "basis", "confirmedAt", "note"],
+      "properties": {
+        "status": { "enum": ["pending", "confirmed", "rejected"] },
+        "basis": { "type": "string" },
+        "confirmedAt": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
     "proof": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "modality", "provider", "model", "testedAt", "resultNote", "evidenceLevel", "assets", "run", "qa"],
+      "required": ["status", "modality", "provider", "model", "testedAt", "resultNote", "evidenceLevel", "rights", "assets", "run", "qa"],
       "properties": {
         "status": { "enum": ["preview", "run-verified", "human-reviewed", "failed"] },
         "modality": { "enum": ["image", "video", "text"] },
@@ -139,6 +150,7 @@
         "testedAt": { "type": "string" },
         "resultNote": { "type": "string" },
         "evidenceLevel": { "type": "string" },
+        "rights": { "$ref": "#/$defs/rights" },
         "assets": { "type": "array", "items": { "$ref": "#/$defs/asset" }, "minItems": 1 },
         "run": { "$ref": "#/$defs/run" },
         "qa": { "$ref": "#/$defs/qa" }

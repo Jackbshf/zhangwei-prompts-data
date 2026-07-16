@@ -70,8 +70,8 @@
     "modality": "text",
     "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
     "evidenceLevel": "generated-preview",
     "assets": [
       {
@@ -82,24 +82,41 @@
         "mimeType": "image/webp",
         "sha256": "03616dc84752f2f0ae16ef1f918e036790f0dc5c8b81c60ae93754b656085af7",
         "bytes": 128960,
-        "width": null,
-        "height": null,
+        "width": 1536,
+        "height": 1152,
         "durationMs": null
       }
     ],
     "run": {
-      "runId": "",
-      "inputSha256": "",
-      "outputSha256": "",
-      "parameters": {},
-      "attempt": 0
+      "runId": "legacy-community-task-ecommerce-local-life-detail-page-detail-audit",
+      "inputSha256": "335a4c32928ce181379fd60808fa5e65b28dcb4505660da8e982824b4b8b7774",
+      "outputSha256": "03616dc84752f2f0ae16ef1f918e036790f0dc5c8b81c60ae93754b656085af7",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-detail-page-detail-audit",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
     },
     "qa": {
-      "automatedStatus": "pending",
+      "automatedStatus": "failed",
       "humanStatus": "not-reviewed",
-      "checks": [],
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
       "reviewedAt": "",
-      "failureReason": ""
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
     }
   },
   "publication": {

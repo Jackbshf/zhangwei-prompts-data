@@ -9,11 +9,17 @@ const value = (name) => process.argv.find((item) => item.startsWith(`--${name}=`
 const stage = value("stage") || "240";
 const batchId = value("batch") || "001";
 const approvalPath = value("approval");
+const costPlanPath = value("cost-plan");
+const inputsPath = value("inputs");
 if (!approvalPath) throw new Error("--approval=<path> is required.");
+if (!costPlanPath) throw new Error("--cost-plan=<path> is required.");
+if (!inputsPath) throw new Error("--inputs=<path> is required.");
 
 const plan = JSON.parse(await readFile(path.join(root, "output", `proof-stage-${stage}-plan.json`), "utf8"));
 const approval = JSON.parse(await readFile(path.resolve(root, approvalPath), "utf8"));
-const manifest = createExecutionManifest(plan, batchId, approval);
+const costPlan = JSON.parse(await readFile(path.resolve(root, costPlanPath), "utf8"));
+const approvedInputs = JSON.parse(await readFile(path.resolve(root, inputsPath), "utf8"));
+const manifest = createExecutionManifest(plan, batchId, approval, costPlan, approvedInputs.inputs || approvedInputs);
 const outputDir = path.join(root, "output", "execution");
 const outputFile = path.join(outputDir, `stage-${stage}-batch-${batchId}.json`);
 await mkdir(outputDir, { recursive: true });

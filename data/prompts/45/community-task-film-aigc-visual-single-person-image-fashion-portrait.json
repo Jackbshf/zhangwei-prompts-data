@@ -71,10 +71,10 @@
   "proof": {
     "status": "preview",
     "modality": "image",
-    "provider": "legacy-gallery",
+    "provider": "openai",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "testedAt": "2026-06-20T17:39:50.608Z",
+    "resultNote": "Legacy generated image has complete run provenance and awaits human visual review.",
     "evidenceLevel": "generated-preview",
     "assets": [
       {
@@ -85,24 +85,41 @@
         "mimeType": "image/webp",
         "sha256": "80c63c583b6d9a6a5fa38e543c2cce16200058447a144f91557aa61e0dfdbf9a",
         "bytes": 89104,
-        "width": null,
-        "height": null,
+        "width": 1448,
+        "height": 1086,
         "durationMs": null
       }
     ],
     "run": {
-      "runId": "",
-      "inputSha256": "",
-      "outputSha256": "",
-      "parameters": {},
-      "attempt": 0
+      "runId": "legacy-community-task-film-aigc-visual-single-person-image-fashion-portrait",
+      "inputSha256": "f4540370e9fd05e74f4678a334d4fe9e0bcec79ff26ea9a187bcdae5ef5b7720",
+      "outputSha256": "80c63c583b6d9a6a5fa38e543c2cce16200058447a144f91557aa61e0dfdbf9a",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-single-person-image-fashion-portrait",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
     },
     "qa": {
-      "automatedStatus": "pending",
+      "automatedStatus": "passed",
       "humanStatus": "not-reviewed",
-      "checks": [],
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-matched"
+      ],
       "reviewedAt": "",
       "failureReason": ""
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
     }
   },
   "publication": {

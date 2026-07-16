@@ -71,10 +71,10 @@
   "proof": {
     "status": "preview",
     "modality": "image",
-    "provider": "legacy-gallery",
+    "provider": "openai",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "testedAt": "2026-06-20T17:39:50.608Z",
+    "resultNote": "Legacy generated image has complete run provenance and awaits human visual review.",
     "evidenceLevel": "generated-preview",
     "assets": [
       {
@@ -85,24 +85,41 @@
         "mimeType": "image/webp",
         "sha256": "e3b50818ae3431050e6fffe52660a389ea3634aedff5793b88274e9235a7e26c",
         "bytes": 118834,
-        "width": null,
-        "height": null,
+        "width": 1448,
+        "height": 1086,
         "durationMs": null
       }
     ],
     "run": {
-      "runId": "",
-      "inputSha256": "",
-      "outputSha256": "",
-      "parameters": {},
-      "attempt": 0
+      "runId": "legacy-community-task-new-media-short-video-cover-design-cover-image-prompt",
+      "inputSha256": "8afdd575556ff4db57fb650d5304c10a67db0b4e842114930999a582befcabee",
+      "outputSha256": "e3b50818ae3431050e6fffe52660a389ea3634aedff5793b88274e9235a7e26c",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-new-media-short-video-cover-design-cover-image-prompt",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
     },
     "qa": {
-      "automatedStatus": "pending",
+      "automatedStatus": "passed",
       "humanStatus": "not-reviewed",
-      "checks": [],
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-matched"
+      ],
       "reviewedAt": "",
       "failureReason": ""
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
     }
   },
   "publication": {

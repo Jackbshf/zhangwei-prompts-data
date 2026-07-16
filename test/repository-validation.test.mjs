@@ -14,6 +14,21 @@ async function writeJson(file, value) {
   await writeFile(file, `${JSON.stringify(value, null, 2)}\n`);
 }
 
+function proofManifestEntry(proof) {
+  return {
+    status: proof.status,
+    modality: proof.modality,
+    provider: proof.provider,
+    model: proof.model,
+    testedAt: proof.testedAt,
+    evidenceLevel: proof.evidenceLevel,
+    rights: proof.rights,
+    assets: proof.assets,
+    run: proof.run,
+    qa: proof.qa
+  };
+}
+
 async function fixtureRepository() {
   const root = await mkdtemp(path.join(os.tmpdir(), "prompts-repo-test-"));
   const prompt = toPromptV1({
@@ -68,10 +83,11 @@ test("validateRepository verifies prompt paths, counts, collections, and reports
   assert.deepEqual(result, { prompts: 1, collections: 1, proofs: 0, excluded: 1 });
 });
 
-test("validateRepository accepts Schema v2 R2 evidence with a canonical manifest", async () => {
+test("validateRepository accepts canonical Schema v2 evidence and rejects manifest rights drift", async () => {
   const { root, prompt: promptV1 } = await fixtureRepository();
   const prompt = toPromptV2(promptV1);
   const digest = "a".repeat(64);
+  prompt.publication.qualityScore = 90;
   prompt.proof = {
     status: "run-verified",
     modality: "image",
@@ -80,6 +96,7 @@ test("validateRepository accepts Schema v2 R2 evidence with a canonical manifest
     testedAt: "2026-07-12",
     resultNote: "真实图像结果通过自动检查。",
     evidenceLevel: "verified-output",
+    rights: { status: "confirmed", basis: "owner-confirmed", confirmedAt: "2026-07-12", note: "测试授权" },
     assets: [{
       role: "primary",
       storage: "r2",
@@ -99,11 +116,23 @@ test("validateRepository accepts Schema v2 R2 evidence with a canonical manifest
   await writeJson(path.join(root, "data/proofs/manifest-v2.json"), {
     schemaVersion: 2,
     releaseBatch: "test",
-    entries: { [prompt.id]: { status: prompt.proof.status, modality: prompt.proof.modality, assets: prompt.proof.assets } }
+    entries: { [prompt.id]: proofManifestEntry(prompt.proof) }
   });
 
   const result = await validateRepository(root, { expectedPrompts: 1, expectedProofs: 0 });
   assert.equal(result.prompts, 1);
+
+  await writeJson(path.join(root, "data/proofs/manifest-v2.json"), {
+    schemaVersion: 2,
+    releaseBatch: "test",
+    entries: {
+      [prompt.id]: {
+        ...proofManifestEntry(prompt.proof),
+        rights: { ...prompt.proof.rights, status: "pending" }
+      }
+    }
+  });
+  await assert.rejects(() => validateRepository(root), /proof manifest metadata mismatch/i);
 });
 
 test("validateRepository rejects a prompt stored under the wrong shard", async () => {

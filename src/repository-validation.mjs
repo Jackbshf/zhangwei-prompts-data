@@ -37,6 +37,21 @@ function assertExpected(label, actual, expected) {
   }
 }
 
+function proofManifestRecord(proof) {
+  return {
+    status: proof.status,
+    modality: proof.modality,
+    provider: proof.provider,
+    model: proof.model,
+    testedAt: proof.testedAt,
+    evidenceLevel: proof.evidenceLevel,
+    rights: proof.rights,
+    assets: proof.assets,
+    run: proof.run,
+    qa: proof.qa
+  };
+}
+
 export async function validateRepository(root, expected = {}) {
   const promptRoot = path.join(root, "data", "prompts");
   const collectionRoot = path.join(root, "data", "collections");
@@ -166,11 +181,9 @@ export async function validateRepository(root, expected = {}) {
     for (const [id, entry] of Object.entries(entries)) {
       const prompt = promptById.get(id);
       if (!prompt?.proof || prompt.schemaVersion !== 2) throw new Error(`Orphan Schema v2 proof manifest entry: ${id}`);
-      if (entry.status !== prompt.proof.status || entry.modality !== prompt.proof.modality) {
+      if (JSON.stringify(entry) !== JSON.stringify(proofManifestRecord(prompt.proof))) {
         throw new Error(`Schema v2 proof manifest metadata mismatch for ${id}`);
       }
-      const expectedAssets = JSON.stringify(prompt.proof.assets);
-      if (JSON.stringify(entry.assets) !== expectedAssets) throw new Error(`Schema v2 proof manifest assets mismatch for ${id}`);
     }
     for (const prompt of v2Prompts) {
       if (!entries[prompt.id]) throw new Error(`Schema v2 proof missing manifest entry: ${prompt.id}`);

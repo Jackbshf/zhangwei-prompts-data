@@ -89,8 +89,8 @@
     "modality": "video",
     "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-21",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
     "evidenceLevel": "generated-preview",
     "assets": [
       {
@@ -101,24 +101,41 @@
         "mimeType": "image/webp",
         "sha256": "723661fdab5f54c6524bc67bcf9c939e8d9a9d25fcdd47963bbb208aaf2f50ff",
         "bytes": 143248,
-        "width": null,
-        "height": null,
+        "width": 1536,
+        "height": 1152,
         "durationMs": null
       }
     ],
     "run": {
-      "runId": "",
-      "inputSha256": "",
-      "outputSha256": "",
-      "parameters": {},
-      "attempt": 0
+      "runId": "legacy-v2-video-sora-pet-product-single-shot",
+      "inputSha256": "9a0683167467ed5e0fcdb47e134ac064b36aadd662ce480f3fc29077544f0c15",
+      "outputSha256": "723661fdab5f54c6524bc67bcf9c939e8d9a9d25fcdd47963bbb208aaf2f50ff",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#v2-video-sora-pet-product-single-shot",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
     },
     "qa": {
-      "automatedStatus": "pending",
+      "automatedStatus": "failed",
       "humanStatus": "not-reviewed",
-      "checks": [],
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
       "reviewedAt": "",
-      "failureReason": ""
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
     }
   },
   "publication": {

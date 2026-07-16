@@ -52,7 +52,14 @@ export async function migratePromptRepositoryToV2(root, options = {}) {
       proofEntries[prompt.id] = {
         status: prompt.proof.status,
         modality: prompt.proof.modality,
-        assets: prompt.proof.assets
+        provider: prompt.proof.provider,
+        model: prompt.proof.model,
+        testedAt: prompt.proof.testedAt,
+        evidenceLevel: prompt.proof.evidenceLevel,
+        rights: prompt.proof.rights,
+        assets: prompt.proof.assets,
+        run: prompt.proof.run,
+        qa: prompt.proof.qa
       };
     }
     if (assessment.status === "passed") qualityPassed += 1;

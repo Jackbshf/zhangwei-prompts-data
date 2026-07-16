@@ -41,6 +41,7 @@ test("toPromptV2 preserves ids and reclassifies legacy proof as preview", () => 
   assert.equal(prompt.proof.modality, "video");
   assert.equal(prompt.proof.assets[0].role, "cover");
   assert.equal(prompt.proof.assets[0].storage, "repository");
+  assert.equal(prompt.proof.rights.status, "pending");
   assert.equal(prompt.publication.qualityAssessment.status, "pending");
   assert.equal(prompt.provenance.rightsStatus, "pending");
   assert.deepEqual(validatePromptV2(prompt), []);
@@ -55,6 +56,16 @@ test("validatePromptV2 requires complete evidence for verified results", () => {
   assert.ok(fields.includes("proof.run.inputSha256"));
   assert.ok(fields.includes("proof.run.outputSha256"));
   assert.ok(fields.includes("proof.qa.automatedStatus"));
+  assert.ok(fields.includes("proof.rights.status"));
+});
+
+test("validatePromptV2 rejects verified proof below the commercial quality threshold", () => {
+  const prompt = toPromptV2(legacyPrompt("图像"));
+  prompt.proof.status = "run-verified";
+  prompt.proof.rights.status = "confirmed";
+  prompt.publication.qualityScore = 84;
+
+  assert.ok(validatePromptV2(prompt).includes("publication.qualityScore"));
 });
 
 test("fromPromptV2 preserves the legacy public compatibility contract", () => {
