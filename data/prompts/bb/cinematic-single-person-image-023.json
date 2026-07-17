@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "cinematic-single-person-image-023",
   "content": {
     "title": "影视导演工作台 · 烛光室内人物",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 单人图片",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "单人图片",
+    "task": "电影感单人肖像",
     "modality": "图像",
     "useCase": "电影感单人肖像",
     "aspectRatio": "16:9",
@@ -80,26 +80,80 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/cinematic-single-person-image-023.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "image",
+    "provider": "openai",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-21",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-05-24T11:32:41.002Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/cinematic-single-person-image-023.webp",
+        "url": "/prompts/proofs/generated/cinematic-single-person-image-023.webp",
+        "mimeType": "image/webp",
+        "sha256": "2b23e706c3025b1076ba18fa3c50d60115e830f84de7ddae1ae6bd75b37d9b97",
+        "bytes": 52152,
+        "width": 1200,
+        "height": 900,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-cinematic-single-person-image-023",
+      "inputSha256": "",
+      "outputSha256": "2b23e706c3025b1076ba18fa3c50d60115e830f84de7ddae1ae6bd75b37d9b97",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "",
+        "inputRecovery": "missing",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-missing",
+        "asset-rights-confirmed",
+        "modality-output-matched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "missing-original-input"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
     "qualityScore": 92,
-    "qualityLevel": "usable",
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 92,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

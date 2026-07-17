@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "cinematic-multi-person-image-025",
   "content": {
     "title": "影视导演工作台 · 角色关系图",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 多人图片",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多人图片",
+    "task": "影视多人关系画面",
     "modality": "图像",
     "useCase": "影视多人关系画面",
     "aspectRatio": "9:16",
@@ -80,26 +80,80 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/cinematic-multi-person-image-025.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "image",
+    "provider": "openai",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-21",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-05-24T16:46:23.373Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/cinematic-multi-person-image-025.webp",
+        "url": "/prompts/proofs/generated/cinematic-multi-person-image-025.webp",
+        "mimeType": "image/webp",
+        "sha256": "9b1aba96414c3bc9f2227ede18c68ec8c545590267ad6ad9633004df5790934e",
+        "bytes": 119442,
+        "width": 1200,
+        "height": 900,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-cinematic-multi-person-image-025",
+      "inputSha256": "",
+      "outputSha256": "9b1aba96414c3bc9f2227ede18c68ec8c545590267ad6ad9633004df5790934e",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "",
+        "inputRecovery": "missing",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-missing",
+        "asset-rights-confirmed",
+        "modality-output-matched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "missing-original-input"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "usable",
+    "qualityScore": 90,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 90,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

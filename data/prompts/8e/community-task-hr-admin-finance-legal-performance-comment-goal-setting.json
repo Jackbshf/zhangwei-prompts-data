@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-hr-admin-finance-legal-performance-comment-goal-setting",
   "content": {
     "title": "社区分享 · HR / 行政 / 财务 / 法务 · 绩效评语 · 生成绩效目标",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 绩效评语 / 生成绩效目标",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "绩效评语",
+    "task": "生成绩效目标",
     "modality": "文本",
     "useCase": "生成绩效目标",
     "aspectRatio": "",
@@ -62,19 +62,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

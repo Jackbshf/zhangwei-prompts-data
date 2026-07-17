@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-image-pixverse-image-reference-remix-social",
   "content": {
     "title": "PixVerse Image · 参考图原创重构 · 社媒封面版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / PixVerse",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "PixVerse",
+    "task": "参考图原创重构",
     "modality": "图像",
     "useCase": "参考图原创重构",
     "aspectRatio": "{画面比例}",
@@ -77,7 +77,8 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
@@ -85,11 +86,18 @@
     "featured": false,
     "copyReady": true,
     "qualityScore": 90,
-    "qualityLevel": "professional",
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 90,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

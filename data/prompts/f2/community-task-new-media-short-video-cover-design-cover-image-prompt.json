@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-new-media-short-video-cover-design-cover-image-prompt",
   "content": {
     "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 生成封面图像提示词",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 封面设计 / 生成封面图像提示词",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "封面设计",
+    "task": "生成封面图像提示词",
     "modality": "图像",
     "useCase": "生成封面图像提示词",
     "aspectRatio": "",
@@ -65,28 +65,91 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
-    "type": "GPT Image 效果预览",
+    "status": "run-verified",
+    "modality": "image",
+    "provider": "openai",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-06-20T17:39:50.608Z",
+    "resultNote": "真实模型输出已关联精确恢复的生成输入，并通过机器辅助资产检查；未声称完成人工视觉复核。",
+    "evidenceLevel": "verified-output",
+    "assets": [
+      {
+        "role": "primary",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
+        "url": "/prompts/proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
+        "mimeType": "image/webp",
+        "sha256": "e3b50818ae3431050e6fffe52660a389ea3634aedff5793b88274e9235a7e26c",
+        "bytes": 118834,
+        "width": 1448,
+        "height": 1086,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-community-task-new-media-short-video-cover-design-cover-image-prompt",
+      "inputSha256": "8afdd575556ff4db57fb650d5304c10a67db0b4e842114930999a582befcabee",
+      "outputSha256": "e3b50818ae3431050e6fffe52660a389ea3634aedff5793b88274e9235a7e26c",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-new-media-short-video-cover-design-cover-image-prompt",
+        "inputRecovery": "exact",
+        "outputRole": "verified-preview-generation-output",
+        "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-new-media-short-video-cover-design-cover-image-prompt",
+        "verificationType": "machine-assisted"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "passed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-matched",
+        "machine-assisted:prompt-id-match",
+        "machine-assisted:visual-relevance",
+        "machine-assisted:no-duplicate-image",
+        "machine-assisted:no-watermark-or-recognizable-brand",
+        "machine-assisted:no-garbled-readable-text",
+        "machine-assisted:no-obvious-anatomy-or-object-failure",
+        "machine-assisted:commercial-safety"
+      ],
+      "reviewedAt": "",
+      "failureReason": ""
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 96,
+    "qualityLevel": "quality-v3-strong",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "ecommerce-product-hero"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 96,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

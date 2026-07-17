@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-growth-ads-data-user-growth-referral-plan",
   "content": {
     "title": "社区分享 · 增长 / 投放 / 数据分析 · 用户增长 · 设计裂变推荐",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 用户增长 / 设计裂变推荐",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "用户增长",
+    "task": "设计裂变推荐",
     "modality": "图像",
     "useCase": "设计裂变推荐",
     "aspectRatio": "",
@@ -65,19 +65,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

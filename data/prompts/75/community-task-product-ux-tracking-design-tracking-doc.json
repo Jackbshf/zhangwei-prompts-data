@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-product-ux-tracking-design-tracking-doc",
   "content": {
     "title": "社区分享 · 产品经理 / 用户体验 · 埋点设计 · 生成埋点文档",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 埋点设计 / 生成埋点文档",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "埋点设计",
+    "task": "生成埋点文档",
     "modality": "图像",
     "useCase": "生成埋点文档",
     "aspectRatio": "",
@@ -65,19 +65,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

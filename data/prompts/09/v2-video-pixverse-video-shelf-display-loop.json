@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-video-pixverse-video-shelf-display-loop",
   "content": {
     "title": "PixVerse Video · 货架陈列短片 · 循环动效版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / PixVerse",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "PixVerse",
+    "task": "货架陈列短片",
     "modality": "视频",
     "useCase": "货架陈列短片",
     "aspectRatio": "{画面比例}",
@@ -81,19 +81,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "professional",
+    "qualityScore": 90,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 90,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

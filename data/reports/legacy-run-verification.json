@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "decisionBatch": "legacy-machine-verification-2026-07-18",
+  "decisionSha256": "2bf8693b47ac4169db6ad1efbf46f9909d3eb73900f300a06bd0001155cab4f0",
+  "verifiedAt": "2026-07-18",
+  "verificationType": "machine-assisted",
+  "humanReviewClaimed": false,
+  "summary": {
+    "approved": 27,
+    "runVerified": 27,
+    "humanReviewed": 0
+  },
+  "entries": {
+    "community-task-ecommerce-local-life-hero-image-selling-feature-callout": {
+      "id": "community-task-ecommerce-local-life-hero-image-selling-feature-callout",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "040560a5b626c879f1e6196d36d8390068dfb296f0a3e1200e867eb39e5ad7d4",
+      "outputSha256": "a0987a09ca1ca34ce3022467293d421fff1bb5d069c68252cef5b4425a25d442",
+      "assetKey": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-feature-callout.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-main-image-copy": {
+      "id": "community-task-ecommerce-local-life-hero-image-selling-main-image-copy",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "030aea91f1781d3807b81cde5297da2d5b9737dcc18005d970d4c96fa5b2b33f",
+      "outputSha256": "6e24374cf4d70797d199f9e721740127f45b78335bd7ad5af39173833dda58b6",
+      "assetKey": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-main-image-copy.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-price-benefit": {
+      "id": "community-task-ecommerce-local-life-hero-image-selling-price-benefit",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "0a983b5ebd1f0db981604516d81c5749a1764c5f5aca6cc756fe1699ca4c223a",
+      "outputSha256": "d2f1982a54f7667bfb53802915fd2432e4a59f9ef5297028894e35055ae6cb37",
+      "assetKey": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-price-benefit.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-scenario-visual": {
+      "id": "community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "26860623825a03a31e4423589f969364bcf7e8ff029cbba8af10bf60866e085e",
+      "outputSha256": "21033a65ed4e2c0f130f2d4873712f7faab43a308fad675fd96b25f0c6d0d6f2",
+      "assetKey": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-image-to-video-portrait-motion": {
+      "id": "community-task-film-aigc-visual-image-to-video-portrait-motion",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "b60745e59e7dca59c801566e78684922969c56890abefffd26a9c785b968e375",
+      "outputSha256": "5572faf777ba0c591c182339991de7b4f29a97cba41cf72e98dced147cc8b0ca",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-image-to-video-portrait-motion.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-image-to-video-product-motion": {
+      "id": "community-task-film-aigc-visual-image-to-video-product-motion",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "12f01407882d3eccd4ed314bcbbceb237255c741cff4f255bfaa8b964b3fc2c4",
+      "outputSha256": "78c79e42caa685634e01e456d2335b95a5c8dcdd4808d53c8e1ed375fa393538",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-image-to-video-product-motion.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-movie-poster-character-poster": {
+      "id": "community-task-film-aigc-visual-movie-poster-character-poster",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "4b5e78af649aeb8b2179f36bd38638fae514e3694fcbd436930d2a14296c9d03",
+      "outputSha256": "e033ee794c838a7af5166b1953d1456b155dc2758592cd9ec81a7abcdddee6fe",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-movie-poster-character-poster.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-movie-poster-cinematic-poster": {
+      "id": "community-task-film-aigc-visual-movie-poster-cinematic-poster",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "2efcac59541f2b3965874747454bb4cf8776558e3af514002393ad6067fa6ac6",
+      "outputSha256": "fb3930407a908c1e3db52f7f4cf61a0916904b8ebfbf22fee4cce24cb5792055",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-movie-poster-cinematic-poster.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-movie-poster-concept-poster": {
+      "id": "community-task-film-aigc-visual-movie-poster-concept-poster",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "f7ccfe5d87441b2cc9c2df3b4dc0bfbf8d91522c8de435064edef3a3eaad5c71",
+      "outputSha256": "0f7acb8811b3eda35a2a72344e2a091971bf4ca05882f1229198cb29bc9a3ee9",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-movie-poster-concept-poster.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-movie-poster-festival-poster": {
+      "id": "community-task-film-aigc-visual-movie-poster-festival-poster",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "8b3bbe8ba6f7df44ffe617195caaac5040f631c1264c41ae07a57cb2326f104b",
+      "outputSha256": "b2a1af43abb8fcd1dc4b578a8ff77569151246e4f403ed18998a6ad0ff28009c",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-movie-poster-festival-poster.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-movie-poster-poster-negative": {
+      "id": "community-task-film-aigc-visual-movie-poster-poster-negative",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "1a6e9c67ce0f978664dc3e03bae832b674eb03e852a1670c44262987a18a582e",
+      "outputSha256": "0c5442742948d94eeecad51c7a0d93caa6f00e21cedf24703aab57decd0fbcd6",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-movie-poster-poster-negative.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-movie-poster-poster-typography": {
+      "id": "community-task-film-aigc-visual-movie-poster-poster-typography",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "668d2e78c32b140f9812661183385bfb30749c4b334a84febe2d5d3f1b90037d",
+      "outputSha256": "b4ab29f4230c8af2bc61409df1ba182e3521aa89c6fcc07328ef9953d3a02b9c",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-movie-poster-poster-typography.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-multi-grid-image-multi-angle-product": {
+      "id": "community-task-film-aigc-visual-multi-grid-image-multi-angle-product",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "35f468530d038ceaa4d764611c4884d2bcda5c425a980683d29611d3c80b87cd",
+      "outputSha256": "d86da5dadb77fd173e79436d2f5997c87605fd90dfc209ceeac0835fb132f914",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-multi-grid-image-multi-angle-product.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu": {
+      "id": "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "1cb0e4ece89295adc36584c4f84eade8932cecb27ec195da537f8c9f5fd2abcc",
+      "outputSha256": "c6ee7ccdc5f05ab9d5f5f65c19bee9a01e0a19d3833a0de8543507c21b8a854c",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-short-drama-cover-cover-text-prompt": {
+      "id": "community-task-film-aigc-visual-short-drama-cover-cover-text-prompt",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "52699582184952394b9759c81c63ab2c63e0254f18ce98e90be19125b61781d9",
+      "outputSha256": "a7d42ca648a31b48714db33cc92d5e8023fe766eeb217b2048b55ee5f4824286",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-cover-text-prompt.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-short-drama-cover-drama-cover-hook": {
+      "id": "community-task-film-aigc-visual-short-drama-cover-drama-cover-hook",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "451d899ff2bc4fcd2195880c06dba1f0199698b78c77a2a256877e987b2694ac",
+      "outputSha256": "25b8e95db142cc07ae7f3cada1afdc6b00deb83bedbc8a8495f20c8811fc5bc2",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-drama-cover-hook.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-short-drama-cover-emotion-cover": {
+      "id": "community-task-film-aigc-visual-short-drama-cover-emotion-cover",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "495270053774759650de7bee3ea8914e579c53e6015a3b0c4307b0ff050d9ade",
+      "outputSha256": "746fe771848a49d6b689f36c1fe94c2e04ae4910222c906d4903bdc72ed4bc79",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-emotion-cover.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-short-drama-cover-episode-cover-set": {
+      "id": "community-task-film-aigc-visual-short-drama-cover-episode-cover-set",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "9efe8e30c562755d8f4f71ec420733e08695503a3ffd54a3f3917ac9af74e5be",
+      "outputSha256": "2ac3dbc88f918fb4599da3c39e2244f57953410030e3f17ec0c23b87489b9e54",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-episode-cover-set.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-short-drama-cover-reversal-cover": {
+      "id": "community-task-film-aigc-visual-short-drama-cover-reversal-cover",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "b588d0a3ed240f3f58e892fc02d391af534bc9d29e4f07fc878890b136464271",
+      "outputSha256": "5f55434eac65c87a13c0c20e7812472aba256bfb9e1d6404262d4a55d2004ea4",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-reversal-cover.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-short-drama-cover-vertical-cover": {
+      "id": "community-task-film-aigc-visual-short-drama-cover-vertical-cover",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "6749c9a0322c23310a0323fcad6e74f345cd7cd183b7b1bcd43d4df90b2658d1",
+      "outputSha256": "9eac20421323c10d802855e0c96b8735af6787b7ccc35f83ab3f6c2d47700882",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-vertical-cover.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-single-grid-image-single-cover": {
+      "id": "community-task-film-aigc-visual-single-grid-image-single-cover",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "346397a61a899d82bf4a75472410f8870d9220106fe95736fefb7dcc1016197d",
+      "outputSha256": "f328f1290c57763ab548f1dd0cc47181a41948db73b43a4c1ee4d47ee130c8d1",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-single-grid-image-single-cover.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-single-grid-image-single-poster": {
+      "id": "community-task-film-aigc-visual-single-grid-image-single-poster",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "cdba83930a210e63b8833bd2dbaa5d4868ff5e10595c14ecfae538449688f367",
+      "outputSha256": "d09703afa224c5a5cf3e6dea528b91fa777002d3c5d61863f56c32cee0148fb0",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-single-grid-image-single-poster.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-single-grid-image-single-product-hero": {
+      "id": "community-task-film-aigc-visual-single-grid-image-single-product-hero",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "d58fa7eb8d9003048c9493f3f8a5c1450d6028b56a6d6ba15457a01229cde9d8",
+      "outputSha256": "d8de6f491dfdf2a9d1774a04172192eb8c7736be479ae9b9c4f2662040f80933",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-single-grid-image-single-product-hero.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-film-aigc-visual-single-person-image-fashion-portrait": {
+      "id": "community-task-film-aigc-visual-single-person-image-fashion-portrait",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "f4540370e9fd05e74f4678a334d4fe9e0bcec79ff26ea9a187bcdae5ef5b7720",
+      "outputSha256": "80c63c583b6d9a6a5fa38e543c2cce16200058447a144f91557aa61e0dfdbf9a",
+      "assetKey": "proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-new-media-short-video-cover-design-cover-image-prompt": {
+      "id": "community-task-new-media-short-video-cover-design-cover-image-prompt",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "8afdd575556ff4db57fb650d5304c10a67db0b4e842114930999a582befcabee",
+      "outputSha256": "e3b50818ae3431050e6fffe52660a389ea3634aedff5793b88274e9235a7e26c",
+      "assetKey": "proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-new-media-short-video-cover-design-cover-text-check": {
+      "id": "community-task-new-media-short-video-cover-design-cover-text-check",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "47eaf83b8a8f79481d25ac114d47a3a1e44411d43a95ac323571294f176250be",
+      "outputSha256": "80167696ffc88b837080e8423f50b72b70b86fdbca1f7ab71c49ea905bb221f9",
+      "assetKey": "proofs/generated/community-task-new-media-short-video-cover-design-cover-text-check.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    },
+    "community-task-new-media-short-video-short-video-script-title-cover-tags": {
+      "id": "community-task-new-media-short-video-short-video-script-title-cover-tags",
+      "previousStatus": "preview",
+      "status": "run-verified",
+      "verificationType": "machine-assisted",
+      "humanStatus": "not-reviewed",
+      "inputSha256": "5cab7ed7f62b3ad6f04d7dddeff4bb102e3f9ae30a519c10199286c16737516f",
+      "outputSha256": "46ca2ae3a1da918a270b3a0350a04422831f800beb7648359910c5e500fbb02e",
+      "assetKey": "proofs/generated/community-task-new-media-short-video-short-video-script-title-cover-tags.webp",
+      "checks": [
+        "prompt-id-match",
+        "visual-relevance",
+        "no-duplicate-image",
+        "no-watermark-or-recognizable-brand",
+        "no-garbled-readable-text",
+        "no-obvious-anatomy-or-object-failure",
+        "commercial-safety"
+      ]
+    }
+  }
+}

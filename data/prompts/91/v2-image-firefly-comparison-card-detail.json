@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-image-firefly-comparison-card-detail",
   "content": {
     "title": "Adobe Firefly · 电商对比卡片 · 详情页版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Adobe Firefly",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Adobe Firefly",
+    "task": "电商对比卡片",
     "modality": "图像",
     "useCase": "电商对比卡片",
     "aspectRatio": "{画面比例}",
@@ -81,7 +81,8 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
@@ -89,11 +90,18 @@
     "featured": false,
     "copyReady": true,
     "qualityScore": 90,
-    "qualityLevel": "professional",
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 90,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

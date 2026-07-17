@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "cinematic-storyboard-019",
   "content": {
     "title": "影视导演工作台 · 镜头转场",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 多镜头分镜",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多镜头分镜",
+    "task": "多镜头分镜脚本",
     "modality": "视频",
     "useCase": "多镜头分镜脚本",
     "aspectRatio": "2.39:1",
@@ -80,19 +80,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "usable",
+    "qualityScore": 89,
+    "qualityLevel": "quality-v3-review",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 89,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

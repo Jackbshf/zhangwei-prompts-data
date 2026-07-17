@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-product-ux-competitor-research-opportunity-gap",
   "content": {
     "title": "社区分享 · 产品经理 / 用户体验 · 竞品分析 · 发现机会点",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 竞品分析 / 发现机会点",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "竞品分析",
+    "task": "发现机会点",
     "modality": "文本",
     "useCase": "发现机会点",
     "aspectRatio": "",
@@ -64,28 +64,82 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-product-ux-competitor-research-opportunity-gap.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "text",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-product-ux-competitor-research-opportunity-gap.webp",
+        "url": "/prompts/proofs/generated/community-task-product-ux-competitor-research-opportunity-gap.webp",
+        "mimeType": "image/webp",
+        "sha256": "993dd19120d42a2091c0becc83a67e3474ebcc46d6719690ecb216787fb83493",
+        "bytes": 102052,
+        "width": 1536,
+        "height": 1152,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-community-task-product-ux-competitor-research-opportunity-gap",
+      "inputSha256": "d5e6d4c89b6216773711f12786f8102f34e41289663a2c906d4c267ece07c44d",
+      "outputSha256": "993dd19120d42a2091c0becc83a67e3474ebcc46d6719690ecb216787fb83493",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-product-ux-competitor-research-opportunity-gap",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 96,
+    "qualityLevel": "quality-v3-strong",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "business-writing-office"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 96,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

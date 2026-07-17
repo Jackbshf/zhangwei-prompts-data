@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-sales-business-service-private-customer-follow-up-timeline-follow-up",
   "content": {
     "title": "社区分享 · 销售 / 商务 / 客服 / 私域 · 客户跟进 · 跟进时间节点",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 客户跟进 / 跟进时间节点",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "客户跟进",
+    "task": "跟进时间节点",
     "modality": "文本",
     "useCase": "跟进时间节点",
     "aspectRatio": "",
@@ -62,19 +62,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

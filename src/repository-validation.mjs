@@ -2,6 +2,8 @@ import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
 import { promptPathForId, validatePromptV1 } from "./prompt-schema.mjs";
+import { validatePromptV2 } from "./prompt-schema-v2.mjs";
+import { assessPromptQuality, QUALITY_RUBRIC_VERSION, qualityLevelForAssessment } from "./quality-audit.mjs";
 import { exclusionReportDigest } from "./migration.mjs";
 
 const secretPattern = /((^|[^A-Za-z0-9_-])sk-[A-Za-z0-9_-]{20,}|(^|[^A-Za-z0-9_])gh[pousr]_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{30,}|xox[baprs]-[0-9A-Za-z-]{20,}|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}|https?:\/\/[^\s/:]+:[^\s/@]+@|-----BEGIN (RSA |OPENSSH |EC |)PRIVATE KEY-----)/;
@@ -21,10 +23,34 @@ async function readJson(file) {
   return JSON.parse(await readFile(file, "utf8"));
 }
 
+async function exists(file) {
+  try {
+    await access(file);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function assertExpected(label, actual, expected) {
   if (expected !== undefined && actual !== expected) {
     throw new Error(`${label} count mismatch: expected ${expected}, received ${actual}`);
   }
+}
+
+function proofManifestRecord(proof) {
+  return {
+    status: proof.status,
+    modality: proof.modality,
+    provider: proof.provider,
+    model: proof.model,
+    testedAt: proof.testedAt,
+    evidenceLevel: proof.evidenceLevel,
+    rights: proof.rights,
+    assets: proof.assets,
+    run: proof.run,
+    qa: proof.qa
+  };
 }
 
 export async function validateRepository(root, expected = {}) {
@@ -52,12 +78,23 @@ export async function validateRepository(root, expected = {}) {
 
   for (const file of promptFiles) {
     const prompt = await readJson(file);
-    const errors = validatePromptV1(prompt);
+    const errors = prompt.schemaVersion === 2 ? validatePromptV2(prompt) : validatePromptV1(prompt);
     if (errors.length) throw new Error(`Invalid prompt ${prompt.id || "(missing)"}: ${errors.join(", ")}`);
     if (ids.has(prompt.id)) throw new Error(`Duplicate prompt id: ${prompt.id}`);
     ids.add(prompt.id);
     promptById.set(prompt.id, prompt);
     prompts.push(prompt);
+
+    const storedAssessment = prompt.publication?.qualityAssessment;
+    if (prompt.schemaVersion === 2 && storedAssessment?.status !== "pending") {
+      const expectedAssessment = assessPromptQuality(prompt, { checkedAt: storedAssessment.checkedAt });
+      if (storedAssessment.rubricVersion !== QUALITY_RUBRIC_VERSION
+        || JSON.stringify(storedAssessment) !== JSON.stringify(expectedAssessment)
+        || Number(prompt.publication.qualityScore) !== expectedAssessment.score
+        || prompt.publication.qualityLevel !== qualityLevelForAssessment(expectedAssessment)) {
+        throw new Error(`Quality assessment is stale or inconsistent for ${prompt.id}`);
+      }
+    }
 
     const actual = path.relative(root, file).replaceAll("\\", "/");
     const expectedPath = promptPathForId(prompt.id);
@@ -67,10 +104,17 @@ export async function validateRepository(root, expected = {}) {
     for (const collectionId of prompt.publication.collectionIds) {
       if (!collectionIds.has(collectionId)) throw new Error(`Prompt ${prompt.id} references unknown collection ${collectionId}`);
     }
-    if (prompt.proof) {
+    if (prompt.proof && prompt.schemaVersion === 1) {
       await access(path.join(root, "data", prompt.proof.assetPath)).catch(() => {
         throw new Error(`Prompt ${prompt.id} references missing proof ${prompt.proof.assetPath}`);
       });
+    }
+    if (prompt.proof && prompt.schemaVersion === 2) {
+      for (const asset of prompt.proof.assets.filter((item) => item.storage === "repository")) {
+        await access(path.join(root, "data", asset.key)).catch(() => {
+          throw new Error(`Prompt ${prompt.id} references missing proof ${asset.key}`);
+        });
+      }
     }
   }
 
@@ -121,17 +165,42 @@ export async function validateRepository(root, expected = {}) {
   for (const [id, entry] of Object.entries(manifestImages)) {
     const prompt = promptById.get(id);
     if (!prompt?.proof) throw new Error(`Orphan proof manifest entry: ${id}`);
-    const filename = path.basename(prompt.proof.assetPath);
-    const expectedUrl = `/prompts/${prompt.proof.assetPath}`;
+    const legacyAsset = prompt.schemaVersion === 2
+      ? prompt.proof.assets.find((asset) => asset.storage === "repository" && asset.role === "cover")
+        || prompt.proof.assets.find((asset) => asset.storage === "repository" && asset.role === "primary")
+      : null;
+    const assetPath = legacyAsset?.key || prompt.proof.assetPath;
+    const filename = path.basename(assetPath);
+    const expectedUrl = legacyAsset?.url || `/prompts/${assetPath}`;
     if (entry.coverImageUrl !== expectedUrl) throw new Error(`Proof manifest URL mismatch for ${id}`);
     if (entry.promptId && entry.promptId !== id) throw new Error(`Proof manifest promptId mismatch for ${id}`);
     manifestFilenames.add(filename);
   }
   for (const prompt of prompts.filter((item) => item.proof)) {
-    if (!manifestImages[prompt.id]) throw new Error(`Proof prompt missing manifest entry: ${prompt.id}`);
+    const hasLegacyRepositoryCover = prompt.schemaVersion === 1
+      || prompt.proof.assets.some((asset) => asset.storage === "repository" && asset.role === "cover");
+    if (hasLegacyRepositoryCover && !manifestImages[prompt.id]) throw new Error(`Proof prompt missing manifest entry: ${prompt.id}`);
   }
   for (const entry of proofFiles.filter((item) => item.isFile() && item.name.endsWith(".webp"))) {
     if (!manifestFilenames.has(entry.name)) throw new Error(`Orphan proof file: ${entry.name}`);
+  }
+
+  const v2Prompts = prompts.filter((prompt) => prompt.schemaVersion === 2 && prompt.proof);
+  const manifestV2Path = path.join(root, "data", "proofs", "manifest-v2.json");
+  if (v2Prompts.length && !await exists(manifestV2Path)) throw new Error("Schema v2 proofs require data/proofs/manifest-v2.json");
+  if (await exists(manifestV2Path)) {
+    const manifestV2 = await readJson(manifestV2Path);
+    const entries = manifestV2.entries && typeof manifestV2.entries === "object" ? manifestV2.entries : {};
+    for (const [id, entry] of Object.entries(entries)) {
+      const prompt = promptById.get(id);
+      if (!prompt?.proof || prompt.schemaVersion !== 2) throw new Error(`Orphan Schema v2 proof manifest entry: ${id}`);
+      if (JSON.stringify(entry) !== JSON.stringify(proofManifestRecord(prompt.proof))) {
+        throw new Error(`Schema v2 proof manifest metadata mismatch for ${id}`);
+      }
+    }
+    for (const prompt of v2Prompts) {
+      if (!entries[prompt.id]) throw new Error(`Schema v2 proof missing manifest entry: ${prompt.id}`);
+    }
   }
 
   const textFiles = [
@@ -140,6 +209,9 @@ export async function validateRepository(root, expected = {}) {
     path.join(root, "data", "proofs", "manifest.json"),
     path.join(root, "data", "reports", "migration-exclusions.json")
   ];
+  const qualitySummaryPath = path.join(root, "data", "reports", "quality-v3-summary.json");
+  if (await exists(qualitySummaryPath)) textFiles.push(qualitySummaryPath);
+  if (await exists(manifestV2Path)) textFiles.push(manifestV2Path);
   for (const file of textFiles) {
     const text = await readFile(file, "utf8");
     if (secretPattern.test(text)) throw new Error(`Potential secret detected in ${path.relative(root, file)}`);

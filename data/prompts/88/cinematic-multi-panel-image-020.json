@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "cinematic-multi-panel-image-020",
   "content": {
     "title": "影视导演工作台 · 多宫格漫画式叙事",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 多宫格图片",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多宫格图片",
+    "task": "多宫格分镜与角色海报",
     "modality": "图像",
     "useCase": "多宫格分镜与角色海报",
     "aspectRatio": "3:4",
@@ -80,19 +80,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "usable",
+    "qualityScore": 85,
+    "qualityLevel": "quality-v3-review",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 85,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

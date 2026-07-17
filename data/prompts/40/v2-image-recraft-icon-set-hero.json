@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-image-recraft-icon-set-hero",
   "content": {
     "title": "Recraft · 功能图标套组 · 主视觉版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Recraft",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Recraft",
+    "task": "功能图标套组",
     "modality": "图像",
     "useCase": "功能图标套组",
     "aspectRatio": "{画面比例}",
@@ -59,7 +59,8 @@
       "{图标尺寸}",
       "{风格}",
       "{目标平台}",
-      "{输出格式}"
+      "{输出格式}",
+      "{画面比例}"
     ],
     "defaults": {
       "功能列表": "待定",
@@ -71,7 +72,8 @@
       "图标尺寸": "待定",
       "风格": "待定",
       "目标平台": "待定",
-      "输出格式": "待定"
+      "输出格式": "待定",
+      "画面比例": "{画面比例}"
     }
   },
   "provenance": {
@@ -81,19 +83,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 90,
-    "qualityLevel": "professional",
+    "qualityScore": 88,
+    "qualityLevel": "quality-v3-review",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 88,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Jackbshf/zhangwei-prompts-data/schema/prompt-v2.schema.json",
+  "title": "ZhangWei Prompt v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "content", "classification", "model", "variables", "provenance", "proof", "publication"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "id": { "type": "string", "minLength": 1, "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "content": { "$ref": "#/$defs/content" },
+    "classification": { "$ref": "#/$defs/classification" },
+    "model": { "$ref": "#/$defs/model" },
+    "variables": { "$ref": "#/$defs/variables" },
+    "provenance": { "$ref": "#/$defs/provenance" },
+    "proof": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/proof" }
+      ]
+    },
+    "publication": { "$ref": "#/$defs/publication" }
+  },
+  "$defs": {
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "summary", "preview", "prompt", "copyPrompt", "language"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "preview": { "type": "string" },
+        "prompt": { "type": "string", "minLength": 1 },
+        "copyPrompt": { "type": "string" },
+        "language": { "type": "string", "minLength": 1 }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["category", "department", "scenario", "task", "modality", "useCase", "aspectRatio", "difficulty", "tags", "styleTags", "seoKeywords"],
+      "properties": {
+        "category": { "type": "string", "minLength": 1 },
+        "department": { "type": "string", "minLength": 1 },
+        "scenario": { "type": "string", "minLength": 1 },
+        "task": { "type": "string", "minLength": 1 },
+        "modality": { "enum": ["图像", "视频", "文本"] },
+        "useCase": { "type": "string" },
+        "aspectRatio": { "type": "string" },
+        "difficulty": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "styleTags": { "type": "array", "items": { "type": "string" } },
+        "seoKeywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tool", "name"],
+      "properties": {
+        "tool": { "type": "string", "minLength": 1 },
+        "name": { "type": "string" }
+      }
+    },
+    "variables": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["names", "defaults"],
+      "properties": {
+        "names": { "type": "array", "items": { "type": "string" }, "maxItems": 24 },
+        "defaults": { "type": "object", "additionalProperties": { "type": "string" } }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "authorName", "authorUrl", "sourceUrl", "licenseType", "licenseConfirmed", "rightsStatus", "submissionIssueNumber"],
+      "properties": {
+        "source": { "type": "string", "minLength": 1 },
+        "authorName": { "type": "string" },
+        "authorUrl": { "type": "string" },
+        "sourceUrl": { "type": "string" },
+        "licenseType": { "type": "string" },
+        "licenseConfirmed": { "type": "boolean" },
+        "rightsStatus": { "enum": ["pending", "confirmed", "rejected"] },
+        "submissionIssueNumber": { "type": ["integer", "null"], "minimum": 1 }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "storage", "key", "url", "mimeType", "sha256", "bytes"],
+      "properties": {
+        "role": { "enum": ["cover", "primary", "transcript", "qa-frame"] },
+        "storage": { "const": "repository" },
+        "key": { "type": "string", "minLength": 1, "pattern": "^(?!.*(?:^|/)\\.\\.(?:/|$))[a-zA-Z0-9][a-zA-Z0-9._/-]*$" },
+        "url": { "type": "string", "pattern": "^/prompts/" },
+        "mimeType": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string", "pattern": "^$|^[0-9a-f]{64}$" },
+        "bytes": { "type": "integer", "minimum": 0 },
+        "width": { "type": ["integer", "null"], "minimum": 1 },
+        "height": { "type": ["integer", "null"], "minimum": 1 },
+        "durationMs": { "type": ["integer", "null"], "minimum": 1 }
+      }
+    },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["runId", "inputSha256", "outputSha256", "parameters", "attempt"],
+      "properties": {
+        "runId": { "type": "string" },
+        "inputSha256": { "type": "string", "pattern": "^$|^[0-9a-f]{64}$" },
+        "outputSha256": { "type": "string", "pattern": "^$|^[0-9a-f]{64}$" },
+        "parameters": { "type": "object" },
+        "attempt": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["automatedStatus", "humanStatus", "checks", "reviewedAt", "failureReason"],
+      "properties": {
+        "automatedStatus": { "enum": ["pending", "passed", "failed"] },
+        "humanStatus": { "enum": ["not-reviewed", "passed", "failed"] },
+        "checks": { "type": "array", "items": { "type": "string" } },
+        "reviewedAt": { "type": "string" },
+        "failureReason": { "type": "string" }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "basis", "confirmedAt", "note"],
+      "properties": {
+        "status": { "enum": ["pending", "confirmed", "rejected"] },
+        "basis": { "type": "string" },
+        "confirmedAt": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "proof": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "modality", "provider", "model", "testedAt", "resultNote", "evidenceLevel", "rights", "assets", "run", "qa"],
+      "properties": {
+        "status": { "enum": ["preview", "run-verified", "human-reviewed", "failed"] },
+        "modality": { "enum": ["image", "video", "text"] },
+        "provider": { "type": "string" },
+        "model": { "type": "string" },
+        "testedAt": { "type": "string" },
+        "resultNote": { "type": "string" },
+        "evidenceLevel": { "type": "string" },
+        "rights": { "$ref": "#/$defs/rights" },
+        "assets": { "type": "array", "items": { "$ref": "#/$defs/asset" }, "minItems": 1 },
+        "run": { "$ref": "#/$defs/run" },
+        "qa": { "$ref": "#/$defs/qa" }
+      }
+    },
+    "qualityAssessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "rubricVersion", "score", "checkedAt", "issues"],
+      "properties": {
+        "status": { "enum": ["pending", "passed", "failed"] },
+        "rubricVersion": { "type": "string" },
+        "score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "checkedAt": { "type": "string" },
+        "issues": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "featured", "copyReady", "qualityScore", "qualityLevel", "qualityAssessment", "verifiedAt", "collectionIds", "createdAt", "updatedAt", "publishedAt"],
+      "properties": {
+        "status": { "enum": ["draft", "published", "published-no-image", "published-proofed", "archived"] },
+        "featured": { "type": "boolean" },
+        "copyReady": { "const": true },
+        "qualityScore": { "type": "number", "minimum": 0, "maximum": 100 },
+        "qualityLevel": { "type": "string" },
+        "qualityAssessment": { "$ref": "#/$defs/qualityAssessment" },
+        "verifiedAt": { "type": "string" },
+        "collectionIds": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "publishedAt": { "type": "string" }
+      }
+    }
+  }
+}

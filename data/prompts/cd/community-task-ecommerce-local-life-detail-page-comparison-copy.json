@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-ecommerce-local-life-detail-page-comparison-copy",
   "content": {
     "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 生成对比模块文案",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 商品详情页 / 生成对比模块文案",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "商品详情页",
+    "task": "生成对比模块文案",
     "modality": "文本",
     "useCase": "生成对比模块文案",
     "aspectRatio": "",
@@ -62,26 +62,80 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-ecommerce-local-life-detail-page-comparison-copy.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "text",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-ecommerce-local-life-detail-page-comparison-copy.webp",
+        "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-comparison-copy.webp",
+        "mimeType": "image/webp",
+        "sha256": "d3fbd8bf41858ad8ac39a61040d13269bca303285fe88b8470b139880dd4de70",
+        "bytes": 126632,
+        "width": 1536,
+        "height": 1152,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-community-task-ecommerce-local-life-detail-page-comparison-copy",
+      "inputSha256": "0ee514d4c90e4281bbb9b1094f07394307179043fa65e1e79a96995acbd70586",
+      "outputSha256": "d3fbd8bf41858ad8ac39a61040d13269bca303285fe88b8470b139880dd4de70",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-detail-page-comparison-copy",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 96,
+    "qualityLevel": "quality-v3-strong",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 96,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

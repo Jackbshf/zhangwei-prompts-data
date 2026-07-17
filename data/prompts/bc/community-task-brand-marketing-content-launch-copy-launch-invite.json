@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-brand-marketing-content-launch-copy-launch-invite",
   "content": {
     "title": "社区分享 · 品牌 / 市场 / 内容营销 · 发布会文案 · 生成发布会邀请",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "品牌 / 市场 / 内容营销 / 发布会文案 / 生成发布会邀请",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "品牌",
+    "scenario": "发布会文案",
+    "task": "生成发布会邀请",
     "modality": "文本",
     "useCase": "生成发布会邀请",
     "aspectRatio": "",
@@ -62,19 +62,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

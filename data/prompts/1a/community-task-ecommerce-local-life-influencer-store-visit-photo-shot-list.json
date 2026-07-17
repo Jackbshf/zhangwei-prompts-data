@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-ecommerce-local-life-influencer-store-visit-photo-shot-list",
   "content": {
     "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 生成拍摄清单",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 达人探店 / 生成拍摄清单",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "达人探店",
+    "task": "生成拍摄清单",
     "modality": "文本",
     "useCase": "生成拍摄清单",
     "aspectRatio": "",
@@ -62,19 +62,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-video-sora-macro-motion-loop",
   "content": {
     "title": "Sora · 微距动态镜头 · 循环动效版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Sora",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Sora",
+    "task": "微距动态镜头",
     "modality": "视频",
     "useCase": "微距动态镜头",
     "aspectRatio": "{画面比例}",
@@ -81,7 +81,8 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
@@ -89,11 +90,18 @@
     "featured": false,
     "copyReady": true,
     "qualityScore": 92,
-    "qualityLevel": "professional",
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 92,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

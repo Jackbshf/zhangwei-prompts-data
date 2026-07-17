@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-ecommerce-local-life-influencer-store-visit-store-visit-script",
   "content": {
     "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 生成探店脚本",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 达人探店 / 生成探店脚本",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "达人探店",
+    "task": "生成探店脚本",
     "modality": "文本",
     "useCase": "生成探店脚本",
     "aspectRatio": "",
@@ -65,28 +65,82 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-store-visit-script.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "text",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-store-visit-script.webp",
+        "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-store-visit-script.webp",
+        "mimeType": "image/webp",
+        "sha256": "e0002fd18d9e1186bc4e213480677e62331fe615809a4bb8a0dc3b3f65bc2028",
+        "bytes": 154718,
+        "width": 1536,
+        "height": 1152,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-community-task-ecommerce-local-life-influencer-store-visit-store-visit-script",
+      "inputSha256": "9267ec7e2f177c4d506b6548b886af55b20cb400d5244c302cf03efbe0d50ec5",
+      "outputSha256": "e0002fd18d9e1186bc4e213480677e62331fe615809a4bb8a0dc3b3f65bc2028",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-influencer-store-visit-store-visit-script",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 96,
+    "qualityLevel": "quality-v3-strong",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "ai-agent-workflow"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 96,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

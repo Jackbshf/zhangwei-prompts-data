@@ -1,0 +1,50 @@
+{
+  "rubricVersion": "prompt-quality-v3-structural",
+  "checkedAt": "2026-07-18",
+  "total": 4167,
+  "passed": 4167,
+  "failed": 0,
+  "minScore": 85,
+  "maxScore": 96,
+  "averageScore": 90.58,
+  "uniqueScoreCount": 10,
+  "dominantScore": 90,
+  "dominantCount": 3046,
+  "dominantRatio": 0.730982,
+  "scoreDistribution": {
+    "85": 23,
+    "86": 1,
+    "87": 8,
+    "88": 72,
+    "89": 21,
+    "90": 3046,
+    "92": 448,
+    "93": 483,
+    "95": 1,
+    "96": 64
+  },
+  "byModality": {
+    "文本": {
+      "total": 429,
+      "passed": 429,
+      "failed": 0,
+      "minScore": 93,
+      "maxScore": 96
+    },
+    "图像": {
+      "total": 1967,
+      "passed": 1967,
+      "failed": 0,
+      "minScore": 85,
+      "maxScore": 96
+    },
+    "视频": {
+      "total": 1771,
+      "passed": 1771,
+      "failed": 0,
+      "minScore": 85,
+      "maxScore": 95
+    }
+  },
+  "issueCounts": {}
+}

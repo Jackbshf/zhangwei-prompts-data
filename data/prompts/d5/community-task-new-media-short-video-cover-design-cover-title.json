@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-new-media-short-video-cover-design-cover-title",
   "content": {
     "title": "社区分享 · 新媒体 / 短视频运营 · 封面设计 · 生成封面大字标题",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 封面设计 / 生成封面大字标题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "封面设计",
+    "task": "生成封面大字标题",
     "modality": "图像",
     "useCase": "生成封面大字标题",
     "aspectRatio": "",
@@ -65,21 +65,29 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "ecommerce-product-hero"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

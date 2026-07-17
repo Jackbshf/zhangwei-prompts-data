@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-video-sora-fashion-look-single-shot",
   "content": {
     "title": "Sora · 单人穿搭展示 · 单镜头版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Sora",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Sora",
+    "task": "单人穿搭展示",
     "modality": "视频",
     "useCase": "单人穿搭展示",
     "aspectRatio": "{画面比例}",
@@ -81,7 +81,8 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
@@ -89,13 +90,20 @@
     "featured": true,
     "copyReady": true,
     "qualityScore": 92,
-    "qualityLevel": "professional",
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [
       "video-motion-shot"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 92,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

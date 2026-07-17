@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-tech-rd-ai-agent-automation-script-data-clean-script",
   "content": {
     "title": "社区分享 · 技术 / 研发 / AI Agent · 自动化脚本 · 生成数据清洗脚本",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 自动化脚本 / 生成数据清洗脚本",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "自动化脚本",
+    "task": "生成数据清洗脚本",
     "modality": "文本",
     "useCase": "生成数据清洗脚本",
     "aspectRatio": "",
@@ -64,19 +64,27 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": null,
   "publication": {
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-24",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

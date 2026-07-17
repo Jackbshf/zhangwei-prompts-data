@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "v2-video-sora-live-commerce-image-to-video",
   "content": {
     "title": "Sora · 直播间商品讲解片段 · 图生视频版",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Sora",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Sora",
+    "task": "直播间商品讲解片段",
     "modality": "视频",
     "useCase": "直播间商品讲解片段",
     "aspectRatio": "{画面比例}",
@@ -81,28 +81,82 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/v2-video-sora-live-commerce-image-to-video.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "video",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-21",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/v2-video-sora-live-commerce-image-to-video.webp",
+        "url": "/prompts/proofs/generated/v2-video-sora-live-commerce-image-to-video.webp",
+        "mimeType": "image/webp",
+        "sha256": "4050f94fc77f74870207b313ffe9f83d87d207bc1f7b1aac7b706f4cca75decc",
+        "bytes": 105210,
+        "width": 1536,
+        "height": 1152,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-v2-video-sora-live-commerce-image-to-video",
+      "inputSha256": "3893eaa9b8518ab0d443a5e49e13e0b2ec95ba91772297d16e574bdde1efaf0a",
+      "outputSha256": "4050f94fc77f74870207b313ffe9f83d87d207bc1f7b1aac7b706f4cca75decc",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#v2-video-sora-live-commerce-image-to-video",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 92,
-    "qualityLevel": "professional",
+    "qualityScore": 93,
+    "qualityLevel": "quality-v3-ready",
     "verifiedAt": "2026-05-21",
     "collectionIds": [
       "beauty-fashion-portrait"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 93,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-new-media-short-video-spoken-copy-product-review",
   "content": {
     "title": "社区分享 · 新媒体 / 短视频运营 · 口播文案 · 生成产品体验口播",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 口播文案 / 生成产品体验口播",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "口播文案",
+    "task": "生成产品体验口播",
     "modality": "文本",
     "useCase": "生成产品体验口播",
     "aspectRatio": "",
@@ -65,28 +65,82 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-new-media-short-video-spoken-copy-product-review.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "text",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-new-media-short-video-spoken-copy-product-review.webp",
+        "url": "/prompts/proofs/generated/community-task-new-media-short-video-spoken-copy-product-review.webp",
+        "mimeType": "image/webp",
+        "sha256": "8bbb4c2d6a17879ed1ddcb0ddac270c5e78c8f95c95897dadf11d1cc92b77b8f",
+        "bytes": 85560,
+        "width": 1536,
+        "height": 1152,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-community-task-new-media-short-video-spoken-copy-product-review",
+      "inputSha256": "fcbc7b536068cd19b3f8210267b8a96f1903bb2defe2a7889179facaf40f6ebd",
+      "outputSha256": "8bbb4c2d6a17879ed1ddcb0ddac270c5e78c8f95c95897dadf11d1cc92b77b8f",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-new-media-short-video-spoken-copy-product-review",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 96,
+    "qualityLevel": "quality-v3-strong",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "short-video-commerce"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 96,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }

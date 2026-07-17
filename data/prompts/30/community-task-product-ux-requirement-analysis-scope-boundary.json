@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "community-task-product-ux-requirement-analysis-scope-boundary",
   "content": {
     "title": "社区分享 · 产品经理 / 用户体验 · 需求分析 · 划定需求边界",
@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 需求分析 / 划定需求边界",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "需求分析",
+    "task": "划定需求边界",
     "modality": "文本",
     "useCase": "划定需求边界",
     "aspectRatio": "",
@@ -64,28 +64,82 @@
     "sourceUrl": "",
     "licenseType": "",
     "licenseConfirmed": false,
-    "submissionIssueNumber": null
+    "submissionIssueNumber": null,
+    "rightsStatus": "pending"
   },
   "proof": {
-    "assetPath": "proofs/generated/community-task-product-ux-requirement-analysis-scope-boundary.webp",
-    "type": "GPT Image 效果预览",
+    "status": "preview",
+    "modality": "text",
+    "provider": "legacy-gallery",
     "model": "ChatGPT web / GPT Image",
-    "testedAt": "2026-05-24",
-    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
-    "evidenceLevel": "generated-preview"
+    "testedAt": "2026-07-05T04:37:00.093Z",
+    "resultNote": "Legacy cover remains an effect preview and requires a new modality-matched run.",
+    "evidenceLevel": "generated-preview",
+    "assets": [
+      {
+        "role": "cover",
+        "storage": "repository",
+        "key": "proofs/generated/community-task-product-ux-requirement-analysis-scope-boundary.webp",
+        "url": "/prompts/proofs/generated/community-task-product-ux-requirement-analysis-scope-boundary.webp",
+        "mimeType": "image/webp",
+        "sha256": "e3c90cf901dafdddb2be8c242a0fc6289f3e08ee08c0fa89158cdbf0b97bc934",
+        "bytes": 98376,
+        "width": 1536,
+        "height": 1152,
+        "durationMs": null
+      }
+    ],
+    "run": {
+      "runId": "legacy-community-task-product-ux-requirement-analysis-scope-boundary",
+      "inputSha256": "266c79edf4300b79abb1f3817fb523bdf1e05b6e5adc9c2b3d46279ddc5cd63d",
+      "outputSha256": "e3c90cf901dafdddb2be8c242a0fc6289f3e08ee08c0fa89158cdbf0b97bc934",
+      "parameters": {
+        "source": "Codex browser automation",
+        "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-product-ux-requirement-analysis-scope-boundary",
+        "inputRecovery": "exact",
+        "outputRole": "preview-cover"
+      },
+      "attempt": 1
+    },
+    "qa": {
+      "automatedStatus": "failed",
+      "humanStatus": "not-reviewed",
+      "checks": [
+        "webp-decodable",
+        "output-sha256-recorded",
+        "original-input-recovered",
+        "asset-rights-confirmed",
+        "modality-output-mismatched"
+      ],
+      "reviewedAt": "",
+      "failureReason": "preview-cover-is-not-modality-output"
+    },
+    "rights": {
+      "status": "confirmed",
+      "basis": "repository-owner-confirmed",
+      "confirmedAt": "2026-07-17",
+      "note": "The repository owner confirmed rights to use the legacy preview asset."
+    }
   },
   "publication": {
     "status": "published-proofed",
     "featured": true,
     "copyReady": true,
-    "qualityScore": 98,
-    "qualityLevel": "professional",
+    "qualityScore": 96,
+    "qualityLevel": "quality-v3-strong",
     "verifiedAt": "2026-05-24",
     "collectionIds": [
       "business-writing-office"
     ],
     "createdAt": "",
     "updatedAt": "",
-    "publishedAt": ""
+    "publishedAt": "",
+    "qualityAssessment": {
+      "status": "passed",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 96,
+      "checkedAt": "2026-07-18",
+      "issues": []
+    }
   }
 }
