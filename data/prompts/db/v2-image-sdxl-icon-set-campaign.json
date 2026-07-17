@@ -91,8 +91,8 @@
     "status": "published",
     "featured": false,
     "copyReady": true,
-    "qualityScore": 100,
-    "qualityLevel": "quality-v2-passed",
+    "qualityScore": 88,
+    "qualityLevel": "quality-v3-review",
     "verifiedAt": "2026-05-21",
     "collectionIds": [],
     "createdAt": "",
@@ -100,9 +100,9 @@
     "publishedAt": "",
     "qualityAssessment": {
       "status": "passed",
-      "rubricVersion": "prompt-quality-v2",
-      "score": 100,
-      "checkedAt": "2026-07-12",
+      "rubricVersion": "prompt-quality-v3-structural",
+      "score": 88,
+      "checkedAt": "2026-07-18",
       "issues": []
     }
   }

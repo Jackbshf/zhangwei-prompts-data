@@ -3,6 +3,7 @@ import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 
 import { applyClassificationTaxonomy } from "./classification-taxonomy.mjs";
+import { QUALITY_RUBRIC_VERSION } from "./quality-audit.mjs";
 import { fromPromptV1, toPromptV1 } from "./prompt-schema.mjs";
 
 const schema = JSON.parse(readFileSync(new URL("../schema/prompt-v2.schema.json", import.meta.url), "utf8"));
@@ -87,7 +88,7 @@ export function toPromptV2(input) {
       ...v1.publication,
       qualityAssessment: {
         status: "pending",
-        rubricVersion: "prompt-quality-v2",
+        rubricVersion: QUALITY_RUBRIC_VERSION,
         score: null,
         checkedAt: "",
         issues: []

@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { assessPromptQuality, reconcileVariableDeclarations } from "../src/quality-audit.mjs";
+import { assessPromptQuality, QUALITY_RUBRIC_VERSION, qualityLevelForAssessment, reconcileVariableDeclarations } from "../src/quality-audit.mjs";
 import { toPromptV2 } from "../src/prompt-schema-v2.mjs";
 
 function prompt(overrides = {}) {
@@ -26,8 +26,34 @@ test("quality audit passes a concrete copy-ready prompt", () => {
 
   assert.equal(result.status, "passed");
   assert.ok(result.score >= 85);
+  assert.ok(result.score < 100);
+  assert.equal(result.rubricVersion, QUALITY_RUBRIC_VERSION);
+  assert.match(qualityLevelForAssessment(result), /^quality-v3-/);
   assert.deepEqual(result.issues, []);
   assert.equal(result.checkedAt, "2026-07-12");
+});
+
+test("quality audit rewards usable defaults and confirmed rights without changing proof state", () => {
+  const pending = prompt();
+  const stronger = prompt();
+  stronger.variables.defaults = { 产品: "无品牌玻璃香氛瓶", 受众: "城市白领" };
+  stronger.provenance.rightsStatus = "confirmed";
+
+  const pendingResult = assessPromptQuality(pending, { checkedAt: "2026-07-18" });
+  const strongerResult = assessPromptQuality(stronger, { checkedAt: "2026-07-18" });
+
+  assert.ok(strongerResult.score > pendingResult.score);
+  assert.equal(stronger.proof, null);
+});
+
+test("quality audit detects a modality and tool mismatch", () => {
+  const matched = prompt({ tool: "GPT Image", model: "gpt-image", modality: "图像" });
+  const mismatched = prompt({ tool: "Google Veo", model: "veo", modality: "图像" });
+
+  assert.ok(
+    assessPromptQuality(matched, { checkedAt: "2026-07-18" }).score
+      > assessPromptQuality(mismatched, { checkedAt: "2026-07-18" }).score
+  );
 });
 
 test("quality audit rejects generic and unresolved prompt content", () => {

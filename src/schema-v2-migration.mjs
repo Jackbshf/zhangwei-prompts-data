@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-import { assessPromptQuality, reconcileVariableDeclarations } from "./quality-audit.mjs";
+import { assessPromptQuality, QUALITY_RUBRIC_VERSION, qualityLevelForAssessment, reconcileVariableDeclarations } from "./quality-audit.mjs";
 import { toPromptV2, validatePromptV2 } from "./prompt-schema-v2.mjs";
 
 async function walkJson(dir) {
@@ -46,7 +46,7 @@ export async function migratePromptRepositoryToV2(root, options = {}) {
     const assessment = assessPromptQuality(prompt, { checkedAt });
     prompt.publication.qualityAssessment = assessment;
     prompt.publication.qualityScore = assessment.score;
-    prompt.publication.qualityLevel = assessment.status === "passed" ? "quality-v2-passed" : "quality-v2-review";
+    prompt.publication.qualityLevel = qualityLevelForAssessment(assessment);
     if (prompt.proof?.status === "preview") proofPreviews += 1;
     if (prompt.proof) {
       proofEntries[prompt.id] = {
@@ -78,7 +78,7 @@ export async function migratePromptRepositoryToV2(root, options = {}) {
   const reportsDir = path.join(root, "data", "reports");
   await mkdir(reportsDir, { recursive: true });
   await writeFile(path.join(reportsDir, "quality-v2-summary.json"), `${JSON.stringify({
-    rubricVersion: "prompt-quality-v2",
+    rubricVersion: QUALITY_RUBRIC_VERSION,
     checkedAt,
     total: files.length,
     passed: qualityPassed,

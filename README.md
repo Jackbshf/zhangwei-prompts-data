@@ -18,6 +18,7 @@ Public source of truth for the standalone ZhangWei prompt gallery.
 npm.cmd test
 npm.cmd run validate
 npm.cmd run verify
+npm.cmd run quality:reassess -- --checked-at=2026-07-18 --dry-run
 npm.cmd run proofs:plan -- --stage=240 --batch-size=25
 npm.cmd run proofs:execution-manifest -- --stage=240 --batch=001 --approval=output/approval-stage-240-batch-001.json
 npm.cmd run proofs:dreamina-review -- --manifest=output/execution/stage-240-batch-001.json
@@ -31,6 +32,8 @@ npm.cmd run migrate
 ```
 
 Set `PROMPTS_GALLERY_DIR` or `PROMPTS_LEGACY_DIR` only when the sibling repositories are stored elsewhere.
+
+Quality scores use the deterministic `prompt-quality-v3-structural` rubric. It measures task specificity, modality structure, variable usability, model fit, provenance/rights state, and safety constraints. The score does not promote preview assets or replace run verification; CI recomputes every stored assessment to reject stale or hand-edited scores.
 
 ## Publishing contract
 

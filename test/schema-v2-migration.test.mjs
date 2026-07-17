@@ -5,6 +5,7 @@ import os from "node:os";
 import path from "node:path";
 
 import { migratePromptRepositoryToV2 } from "../src/schema-v2-migration.mjs";
+import { QUALITY_RUBRIC_VERSION } from "../src/quality-audit.mjs";
 import { promptPathForId, toPromptV1 } from "../src/prompt-schema.mjs";
 
 async function writeJson(file, value) {
@@ -48,7 +49,7 @@ test("repository migration upgrades records and fingerprints legacy proof assets
   assert.match(migrated.proof.assets[0].sha256, /^[0-9a-f]{64}$/);
   assert.equal(migrated.publication.qualityAssessment.status, "passed");
   assert.deepEqual(qualitySummary, {
-    rubricVersion: "prompt-quality-v2",
+    rubricVersion: QUALITY_RUBRIC_VERSION,
     checkedAt: "2026-07-12",
     total: 1,
     passed: 1,

@@ -3,6 +3,7 @@ import path from "node:path";
 
 import { promptPathForId, validatePromptV1 } from "./prompt-schema.mjs";
 import { validatePromptV2 } from "./prompt-schema-v2.mjs";
+import { assessPromptQuality, QUALITY_RUBRIC_VERSION, qualityLevelForAssessment } from "./quality-audit.mjs";
 import { exclusionReportDigest } from "./migration.mjs";
 
 const secretPattern = /((^|[^A-Za-z0-9_-])sk-[A-Za-z0-9_-]{20,}|(^|[^A-Za-z0-9_])gh[pousr]_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{30,}|xox[baprs]-[0-9A-Za-z-]{20,}|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}|https?:\/\/[^\s/:]+:[^\s/@]+@|-----BEGIN (RSA |OPENSSH |EC |)PRIVATE KEY-----)/;
@@ -83,6 +84,17 @@ export async function validateRepository(root, expected = {}) {
     ids.add(prompt.id);
     promptById.set(prompt.id, prompt);
     prompts.push(prompt);
+
+    const storedAssessment = prompt.publication?.qualityAssessment;
+    if (prompt.schemaVersion === 2 && storedAssessment?.status !== "pending") {
+      const expectedAssessment = assessPromptQuality(prompt, { checkedAt: storedAssessment.checkedAt });
+      if (storedAssessment.rubricVersion !== QUALITY_RUBRIC_VERSION
+        || JSON.stringify(storedAssessment) !== JSON.stringify(expectedAssessment)
+        || Number(prompt.publication.qualityScore) !== expectedAssessment.score
+        || prompt.publication.qualityLevel !== qualityLevelForAssessment(expectedAssessment)) {
+        throw new Error(`Quality assessment is stale or inconsistent for ${prompt.id}`);
+      }
+    }
 
     const actual = path.relative(root, file).replaceAll("\\", "/");
     const expectedPath = promptPathForId(prompt.id);
@@ -197,6 +209,8 @@ export async function validateRepository(root, expected = {}) {
     path.join(root, "data", "proofs", "manifest.json"),
     path.join(root, "data", "reports", "migration-exclusions.json")
   ];
+  const qualitySummaryPath = path.join(root, "data", "reports", "quality-v3-summary.json");
+  if (await exists(qualitySummaryPath)) textFiles.push(qualitySummaryPath);
   if (await exists(manifestV2Path)) textFiles.push(manifestV2Path);
   for (const file of textFiles) {
     const text = await readFile(file, "utf8");

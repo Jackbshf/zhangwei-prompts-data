@@ -10,6 +10,7 @@
     "test": "node --test",
     "migrate": "node scripts/migrate-from-gallery.mjs",
     "migrate:v2": "node scripts/migrate-schema-v2.mjs --checked-at=2026-07-12",
+    "quality:reassess": "node scripts/reassess-quality.mjs",
     "migrate:report": "node scripts/rebuild-exclusion-report.mjs",
     "classify": "node scripts/apply-classification-taxonomy.mjs",
     "proofs:plan": "node scripts/build-proof-stage-plan.mjs",
