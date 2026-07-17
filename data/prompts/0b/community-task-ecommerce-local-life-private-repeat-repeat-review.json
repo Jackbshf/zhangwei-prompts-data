@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 私域复购 / 复盘复购路径",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "私域复购",
+    "task": "复盘复购路径",
     "modality": "文本",
     "useCase": "复盘复购路径",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 商务邮件 / 生成方案邮件",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "商务邮件",
+    "task": "生成方案邮件",
     "modality": "文本",
     "useCase": "生成方案邮件",
     "aspectRatio": "",

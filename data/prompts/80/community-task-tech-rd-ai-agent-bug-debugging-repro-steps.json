@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Bug 排查 / 梳理复现步骤",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Bug 排查",
+    "task": "梳理复现步骤",
     "modality": "文本",
     "useCase": "梳理复现步骤",
     "aspectRatio": "",

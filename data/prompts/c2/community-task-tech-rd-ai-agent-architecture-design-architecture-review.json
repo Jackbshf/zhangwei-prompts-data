@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 架构设计 / 检查架构风险",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "架构设计",
+    "task": "检查架构风险",
     "modality": "图像",
     "useCase": "检查架构风险",
     "aspectRatio": "",

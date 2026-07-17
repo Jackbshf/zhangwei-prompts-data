@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 文生视频",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "文生视频",
+    "task": "文生视频电影镜头",
     "modality": "视频",
     "useCase": "文生视频电影镜头",
     "aspectRatio": "1:1",

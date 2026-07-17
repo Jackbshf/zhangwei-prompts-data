@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 留存分析 / 分析流失原因",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "留存分析",
+    "task": "分析流失原因",
     "modality": "文本",
     "useCase": "分析流失原因",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 制度通知 / 总结制度要点",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "制度通知",
+    "task": "总结制度要点",
     "modality": "文本",
     "useCase": "总结制度要点",
     "aspectRatio": "",

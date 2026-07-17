@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 绩效评语 / 润色自评",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "绩效评语",
+    "task": "润色自评",
     "modality": "文本",
     "useCase": "润色自评",
     "aspectRatio": "",

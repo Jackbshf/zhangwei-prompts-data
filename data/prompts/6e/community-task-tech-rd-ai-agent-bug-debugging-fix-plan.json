@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Bug 排查 / 生成修复方案",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Bug 排查",
+    "task": "生成修复方案",
     "modality": "文本",
     "useCase": "生成修复方案",
     "aspectRatio": "",

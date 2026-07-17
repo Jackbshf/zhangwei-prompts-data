@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / ROI 分析 / 生成预算分配",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "ROI 分析",
+    "task": "生成预算分配",
     "modality": "文本",
     "useCase": "生成预算分配",
     "aspectRatio": "",

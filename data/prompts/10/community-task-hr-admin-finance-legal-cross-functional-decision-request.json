@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 跨部门沟通 / 生成决策请求",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "跨部门沟通",
+    "task": "生成决策请求",
     "modality": "文本",
     "useCase": "生成决策请求",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 销售开场 / 痛点式开场",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "销售开场",
+    "task": "痛点式开场",
     "modality": "文本",
     "useCase": "痛点式开场",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 销售开场 / 会议开场话术",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "销售开场",
+    "task": "会议开场话术",
     "modality": "文本",
     "useCase": "会议开场话术",
     "aspectRatio": "",

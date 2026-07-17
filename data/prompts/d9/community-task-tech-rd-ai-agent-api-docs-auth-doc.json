@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 接口文档 / 撰写鉴权说明",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "接口文档",
+    "task": "撰写鉴权说明",
     "modality": "文本",
     "useCase": "撰写鉴权说明",
     "aspectRatio": "",

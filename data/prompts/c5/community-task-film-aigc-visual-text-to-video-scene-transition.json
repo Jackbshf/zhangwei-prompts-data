@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 文生视频 / 生成场景变化提示词",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "文生视频",
+    "task": "生成场景变化提示词",
     "modality": "图像",
     "useCase": "生成场景变化提示词",
     "aspectRatio": "",

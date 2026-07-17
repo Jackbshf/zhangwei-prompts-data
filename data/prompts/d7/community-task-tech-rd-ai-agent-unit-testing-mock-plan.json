@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 单元测试 / 设计 mock 数据",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "单元测试",
+    "task": "设计 mock 数据",
     "modality": "图像",
     "useCase": "设计 mock 数据",
     "aspectRatio": "",

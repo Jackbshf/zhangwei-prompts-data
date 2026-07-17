@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Ideogram",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Ideogram",
+    "task": "活动海报主视觉",
     "modality": "图像",
     "useCase": "活动海报主视觉",
     "aspectRatio": "{画面比例}",

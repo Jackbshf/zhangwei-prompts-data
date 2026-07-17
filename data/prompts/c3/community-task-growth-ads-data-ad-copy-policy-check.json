@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 广告文案 / 检查广告合规",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "广告文案",
+    "task": "检查广告合规",
     "modality": "文本",
     "useCase": "检查广告合规",
     "aspectRatio": "",

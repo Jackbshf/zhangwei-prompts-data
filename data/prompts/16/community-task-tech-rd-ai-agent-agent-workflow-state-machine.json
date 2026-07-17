@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Agent 工作流 / 设计状态机",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Agent 工作流",
+    "task": "设计状态机",
     "modality": "图像",
     "useCase": "设计状态机",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "品牌 / 市场 / 内容营销 / 品牌定位 / 定义品牌语气",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "品牌",
+    "scenario": "品牌定位",
+    "task": "定义品牌语气",
     "modality": "文本",
     "useCase": "定义品牌语气",
     "aspectRatio": "",

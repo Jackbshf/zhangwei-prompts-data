@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / PixVerse",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "PixVerse",
+    "task": "横幅广告素材",
     "modality": "图像",
     "useCase": "横幅广告素材",
     "aspectRatio": "{画面比例}",

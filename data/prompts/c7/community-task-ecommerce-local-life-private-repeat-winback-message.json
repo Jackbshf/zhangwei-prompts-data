@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 私域复购 / 召回沉睡用户",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "私域复购",
+    "task": "召回沉睡用户",
     "modality": "文本",
     "useCase": "召回沉睡用户",
     "aspectRatio": "",

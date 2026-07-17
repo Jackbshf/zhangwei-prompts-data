@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "taxonomyVersion": "classification-taxonomy-v1",
+  "total": 4167,
+  "complete": 4167,
+  "incomplete": 0,
+  "departments": {
+    "AI 视觉设计": 1754,
+    "AI 视频创作": 1751,
+    "HR": 60,
+    "产品经理": 60,
+    "品牌": 60,
+    "增长": 60,
+    "影视创作": 180,
+    "技术": 60,
+    "新媒体": 62,
+    "电商": 60,
+    "销售": 60
+  },
+  "modalities": {
+    "图像": 1967,
+    "文本": 429,
+    "视频": 1771
+  },
+  "classificationSha256": "daf57b1e3adc7940c233a34f70a6baab528ebc488161668d88a98d59349da5b0"
+}

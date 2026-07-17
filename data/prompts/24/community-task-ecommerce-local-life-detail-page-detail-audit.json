@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 商品详情页 / 检查详情页缺口",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "商品详情页",
+    "task": "检查详情页缺口",
     "modality": "文本",
     "useCase": "检查详情页缺口",
     "aspectRatio": "",

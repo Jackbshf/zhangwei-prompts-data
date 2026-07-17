@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 面试问题 / 生成行为面试题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "面试问题",
+    "task": "生成行为面试题",
     "modality": "文本",
     "useCase": "生成行为面试题",
     "aspectRatio": "",

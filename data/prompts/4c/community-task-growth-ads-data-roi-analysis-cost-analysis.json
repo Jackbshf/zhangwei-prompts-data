@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / ROI 分析 / 分析成本结构",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "ROI 分析",
+    "task": "分析成本结构",
     "modality": "文本",
     "useCase": "分析成本结构",
     "aspectRatio": "",

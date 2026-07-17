@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 达人探店 / 生成探店脚本",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "达人探店",
+    "task": "生成探店脚本",
     "modality": "文本",
     "useCase": "生成探店脚本",
     "aspectRatio": "",

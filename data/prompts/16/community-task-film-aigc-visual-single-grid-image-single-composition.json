@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 单宫格图片 / 优化单图构图",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "单宫格图片",
+    "task": "优化单图构图",
     "modality": "图像",
     "useCase": "优化单图构图",
     "aspectRatio": "",

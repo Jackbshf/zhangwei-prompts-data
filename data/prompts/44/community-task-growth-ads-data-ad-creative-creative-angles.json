@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 投放创意 / 生成创意角度",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "投放创意",
+    "task": "生成创意角度",
     "modality": "文本",
     "useCase": "生成创意角度",
     "aspectRatio": "",

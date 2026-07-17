@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 会议纪要 / 整理决策记录",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "会议纪要",
+    "task": "整理决策记录",
     "modality": "文本",
     "useCase": "整理决策记录",
     "aspectRatio": "",

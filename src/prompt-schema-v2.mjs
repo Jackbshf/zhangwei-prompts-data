@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 
+import { applyClassificationTaxonomy } from "./classification-taxonomy.mjs";
 import { fromPromptV1, toPromptV1 } from "./prompt-schema.mjs";
 
 const schema = JSON.parse(readFileSync(new URL("../schema/prompt-v2.schema.json", import.meta.url), "utf8"));
@@ -73,7 +74,7 @@ function errorFields(errors = []) {
 }
 
 export function toPromptV2(input) {
-  const v1 = input?.schemaVersion === 1 ? input : toPromptV1(input);
+  const v1 = applyClassificationTaxonomy(input?.schemaVersion === 1 ? input : toPromptV1(input));
   return {
     ...v1,
     schemaVersion: 2,

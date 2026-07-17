@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 售后话术 / 处理退款咨询",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "售后话术",
+    "task": "处理退款咨询",
     "modality": "文本",
     "useCase": "处理退款咨询",
     "aspectRatio": "",

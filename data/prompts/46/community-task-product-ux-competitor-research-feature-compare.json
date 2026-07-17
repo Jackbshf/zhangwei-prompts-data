@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 竞品分析 / 对比功能差异",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "竞品分析",
+    "task": "对比功能差异",
     "modality": "文本",
     "useCase": "对比功能差异",
     "aspectRatio": "",

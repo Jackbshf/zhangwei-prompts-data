@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Runway",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Runway",
+    "task": "15秒产品广告",
     "modality": "视频",
     "useCase": "15秒产品广告",
     "aspectRatio": "{画面比例}",

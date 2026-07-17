@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 单元测试 / 生成测试用例",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "单元测试",
+    "task": "生成测试用例",
     "modality": "文本",
     "useCase": "生成测试用例",
     "aspectRatio": "",

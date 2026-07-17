@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 周报总结 / 总结项目进度",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "周报总结",
+    "task": "总结项目进度",
     "modality": "文本",
     "useCase": "总结项目进度",
     "aspectRatio": "",

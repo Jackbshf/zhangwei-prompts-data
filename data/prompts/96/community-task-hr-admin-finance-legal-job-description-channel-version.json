@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 招聘 JD / 改写招聘渠道版本",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "招聘 JD",
+    "task": "改写招聘渠道版本",
     "modality": "文本",
     "useCase": "改写招聘渠道版本",
     "aspectRatio": "",

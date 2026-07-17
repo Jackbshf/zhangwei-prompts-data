@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 账号定位 / 规划内容栏目",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "账号定位",
+    "task": "规划内容栏目",
     "modality": "文本",
     "useCase": "规划内容栏目",
     "aspectRatio": "",

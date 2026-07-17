@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "品牌 / 市场 / 内容营销 / 公关稿 / 润色公关稿",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "品牌",
+    "scenario": "公关稿",
+    "task": "润色公关稿",
     "modality": "文本",
     "useCase": "润色公关稿",
     "aspectRatio": "",

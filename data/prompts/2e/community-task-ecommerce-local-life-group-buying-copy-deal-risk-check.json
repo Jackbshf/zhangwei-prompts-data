@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 团购文案 / 检查团购合规",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "团购文案",
+    "task": "检查团购合规",
     "modality": "文本",
     "useCase": "检查团购合规",
     "aspectRatio": "",

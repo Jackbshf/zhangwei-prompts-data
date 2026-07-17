@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 用户增长 / 分析渠道质量",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "用户增长",
+    "task": "分析渠道质量",
     "modality": "文本",
     "useCase": "分析渠道质量",
     "aspectRatio": "",

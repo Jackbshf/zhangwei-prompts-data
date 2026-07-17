@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 达人探店 / 改写达人口吻",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "达人探店",
+    "task": "改写达人口吻",
     "modality": "文本",
     "useCase": "改写达人口吻",
     "aspectRatio": "",

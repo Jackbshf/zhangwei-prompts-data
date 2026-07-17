@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Agent 工作流 / 设计评估指标",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Agent 工作流",
+    "task": "设计评估指标",
     "modality": "图像",
     "useCase": "设计评估指标",
     "aspectRatio": "",

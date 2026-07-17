@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Gemini",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Gemini",
+    "task": "户外大屏广告",
     "modality": "图像",
     "useCase": "户外大屏广告",
     "aspectRatio": "{画面比例}",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / GPT Image",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "GPT Image",
+    "task": "销售单页视觉",
     "modality": "图像",
     "useCase": "销售单页视觉",
     "aspectRatio": "{画面比例}",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Luma",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Luma",
+    "task": "活动预热视频",
     "modality": "视频",
     "useCase": "活动预热视频",
     "aspectRatio": "{画面比例}",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 报销说明 / 生成差旅报销说明",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "报销说明",
+    "task": "生成差旅报销说明",
     "modality": "文本",
     "useCase": "生成差旅报销说明",
     "aspectRatio": "",

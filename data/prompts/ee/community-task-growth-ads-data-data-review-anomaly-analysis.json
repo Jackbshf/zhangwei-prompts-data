@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 数据复盘 / 分析异常数据",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "数据复盘",
+    "task": "分析异常数据",
     "modality": "文本",
     "useCase": "分析异常数据",
     "aspectRatio": "",

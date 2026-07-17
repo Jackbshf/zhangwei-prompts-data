@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 图生视频 / 让静态图动起来",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "图生视频",
+    "task": "让静态图动起来",
     "modality": "图像",
     "useCase": "让静态图动起来",
     "aspectRatio": "",

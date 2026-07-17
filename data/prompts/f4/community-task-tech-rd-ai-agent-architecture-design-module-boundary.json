@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 架构设计 / 划分模块边界",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "架构设计",
+    "task": "划分模块边界",
     "modality": "图像",
     "useCase": "划分模块边界",
     "aspectRatio": "",

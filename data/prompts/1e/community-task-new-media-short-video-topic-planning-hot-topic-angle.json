@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 选题策划 / 拆解热点选题角度",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "选题策划",
+    "task": "拆解热点选题角度",
     "modality": "文本",
     "useCase": "拆解热点选题角度",
     "aspectRatio": "",

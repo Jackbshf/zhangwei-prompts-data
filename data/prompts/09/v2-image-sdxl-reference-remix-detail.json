@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Stable Diffusion",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Stable Diffusion",
+    "task": "参考图原创重构",
     "modality": "图像",
     "useCase": "参考图原创重构",
     "aspectRatio": "{画面比例}",

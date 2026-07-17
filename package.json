@@ -11,6 +11,7 @@
     "migrate": "node scripts/migrate-from-gallery.mjs",
     "migrate:v2": "node scripts/migrate-schema-v2.mjs --checked-at=2026-07-12",
     "migrate:report": "node scripts/rebuild-exclusion-report.mjs",
+    "classify": "node scripts/apply-classification-taxonomy.mjs",
     "proofs:plan": "node scripts/build-proof-stage-plan.mjs",
     "proofs:audit-legacy": "node scripts/audit-legacy-proof-assets.mjs",
     "proofs:legacy-review-pack": "node scripts/build-legacy-review-pack.mjs",

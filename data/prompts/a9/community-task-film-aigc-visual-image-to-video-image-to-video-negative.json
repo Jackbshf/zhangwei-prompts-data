@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 图生视频 / 生成图生视频负面约束",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "图生视频",
+    "task": "生成图生视频负面约束",
     "modality": "图像",
     "useCase": "生成图生视频负面约束",
     "aspectRatio": "",

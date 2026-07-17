@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Agent 工作流 / 设计工具调用",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Agent 工作流",
+    "task": "设计工具调用",
     "modality": "图像",
     "useCase": "设计工具调用",
     "aspectRatio": "",

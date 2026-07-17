@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 封面设计 / 生成封面 A/B 测试",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "生成封面 A",
+    "task": "B 测试",
     "modality": "图像",
     "useCase": "生成封面 A/B 测试",
     "aspectRatio": "",

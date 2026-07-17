@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 招聘 JD / 润色 JD",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "招聘 JD",
+    "task": "润色 JD",
     "modality": "文本",
     "useCase": "润色 JD",
     "aspectRatio": "",

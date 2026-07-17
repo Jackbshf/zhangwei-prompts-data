@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 单人图片 / 生成时尚人像大片",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "单人图片",
+    "task": "生成时尚人像大片",
     "modality": "图像",
     "useCase": "生成时尚人像大片",
     "aspectRatio": "",

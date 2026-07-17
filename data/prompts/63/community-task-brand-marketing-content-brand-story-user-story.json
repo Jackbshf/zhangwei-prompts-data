@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "品牌 / 市场 / 内容营销 / 品牌故事 / 生成用户故事",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "品牌",
+    "scenario": "品牌故事",
+    "task": "生成用户故事",
     "modality": "文本",
     "useCase": "生成用户故事",
     "aspectRatio": "",

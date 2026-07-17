@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 用户增长 / 设计裂变推荐",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "用户增长",
+    "task": "设计裂变推荐",
     "modality": "图像",
     "useCase": "设计裂变推荐",
     "aspectRatio": "",

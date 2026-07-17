@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 售后话术 / 识别升级风险",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "售后话术",
+    "task": "识别升级风险",
     "modality": "文本",
     "useCase": "识别升级风险",
     "aspectRatio": "",

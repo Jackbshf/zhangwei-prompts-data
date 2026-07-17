@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 短剧封面 / 生成强情绪封面",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "短剧封面",
+    "task": "生成强情绪封面",
     "modality": "图像",
     "useCase": "生成强情绪封面",
     "aspectRatio": "",

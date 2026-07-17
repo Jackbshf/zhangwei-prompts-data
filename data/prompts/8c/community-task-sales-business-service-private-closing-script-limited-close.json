@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 成交话术 / 限时促成成交",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "成交话术",
+    "task": "限时促成成交",
     "modality": "文本",
     "useCase": "限时促成成交",
     "aspectRatio": "",

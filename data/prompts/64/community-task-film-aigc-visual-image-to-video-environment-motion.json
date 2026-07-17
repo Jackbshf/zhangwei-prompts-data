@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 图生视频 / 生成环境运动提示",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "图生视频",
+    "task": "生成环境运动提示",
     "modality": "图像",
     "useCase": "生成环境运动提示",
     "aspectRatio": "",

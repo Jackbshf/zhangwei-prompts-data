@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 多人图片 / 生成多人合影画面",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多人图片",
+    "task": "生成多人合影画面",
     "modality": "图像",
     "useCase": "生成多人合影画面",
     "aspectRatio": "",

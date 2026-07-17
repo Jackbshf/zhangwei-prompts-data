@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 会议纪要 / 润色纪要",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "会议纪要",
+    "task": "润色纪要",
     "modality": "文本",
     "useCase": "润色纪要",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 封面设计 / 检查封面文字可读性",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "封面设计",
+    "task": "检查封面文字可读性",
     "modality": "图像",
     "useCase": "检查封面文字可读性",
     "aspectRatio": "",

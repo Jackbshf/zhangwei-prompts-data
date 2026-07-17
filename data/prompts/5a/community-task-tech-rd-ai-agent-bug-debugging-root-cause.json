@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Bug 排查 / 分析根因",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Bug 排查",
+    "task": "分析根因",
     "modality": "文本",
     "useCase": "分析根因",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 私域转化 / 推动会员升级",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "私域转化",
+    "task": "推动会员升级",
     "modality": "文本",
     "useCase": "推动会员升级",
     "aspectRatio": "",

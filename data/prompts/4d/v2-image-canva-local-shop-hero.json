@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Canva",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Canva",
+    "task": "本地门店推广图",
     "modality": "图像",
     "useCase": "本地门店推广图",
     "aspectRatio": "{画面比例}",

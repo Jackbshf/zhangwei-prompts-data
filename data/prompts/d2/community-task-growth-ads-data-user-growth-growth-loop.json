@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 用户增长 / 设计增长闭环",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "用户增长",
+    "task": "设计增长闭环",
     "modality": "图像",
     "useCase": "设计增长闭环",
     "aspectRatio": "",

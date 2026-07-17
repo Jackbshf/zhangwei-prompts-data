@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Midjourney",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Midjourney",
+    "task": "品牌视觉情绪板",
     "modality": "图像",
     "useCase": "品牌视觉情绪板",
     "aspectRatio": "{画面比例}",

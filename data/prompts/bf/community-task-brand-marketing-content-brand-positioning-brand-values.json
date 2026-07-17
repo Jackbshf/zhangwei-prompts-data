@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "品牌 / 市场 / 内容营销 / 品牌定位 / 提炼品牌价值",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "品牌",
+    "scenario": "品牌定位",
+    "task": "提炼品牌价值",
     "modality": "文本",
     "useCase": "提炼品牌价值",
     "aspectRatio": "",

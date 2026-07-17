@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 数据复盘 / 解释指标变化",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "数据复盘",
+    "task": "解释指标变化",
     "modality": "文本",
     "useCase": "解释指标变化",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 私域转化 / 生成社群欢迎语",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "私域转化",
+    "task": "生成社群欢迎语",
     "modality": "文本",
     "useCase": "生成社群欢迎语",
     "aspectRatio": "",

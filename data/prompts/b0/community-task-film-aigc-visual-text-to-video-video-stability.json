@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 文生视频 / 生成稳定性约束",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "文生视频",
+    "task": "生成稳定性约束",
     "modality": "图像",
     "useCase": "生成稳定性约束",
     "aspectRatio": "",

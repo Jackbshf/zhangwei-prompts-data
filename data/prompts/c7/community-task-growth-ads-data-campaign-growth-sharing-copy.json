@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 活动增长 / 生成分享裂变文案",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "活动增长",
+    "task": "生成分享裂变文案",
     "modality": "文本",
     "useCase": "生成分享裂变文案",
     "aspectRatio": "",

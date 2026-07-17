@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 成交话术 / 推动续约",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "成交话术",
+    "task": "推动续约",
     "modality": "文本",
     "useCase": "推动续约",
     "aspectRatio": "",

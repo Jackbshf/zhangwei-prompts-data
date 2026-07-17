@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 技术方案 / 生成技术方案大纲",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "技术方案",
+    "task": "生成技术方案大纲",
     "modality": "文本",
     "useCase": "生成技术方案大纲",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / 即梦 Seedance",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "即梦 Seedance",
+    "task": "音乐视觉循环",
     "modality": "视频",
     "useCase": "音乐视觉循环",
     "aspectRatio": "{画面比例}",

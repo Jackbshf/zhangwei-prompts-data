@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / PixVerse",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "PixVerse",
+    "task": "纪录片观察镜头",
     "modality": "视频",
     "useCase": "纪录片观察镜头",
     "aspectRatio": "{画面比例}",

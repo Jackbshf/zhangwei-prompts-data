@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Sora",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Sora",
+    "task": "美妆质地动态",
     "modality": "视频",
     "useCase": "美妆质地动态",
     "aspectRatio": "{画面比例}",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Recraft",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Recraft",
+    "task": "数据看板宣传图",
     "modality": "图像",
     "useCase": "数据看板宣传图",
     "aspectRatio": "{画面比例}",

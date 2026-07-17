@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 主图卖点 / 检查主图合规风险",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "主图卖点",
+    "task": "检查主图合规风险",
     "modality": "图像",
     "useCase": "检查主图合规风险",
     "aspectRatio": "",

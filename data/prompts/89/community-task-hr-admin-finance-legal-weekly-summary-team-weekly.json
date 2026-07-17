@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 周报总结 / 生成团队周报",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "周报总结",
+    "task": "生成团队周报",
     "modality": "文本",
     "useCase": "生成团队周报",
     "aspectRatio": "",

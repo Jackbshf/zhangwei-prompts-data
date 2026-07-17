@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Midjourney",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Midjourney",
+    "task": "原创音乐封面",
     "modality": "图像",
     "useCase": "原创音乐封面",
     "aspectRatio": "{画面比例}",

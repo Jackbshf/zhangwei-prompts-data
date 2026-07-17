@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 招聘 JD / 澄清任职要求",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "招聘 JD",
+    "task": "澄清任职要求",
     "modality": "文本",
     "useCase": "澄清任职要求",
     "aspectRatio": "",

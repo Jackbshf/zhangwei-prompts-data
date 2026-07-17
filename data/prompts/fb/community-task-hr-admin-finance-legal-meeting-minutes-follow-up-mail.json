@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 会议纪要 / 生成会后邮件",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "会议纪要",
+    "task": "生成会后邮件",
     "modality": "文本",
     "useCase": "生成会后邮件",
     "aspectRatio": "",

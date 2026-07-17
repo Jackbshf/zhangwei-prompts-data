@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 售后安抚 / 生成满意度回访",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "售后安抚",
+    "task": "生成满意度回访",
     "modality": "文本",
     "useCase": "生成满意度回访",
     "aspectRatio": "",

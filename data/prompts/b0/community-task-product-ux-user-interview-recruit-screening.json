@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 用户访谈 / 生成招募筛选问题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "用户访谈",
+    "task": "生成招募筛选问题",
     "modality": "文本",
     "useCase": "生成招募筛选问题",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 达人探店 / 规划体验路线",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "达人探店",
+    "task": "规划体验路线",
     "modality": "文本",
     "useCase": "规划体验路线",
     "aspectRatio": "",

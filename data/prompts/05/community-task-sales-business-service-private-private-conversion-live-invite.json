@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 私域转化 / 邀请私域直播",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "私域转化",
+    "task": "邀请私域直播",
     "modality": "文本",
     "useCase": "邀请私域直播",
     "aspectRatio": "",

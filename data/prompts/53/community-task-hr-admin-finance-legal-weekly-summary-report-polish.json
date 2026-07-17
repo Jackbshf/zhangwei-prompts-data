@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 周报总结 / 润色报告",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "周报总结",
+    "task": "润色报告",
     "modality": "文本",
     "useCase": "润色报告",
     "aspectRatio": "",

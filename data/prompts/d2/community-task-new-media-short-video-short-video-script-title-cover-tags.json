@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 短视频脚本 / 生成标题 + 封面文案 + 话题标签",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "短视频脚本",
+    "task": "生成标题 + 封面文案 + 话题标签",
     "modality": "图像",
     "useCase": "生成标题 + 封面文案 + 话题标签",
     "aspectRatio": "",

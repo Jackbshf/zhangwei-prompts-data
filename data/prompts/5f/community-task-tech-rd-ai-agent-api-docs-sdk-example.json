@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 接口文档 / 生成 SDK 示例",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "接口文档",
+    "task": "生成 SDK 示例",
     "modality": "文本",
     "useCase": "生成 SDK 示例",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 代码审查 / 审查测试缺口",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "代码审查",
+    "task": "审查测试缺口",
     "modality": "文本",
     "useCase": "审查测试缺口",
     "aspectRatio": "",

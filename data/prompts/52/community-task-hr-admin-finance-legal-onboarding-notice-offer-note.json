@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 入职通知 / 生成 offer 沟通",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "入职通知",
+    "task": "生成 offer 沟通",
     "modality": "文本",
     "useCase": "生成 offer 沟通",
     "aspectRatio": "",

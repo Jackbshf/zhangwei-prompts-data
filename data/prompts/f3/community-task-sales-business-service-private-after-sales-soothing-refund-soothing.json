@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 售后安抚 / 安抚退款问题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "售后安抚",
+    "task": "安抚退款问题",
     "modality": "文本",
     "useCase": "安抚退款问题",
     "aspectRatio": "",

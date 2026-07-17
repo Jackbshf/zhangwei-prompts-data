@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 代码生成 / 解释代码实现",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "代码生成",
+    "task": "解释代码实现",
     "modality": "文本",
     "useCase": "解释代码实现",
     "aspectRatio": "",

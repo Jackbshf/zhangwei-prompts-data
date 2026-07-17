@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 自动化脚本 / 检查脚本安全",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "自动化脚本",
+    "task": "检查脚本安全",
     "modality": "文本",
     "useCase": "检查脚本安全",
     "aspectRatio": "",

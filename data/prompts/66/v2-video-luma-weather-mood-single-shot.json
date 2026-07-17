@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "视频提示词 / Luma",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视频创作",
+    "scenario": "Luma",
+    "task": "天气氛围短片",
     "modality": "视频",
     "useCase": "天气氛围短片",
     "aspectRatio": "{画面比例}",

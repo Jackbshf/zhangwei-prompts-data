@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 主图卖点 / 生成卖点标注",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "主图卖点",
+    "task": "生成卖点标注",
     "modality": "图像",
     "useCase": "生成卖点标注",
     "aspectRatio": "",

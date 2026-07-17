@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 多宫格图片",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多宫格图片",
+    "task": "多宫格分镜与角色海报",
     "modality": "图像",
     "useCase": "多宫格分镜与角色海报",
     "aspectRatio": "2.39:1",

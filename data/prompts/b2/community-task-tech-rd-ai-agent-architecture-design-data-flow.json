@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 架构设计 / 梳理数据流",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "架构设计",
+    "task": "梳理数据流",
     "modality": "图像",
     "useCase": "梳理数据流",
     "aspectRatio": "",

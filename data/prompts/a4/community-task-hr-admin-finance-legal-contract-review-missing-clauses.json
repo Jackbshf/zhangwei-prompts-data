@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 合同初审 / 检查缺失条款",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "合同初审",
+    "task": "检查缺失条款",
     "modality": "文本",
     "useCase": "检查缺失条款",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 多镜头分镜",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多镜头分镜",
+    "task": "多镜头分镜脚本",
     "modality": "视频",
     "useCase": "多镜头分镜脚本",
     "aspectRatio": "2.39:1",

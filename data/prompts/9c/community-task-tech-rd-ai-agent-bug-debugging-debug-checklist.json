@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / Bug 排查 / 生成排查清单",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "Bug 排查",
+    "task": "生成排查清单",
     "modality": "文本",
     "useCase": "生成排查清单",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Canva",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Canva",
+    "task": "饮品季节广告图",
     "modality": "图像",
     "useCase": "饮品季节广告图",
     "aspectRatio": "{画面比例}",

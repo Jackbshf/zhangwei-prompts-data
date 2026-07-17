@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 单宫格图片 / 生成单张风格图",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "单宫格图片",
+    "task": "生成单张风格图",
     "modality": "图像",
     "useCase": "生成单张风格图",
     "aspectRatio": "",

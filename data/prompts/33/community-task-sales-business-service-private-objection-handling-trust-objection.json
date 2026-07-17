@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 异议处理 / 处理信任异议",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "异议处理",
+    "task": "处理信任异议",
     "modality": "文本",
     "useCase": "处理信任异议",
     "aspectRatio": "",

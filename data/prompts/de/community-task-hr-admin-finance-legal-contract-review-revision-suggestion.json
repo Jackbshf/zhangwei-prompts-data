@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 合同初审 / 生成修改建议",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "合同初审",
+    "task": "生成修改建议",
     "modality": "文本",
     "useCase": "生成修改建议",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 接口文档 / 整理错误码",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "接口文档",
+    "task": "整理错误码",
     "modality": "文本",
     "useCase": "整理错误码",
     "aspectRatio": "",

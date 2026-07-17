@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 活动促销 / 规划促销节奏",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "活动促销",
+    "task": "规划促销节奏",
     "modality": "文本",
     "useCase": "规划促销节奏",
     "aspectRatio": "",

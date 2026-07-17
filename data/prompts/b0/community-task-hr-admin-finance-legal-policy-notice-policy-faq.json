@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 制度通知 / 生成制度 FAQ",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "制度通知",
+    "task": "生成制度 FAQ",
     "modality": "文本",
     "useCase": "生成制度 FAQ",
     "aspectRatio": "",

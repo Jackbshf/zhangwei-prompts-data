@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 团购文案 / 生成套餐说明",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "团购文案",
+    "task": "生成套餐说明",
     "modality": "文本",
     "useCase": "生成套餐说明",
     "aspectRatio": "",

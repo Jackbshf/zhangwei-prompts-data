@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / Adobe Firefly",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "Adobe Firefly",
+    "task": "课程招生视觉",
     "modality": "图像",
     "useCase": "课程招生视觉",
     "aspectRatio": "{画面比例}",

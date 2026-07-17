@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 广告文案 / 生成搜索广告文案",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "广告文案",
+    "task": "生成搜索广告文案",
     "modality": "文本",
     "useCase": "生成搜索广告文案",
     "aspectRatio": "",

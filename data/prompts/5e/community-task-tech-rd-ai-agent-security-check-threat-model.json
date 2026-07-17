@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 安全检查 / 生成威胁模型",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "安全检查",
+    "task": "生成威胁模型",
     "modality": "文本",
     "useCase": "生成威胁模型",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 图生视频",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "图生视频",
+    "task": "图生视频运动控制",
     "modality": "视频",
     "useCase": "图生视频运动控制",
     "aspectRatio": "1:1",

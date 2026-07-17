@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 单元测试 / 重构测试",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "单元测试",
+    "task": "重构测试",
     "modality": "文本",
     "useCase": "重构测试",
     "aspectRatio": "",

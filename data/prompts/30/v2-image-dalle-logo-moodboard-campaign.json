@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / DALL-E",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "DALL-E",
+    "task": "Logo 方向情绪板",
     "modality": "图像",
     "useCase": "Logo 方向情绪板",
     "aspectRatio": "{画面比例}",

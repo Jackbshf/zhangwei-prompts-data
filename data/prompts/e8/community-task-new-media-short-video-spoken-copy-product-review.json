@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 口播文案 / 生成产品体验口播",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "口播文案",
+    "task": "生成产品体验口播",
     "modality": "文本",
     "useCase": "生成产品体验口播",
     "aspectRatio": "",

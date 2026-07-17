@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 商品标题 / 生成标题测试组",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "商品标题",
+    "task": "生成标题测试组",
     "modality": "文本",
     "useCase": "生成标题测试组",
     "aspectRatio": "",

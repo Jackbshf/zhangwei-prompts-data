@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 爆款标题 / 生成数字型标题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "爆款标题",
+    "task": "生成数字型标题",
     "modality": "文本",
     "useCase": "生成数字型标题",
     "aspectRatio": "",

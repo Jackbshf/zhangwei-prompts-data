@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "品牌 / 市场 / 内容营销 / 竞品拆解 / 拆解竞品视觉",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "品牌",
+    "scenario": "竞品拆解",
+    "task": "拆解竞品视觉",
     "modality": "图像",
     "useCase": "拆解竞品视觉",
     "aspectRatio": "",

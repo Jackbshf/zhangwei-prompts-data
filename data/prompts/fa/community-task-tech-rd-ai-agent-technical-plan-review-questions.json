@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "技术 / 研发 / AI Agent / 技术方案 / 生成评审问题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "技术",
+    "scenario": "技术方案",
+    "task": "生成评审问题",
     "modality": "文本",
     "useCase": "生成评审问题",
     "aspectRatio": "",

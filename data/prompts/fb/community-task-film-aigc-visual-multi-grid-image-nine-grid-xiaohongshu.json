@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 多宫格图片 / 生成九宫格小红书图",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "多宫格图片",
+    "task": "生成九宫格小红书图",
     "modality": "图像",
     "useCase": "生成九宫格小红书图",
     "aspectRatio": "",

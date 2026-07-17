@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "图像提示词 / FLUX",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "AI 视觉设计",
+    "scenario": "FLUX",
+    "task": "原创角色设定三视图",
     "modality": "图像",
     "useCase": "原创角色设定三视图",
     "aspectRatio": "{画面比例}",

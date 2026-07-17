@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 直播话术 / 处理直播异议",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "直播话术",
+    "task": "处理直播异议",
     "modality": "文本",
     "useCase": "处理直播异议",
     "aspectRatio": "",

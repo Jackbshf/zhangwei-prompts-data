@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / PRD 撰写 / 撰写交互规则",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "PRD 撰写",
+    "task": "撰写交互规则",
     "modality": "文本",
     "useCase": "撰写交互规则",
     "aspectRatio": "",

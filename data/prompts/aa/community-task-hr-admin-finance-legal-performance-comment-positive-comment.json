@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "HR / 行政 / 财务 / 法务 / 绩效评语 / 生成正向绩效评语",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "HR",
+    "scenario": "绩效评语",
+    "task": "生成正向绩效评语",
     "modality": "文本",
     "useCase": "生成正向绩效评语",
     "aspectRatio": "",

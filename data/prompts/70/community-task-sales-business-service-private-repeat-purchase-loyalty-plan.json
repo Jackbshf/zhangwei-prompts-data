@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 老客复购 / 设计老客权益",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "老客复购",
+    "task": "设计老客权益",
     "modality": "图像",
     "useCase": "设计老客权益",
     "aspectRatio": "",

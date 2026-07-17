@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "电商 / 本地生活运营 / 商品标题 / 提炼标题关键词",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "电商",
+    "scenario": "商品标题",
+    "task": "提炼标题关键词",
     "modality": "文本",
     "useCase": "提炼标题关键词",
     "aspectRatio": "",

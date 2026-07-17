@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 电影海报 / 生成海报负面提示词",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "电影海报",
+    "task": "生成海报负面提示词",
     "modality": "图像",
     "useCase": "生成海报负面提示词",
     "aspectRatio": "",

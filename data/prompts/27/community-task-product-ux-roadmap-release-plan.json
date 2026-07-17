@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 版本规划 / 生成版本计划",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "版本规划",
+    "task": "生成版本计划",
     "modality": "文本",
     "useCase": "生成版本计划",
     "aspectRatio": "",

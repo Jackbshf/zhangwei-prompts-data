@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 周报月报 / 生成图表解读",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "周报月报",
+    "task": "生成图表解读",
     "modality": "文本",
     "useCase": "生成图表解读",
     "aspectRatio": "",

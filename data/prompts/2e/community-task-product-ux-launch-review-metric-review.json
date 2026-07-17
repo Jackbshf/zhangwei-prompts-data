@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "产品经理 / 用户体验 / 上线复盘 / 复盘核心指标",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "产品经理",
+    "scenario": "上线复盘",
+    "task": "复盘核心指标",
     "modality": "文本",
     "useCase": "复盘核心指标",
     "aspectRatio": "",

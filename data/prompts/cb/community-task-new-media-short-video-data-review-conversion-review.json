@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 数据复盘 / 复盘转化数据",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "数据复盘",
+    "task": "复盘转化数据",
     "modality": "文本",
     "useCase": "复盘转化数据",
     "aspectRatio": "",

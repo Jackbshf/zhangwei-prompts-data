@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 转化漏斗 / 生成优化方案",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "转化漏斗",
+    "task": "生成优化方案",
     "modality": "文本",
     "useCase": "生成优化方案",
     "aspectRatio": "",

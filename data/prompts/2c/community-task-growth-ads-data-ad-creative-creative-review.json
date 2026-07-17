@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "增长 / 投放 / 数据分析 / 投放创意 / 复盘投放创意",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "增长",
+    "scenario": "投放创意",
+    "task": "复盘投放创意",
     "modality": "文本",
     "useCase": "复盘投放创意",
     "aspectRatio": "",

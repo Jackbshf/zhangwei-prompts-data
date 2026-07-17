@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "新媒体 / 短视频运营 / 评论区运营 / 生成置顶评论",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "新媒体",
+    "scenario": "评论区运营",
+    "task": "生成置顶评论",
     "modality": "文本",
     "useCase": "生成置顶评论",
     "aspectRatio": "",

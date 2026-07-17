@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视提示词 / 单人图片",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "单人图片",
+    "task": "电影感单人肖像",
     "modality": "图像",
     "useCase": "电影感单人肖像",
     "aspectRatio": "9:16",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "影视 / AIGC 视觉创作 / 角色定妆 / 生成角色三视图",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "影视创作",
+    "scenario": "角色定妆",
+    "task": "生成角色三视图",
     "modality": "图像",
     "useCase": "生成角色三视图",
     "aspectRatio": "",

@@ -11,9 +11,9 @@
   },
   "classification": {
     "category": "销售 / 商务 / 客服 / 私域 / 客服回复 / 回复物流问题",
-    "department": "",
-    "scenario": "",
-    "task": "",
+    "department": "销售",
+    "scenario": "客服回复",
+    "task": "回复物流问题",
     "modality": "文本",
     "useCase": "回复物流问题",
     "aspectRatio": "",
