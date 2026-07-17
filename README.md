@@ -37,6 +37,6 @@ Changes reach this repository through pull requests. The gallery pins an exact d
 
 ## Proof execution gates
 
-Proof plans are deterministic and limited to 25 items per batch. They never call paid providers. Image and text runs require an OpenAI key; video runs require the approval-gated Dreamina CLI workflow; media uploads require restricted R2 credentials. CI validates plans and manifests but must never hold paid-generation credentials.
+Proof plans are deterministic and limited to 25 items per batch. Image and text runs require an OpenAI key, and video runs require the approval-gated Dreamina CLI workflow. Proof media is stored under `data/proofs/` and copied into Cloudflare Worker Static Assets by the gallery build; no paid object storage is configured. CI validates plans and manifests but never holds paid-generation credentials.
 
 OpenAI execution additionally requires `--execute` and `PROOF_PAID_EXECUTION=APPROVED`; output files use exclusive creation and never overwrite an existing result. Dreamina commands are emitted only as review packs with paid submission disabled until the exact batch is approved.

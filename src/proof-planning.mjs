@@ -147,7 +147,7 @@ function buildBatches(items, batchSize) {
         currency: "USD",
         openaiUsd: null,
         dreaminaCredits: null,
-        estimatedR2Bytes: null
+        estimatedStaticAssetBytes: null
       },
       items: batchItems
     });

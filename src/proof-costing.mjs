@@ -61,7 +61,7 @@ export function buildCostPlan(plan, pricing = {}) {
       estimatedTextInputTokens: textInputTokens,
       estimatedUsd,
       estimatedDreaminaCredits,
-      estimatedR2Bytes: null,
+      estimatedStaticAssetBytes: null,
       pricingComplete: estimatedUsd !== null && estimatedDreaminaCredits !== null && missing.length === 0
     };
   });
@@ -84,7 +84,7 @@ export function buildCostPlan(plan, pricing = {}) {
       estimatedDreaminaCredits: batches.some((batch) => batch.estimatedDreaminaCredits === null)
         ? null
         : batches.reduce((sum, batch) => sum + batch.estimatedDreaminaCredits, 0),
-      estimatedR2Bytes: null
+      estimatedStaticAssetBytes: null
     }
   };
 }

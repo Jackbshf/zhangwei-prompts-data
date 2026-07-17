@@ -41,7 +41,7 @@ for (const task of tasks) {
 - 模态：视频
 - 状态：review-pending
 - 输出音频：${task.outputAudioPolicy}
-- 目标 R2 key：${task.targetKey}
+- 目标仓库路径：data/${task.targetKey}
 - 付费提交：禁止，等待审核
 
 ## 即梦提示词

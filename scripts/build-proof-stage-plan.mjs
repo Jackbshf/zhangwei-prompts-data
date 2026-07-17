@@ -39,9 +39,9 @@ const output = {
     approved: false,
     maximumUsd: null,
     maximumDreaminaCredits: null,
-    estimatedR2Bytes: null
+    estimatedStaticAssetBytes: null
   },
-  credentialsRequired: ["OPENAI_API_KEY", "Dreamina CLI login", "Cloudflare R2 write credentials"],
+  credentialsRequired: ["OPENAI_API_KEY", "Dreamina CLI login"],
   paidExecutionInCi: false,
   approvalTemplate: {
     approved: false,

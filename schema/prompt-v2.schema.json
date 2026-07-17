@@ -92,7 +92,7 @@
       "required": ["role", "storage", "key", "url", "mimeType", "sha256", "bytes"],
       "properties": {
         "role": { "enum": ["cover", "primary", "transcript", "qa-frame"] },
-        "storage": { "enum": ["repository", "r2"] },
+        "storage": { "const": "repository" },
         "key": { "type": "string", "minLength": 1, "pattern": "^(?!.*(?:^|/)\\.\\.(?:/|$))[a-zA-Z0-9][a-zA-Z0-9._/-]*$" },
         "url": { "type": "string", "pattern": "^/prompts/" },
         "mimeType": { "type": "string", "minLength": 1 },

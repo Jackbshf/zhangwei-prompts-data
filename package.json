@@ -19,7 +19,7 @@
     "proofs:input-review": "node scripts/build-proof-input-review-pack.mjs",
     "proofs:execution-manifest": "node scripts/create-proof-execution-manifest.mjs",
     "proofs:openai": "node scripts/execute-openai-proof-batch.mjs",
-    "proofs:r2-manifest": "node scripts/build-r2-publication-manifest.mjs",
+    "proofs:publication-manifest": "node scripts/build-repository-publication-manifest.mjs",
     "proofs:dreamina-review": "node scripts/build-dreamina-review-pack.mjs",
     "validate": "node scripts/validate.mjs",
     "verify": "npm run test && npm run validate"

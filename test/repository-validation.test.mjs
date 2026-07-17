@@ -99,7 +99,7 @@ test("validateRepository accepts canonical Schema v2 evidence and rejects manife
     rights: { status: "confirmed", basis: "owner-confirmed", confirmedAt: "2026-07-12", note: "测试授权" },
     assets: [{
       role: "primary",
-      storage: "r2",
+      storage: "repository",
       key: "proofs/v2/valid-001/run-001/result.webp",
       url: "/prompts/media/proofs/v2/valid-001/run-001/result.webp",
       mimeType: "image/webp",
@@ -112,6 +112,8 @@ test("validateRepository accepts canonical Schema v2 evidence and rejects manife
     run: { runId: "run-001", inputSha256: digest, outputSha256: digest, parameters: {}, attempt: 1 },
     qa: { automatedStatus: "passed", humanStatus: "not-reviewed", checks: ["decode"], reviewedAt: "", failureReason: "" }
   };
+  await mkdir(path.join(root, "data/proofs/v2/valid-001/run-001"), { recursive: true });
+  await writeFile(path.join(root, "data/proofs/v2/valid-001/run-001/result.webp"), "proof");
   await writeJson(path.join(root, promptPathForId(prompt.id)), prompt);
   await writeJson(path.join(root, "data/proofs/manifest-v2.json"), {
     schemaVersion: 2,

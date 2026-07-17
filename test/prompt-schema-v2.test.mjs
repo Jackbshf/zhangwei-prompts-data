@@ -68,6 +68,13 @@ test("validatePromptV2 rejects verified proof below the commercial quality thres
   assert.ok(validatePromptV2(prompt).includes("publication.qualityScore"));
 });
 
+test("validatePromptV2 only permits repository-hosted proof assets", () => {
+  const prompt = toPromptV2(legacyPrompt("图像"));
+  prompt.proof.assets[0].storage = "external";
+
+  assert.ok(validatePromptV2(prompt).some((field) => field.includes("storage")));
+});
+
 test("fromPromptV2 preserves the legacy public compatibility contract", () => {
   const prompt = toPromptV2(legacyPrompt("图像"));
   const publicPrompt = fromPromptV2(prompt);
