@@ -21,6 +21,7 @@ npm.cmd run verify
 npm.cmd run proofs:plan -- --stage=240 --batch-size=25
 npm.cmd run proofs:execution-manifest -- --stage=240 --batch=001 --approval=output/approval-stage-240-batch-001.json
 npm.cmd run proofs:dreamina-review -- --manifest=output/execution/stage-240-batch-001.json
+npm.cmd run proofs:promote-legacy-runs
 ```
 
 The one-time migration reads the current gallery baseline and the legacy source without modifying either repository:

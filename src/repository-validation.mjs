@@ -155,6 +155,7 @@ export async function validateRepository(root, expected = {}) {
     if (!prompt?.proof) throw new Error(`Orphan proof manifest entry: ${id}`);
     const legacyAsset = prompt.schemaVersion === 2
       ? prompt.proof.assets.find((asset) => asset.storage === "repository" && asset.role === "cover")
+        || prompt.proof.assets.find((asset) => asset.storage === "repository" && asset.role === "primary")
       : null;
     const assetPath = legacyAsset?.key || prompt.proof.assetPath;
     const filename = path.basename(assetPath);

@@ -69,16 +69,16 @@
     "rightsStatus": "pending"
   },
   "proof": {
-    "status": "preview",
+    "status": "run-verified",
     "modality": "image",
     "provider": "openai",
     "model": "ChatGPT web / GPT Image",
     "testedAt": "2026-07-05T04:37:00.093Z",
-    "resultNote": "Legacy generated image has complete run provenance and awaits human visual review.",
-    "evidenceLevel": "generated-preview",
+    "resultNote": "Actual model output is linked to its exact recovered generation input and passed machine-assisted asset checks; human visual review is not claimed.",
+    "evidenceLevel": "verified-output",
     "assets": [
       {
-        "role": "cover",
+        "role": "primary",
         "storage": "repository",
         "key": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
         "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
@@ -98,7 +98,9 @@
         "source": "Codex browser automation",
         "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
         "inputRecovery": "exact",
-        "outputRole": "preview-cover"
+        "outputRole": "verified-preview-generation-output",
+        "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
+        "verificationType": "machine-assisted"
       },
       "attempt": 1
     },
@@ -110,7 +112,14 @@
         "output-sha256-recorded",
         "original-input-recovered",
         "asset-rights-confirmed",
-        "modality-output-matched"
+        "modality-output-matched",
+        "machine-assisted:prompt-id-match",
+        "machine-assisted:visual-relevance",
+        "machine-assisted:no-duplicate-image",
+        "machine-assisted:no-watermark-or-recognizable-brand",
+        "machine-assisted:no-garbled-readable-text",
+        "machine-assisted:no-obvious-anatomy-or-object-failure",
+        "machine-assisted:commercial-safety"
       ],
       "reviewedAt": "",
       "failureReason": ""

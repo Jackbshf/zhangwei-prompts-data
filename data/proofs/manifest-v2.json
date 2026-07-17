@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "releaseBatch": "proof-v2-pilot-preflight-2026-07-17",
-  "updatedAt": "2026-07-17",
+  "releaseBatch": "legacy-machine-verification-2026-07-18",
+  "updatedAt": "2026-07-18",
   "entries": {
     "cinematic-multi-person-image-001": {
       "status": "preview",
@@ -4191,12 +4191,12 @@
       }
     },
     "community-task-ecommerce-local-life-hero-image-selling-feature-callout": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -4205,7 +4205,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-feature-callout.webp",
           "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-feature-callout.webp",
@@ -4225,7 +4225,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-hero-image-selling-feature-callout",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-ecommerce-local-life-hero-image-selling-feature-callout",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -4237,19 +4239,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-ecommerce-local-life-hero-image-selling-main-image-copy": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -4258,7 +4267,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-main-image-copy.webp",
           "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-main-image-copy.webp",
@@ -4278,7 +4287,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-hero-image-selling-main-image-copy",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-ecommerce-local-life-hero-image-selling-main-image-copy",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -4290,19 +4301,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-ecommerce-local-life-hero-image-selling-price-benefit": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -4311,7 +4329,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-price-benefit.webp",
           "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-price-benefit.webp",
@@ -4331,7 +4349,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-hero-image-selling-price-benefit",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-ecommerce-local-life-hero-image-selling-price-benefit",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -4343,19 +4363,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-ecommerce-local-life-hero-image-selling-scenario-visual": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -4364,7 +4391,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
           "url": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
@@ -4384,7 +4411,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -4396,7 +4425,14 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
@@ -4880,12 +4916,12 @@
       }
     },
     "community-task-film-aigc-visual-image-to-video-portrait-motion": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -4894,7 +4930,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-image-to-video-portrait-motion.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-image-to-video-portrait-motion.webp",
@@ -4914,7 +4950,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-image-to-video-portrait-motion",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-image-to-video-portrait-motion",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -4926,19 +4964,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-image-to-video-product-motion": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -4947,7 +4992,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-image-to-video-product-motion.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-image-to-video-product-motion.webp",
@@ -4967,7 +5012,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-film-aigc-visual-image-to-video-product-motion",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-image-to-video-product-motion",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -4979,19 +5026,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-movie-poster-character-poster": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5000,7 +5054,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-movie-poster-character-poster.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-character-poster.webp",
@@ -5020,7 +5074,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-movie-poster-character-poster",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-movie-poster-character-poster",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5032,19 +5088,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-movie-poster-cinematic-poster": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5053,7 +5116,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-movie-poster-cinematic-poster.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-cinematic-poster.webp",
@@ -5073,7 +5136,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-movie-poster-cinematic-poster",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-movie-poster-cinematic-poster",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5085,19 +5150,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-movie-poster-concept-poster": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5106,7 +5178,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-movie-poster-concept-poster.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-concept-poster.webp",
@@ -5126,7 +5198,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-movie-poster-concept-poster",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-movie-poster-concept-poster",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5138,19 +5212,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-movie-poster-festival-poster": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5159,7 +5240,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-movie-poster-festival-poster.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-festival-poster.webp",
@@ -5179,7 +5260,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-movie-poster-festival-poster",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-movie-poster-festival-poster",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5191,19 +5274,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-movie-poster-poster-negative": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5212,7 +5302,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-movie-poster-poster-negative.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-poster-negative.webp",
@@ -5232,7 +5322,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-movie-poster-poster-negative",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-movie-poster-poster-negative",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5244,19 +5336,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-movie-poster-poster-typography": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5265,7 +5364,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-movie-poster-poster-typography.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-poster-typography.webp",
@@ -5285,7 +5384,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-movie-poster-poster-typography",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-movie-poster-poster-typography",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5297,19 +5398,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-multi-grid-image-multi-angle-product": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5318,7 +5426,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-multi-grid-image-multi-angle-product.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-multi-grid-image-multi-angle-product.webp",
@@ -5338,7 +5446,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-film-aigc-visual-multi-grid-image-multi-angle-product",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-multi-grid-image-multi-angle-product",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5350,19 +5460,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5371,7 +5488,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu.webp",
@@ -5391,7 +5508,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5403,19 +5522,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-short-drama-cover-cover-text-prompt": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5424,7 +5550,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-cover-text-prompt.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-cover-text-prompt.webp",
@@ -5444,7 +5570,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-short-drama-cover-cover-text-prompt",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-short-drama-cover-cover-text-prompt",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5456,19 +5584,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-short-drama-cover-drama-cover-hook": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5477,7 +5612,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-drama-cover-hook.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-drama-cover-hook.webp",
@@ -5497,7 +5632,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-short-drama-cover-drama-cover-hook",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-short-drama-cover-drama-cover-hook",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5509,19 +5646,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-short-drama-cover-emotion-cover": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5530,7 +5674,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-emotion-cover.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-emotion-cover.webp",
@@ -5550,7 +5694,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-short-drama-cover-emotion-cover",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-short-drama-cover-emotion-cover",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5562,19 +5708,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-short-drama-cover-episode-cover-set": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5583,7 +5736,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-episode-cover-set.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-episode-cover-set.webp",
@@ -5603,7 +5756,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-short-drama-cover-episode-cover-set",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-short-drama-cover-episode-cover-set",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5615,19 +5770,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-short-drama-cover-reversal-cover": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5636,7 +5798,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-reversal-cover.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-reversal-cover.webp",
@@ -5656,7 +5818,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-short-drama-cover-reversal-cover",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-short-drama-cover-reversal-cover",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5668,19 +5832,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-short-drama-cover-vertical-cover": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5689,7 +5860,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-short-drama-cover-vertical-cover.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-short-drama-cover-vertical-cover.webp",
@@ -5709,7 +5880,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-short-drama-cover-vertical-cover",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-short-drama-cover-vertical-cover",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5721,19 +5894,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-single-grid-image-single-cover": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5742,7 +5922,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-single-grid-image-single-cover.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-cover.webp",
@@ -5762,7 +5942,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-single-grid-image-single-cover",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-single-grid-image-single-cover",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5774,19 +5956,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-single-grid-image-single-poster": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5795,7 +5984,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-single-grid-image-single-poster.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-poster.webp",
@@ -5815,7 +6004,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-single-grid-image-single-poster",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-single-grid-image-single-poster",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5827,19 +6018,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-single-grid-image-single-product-hero": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-07-05T04:37:00.093Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5848,7 +6046,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-single-grid-image-single-product-hero.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-product-hero.webp",
@@ -5868,7 +6066,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-stages/stage-01-batch-001-050.json#community-task-film-aigc-visual-single-grid-image-single-product-hero",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-single-grid-image-single-product-hero",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5880,19 +6080,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-film-aigc-visual-single-person-image-fashion-portrait": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5901,7 +6108,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
           "url": "/prompts/proofs/generated/community-task-film-aigc-visual-single-person-image-fashion-portrait.webp",
@@ -5921,7 +6128,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-film-aigc-visual-single-person-image-fashion-portrait",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-film-aigc-visual-single-person-image-fashion-portrait",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5933,19 +6142,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-new-media-short-video-cover-design-cover-image-prompt": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -5954,7 +6170,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
           "url": "/prompts/proofs/generated/community-task-new-media-short-video-cover-design-cover-image-prompt.webp",
@@ -5974,7 +6190,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-new-media-short-video-cover-design-cover-image-prompt",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-new-media-short-video-cover-design-cover-image-prompt",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -5986,19 +6204,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-new-media-short-video-cover-design-cover-text-check": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -6007,7 +6232,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-new-media-short-video-cover-design-cover-text-check.webp",
           "url": "/prompts/proofs/generated/community-task-new-media-short-video-cover-design-cover-text-check.webp",
@@ -6027,7 +6252,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-new-media-short-video-cover-design-cover-text-check",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-new-media-short-video-cover-design-cover-text-check",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -6039,19 +6266,26 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
       }
     },
     "community-task-new-media-short-video-short-video-script-title-cover-tags": {
-      "status": "preview",
+      "status": "run-verified",
       "modality": "image",
       "provider": "openai",
       "model": "ChatGPT web / GPT Image",
       "testedAt": "2026-06-20T17:39:50.608Z",
-      "evidenceLevel": "generated-preview",
+      "evidenceLevel": "verified-output",
       "rights": {
         "status": "confirmed",
         "basis": "repository-owner-confirmed",
@@ -6060,7 +6294,7 @@
       },
       "assets": [
         {
-          "role": "cover",
+          "role": "primary",
           "storage": "repository",
           "key": "proofs/generated/community-task-new-media-short-video-short-video-script-title-cover-tags.webp",
           "url": "/prompts/proofs/generated/community-task-new-media-short-video-short-video-script-title-cover-tags.webp",
@@ -6080,7 +6314,9 @@
           "source": "Codex browser automation",
           "sourceInputReference": "legacy-gallery/output/preview-image-batch-001.json#community-task-new-media-short-video-short-video-script-title-cover-tags",
           "inputRecovery": "exact",
-          "outputRole": "preview-cover"
+          "outputRole": "verified-preview-generation-output",
+          "verificationDecision": "data/proofs/legacy-run-verification-decisions.json#community-task-new-media-short-video-short-video-script-title-cover-tags",
+          "verificationType": "machine-assisted"
         },
         "attempt": 1
       },
@@ -6092,7 +6328,14 @@
           "output-sha256-recorded",
           "original-input-recovered",
           "asset-rights-confirmed",
-          "modality-output-matched"
+          "modality-output-matched",
+          "machine-assisted:prompt-id-match",
+          "machine-assisted:visual-relevance",
+          "machine-assisted:no-duplicate-image",
+          "machine-assisted:no-watermark-or-recognizable-brand",
+          "machine-assisted:no-garbled-readable-text",
+          "machine-assisted:no-obvious-anatomy-or-object-failure",
+          "machine-assisted:commercial-safety"
         ],
         "reviewedAt": "",
         "failureReason": ""
