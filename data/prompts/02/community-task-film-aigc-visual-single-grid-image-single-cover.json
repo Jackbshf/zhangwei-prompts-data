@@ -74,7 +74,7 @@
     "provider": "openai",
     "model": "ChatGPT web / GPT Image",
     "testedAt": "2026-06-20T17:39:50.608Z",
-    "resultNote": "Actual model output is linked to its exact recovered generation input and passed machine-assisted asset checks; human visual review is not claimed.",
+    "resultNote": "真实模型输出已关联精确恢复的生成输入，并通过机器辅助资产检查；未声称完成人工视觉复核。",
     "evidenceLevel": "verified-output",
     "assets": [
       {

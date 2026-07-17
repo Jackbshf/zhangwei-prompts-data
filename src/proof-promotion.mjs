@@ -74,7 +74,7 @@ export function promoteLegacyProofToRunVerified(prompt, auditEntry, decisionBatc
     proof: {
       ...prompt.proof,
       status: "run-verified",
-      resultNote: "Actual model output is linked to its exact recovered generation input and passed machine-assisted asset checks; human visual review is not claimed.",
+      resultNote: "真实模型输出已关联精确恢复的生成输入，并通过机器辅助资产检查；未声称完成人工视觉复核。",
       evidenceLevel: "verified-output",
       assets: prompt.proof.assets.map((item) => item === asset ? { ...item, role: "primary" } : item),
       run: {
