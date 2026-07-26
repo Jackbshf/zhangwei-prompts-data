@@ -4,45 +4,74 @@
   "title": "电影感单镜头",
   "summary": "人物、场景、光影、构图和负面词完整约束，适合 AIGC 视觉、短剧封面和分镜预演。",
   "audience": "AIGC 视觉创作者 / 短剧团队 / 导演",
-  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-single-grid-image-single-product-hero.webp",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-movie-poster-cinematic-poster.webp",
   "proofModel": "ChatGPT web / GPT Image",
-  "proofType": "GPT Image 效果预览",
-  "promptCount": 18,
+  "proofType": "成员运行记录",
+  "promptCount": 27,
   "samplePrompts": [
     {
-      "id": "community-task-film-aigc-visual-multi-person-image-team-scene",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 生成团队场景",
+      "id": "community-task-film-aigc-visual-movie-poster-cinematic-poster",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 电影海报 · 生成电影感海报",
       "modality": "图像",
       "tool": "ChatGPT / GPT Image",
       "qualityScore": 98
     },
     {
-      "id": "community-task-film-aigc-visual-multi-person-image-crowd-atmosphere",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 生成群像氛围图",
+      "id": "cinematic-single-person-image-001",
+      "title": "影视导演工作台 · 电影剧照单人肖像",
       "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
-      "qualityScore": 98
+      "tool": "通用中文",
+      "qualityScore": 92
     },
     {
-      "id": "community-task-film-aigc-visual-multi-person-image-relationship-blocking",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 安排人物站位关系",
+      "id": "cinematic-single-person-image-002",
+      "title": "影视导演工作台 · 女性角色定妆照",
       "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
-      "qualityScore": 98
+      "tool": "Midjourney",
+      "qualityScore": 92
     },
     {
-      "id": "community-task-film-aigc-visual-multi-person-image-multi-person-negative",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多人图片 · 生成多人负面提示词",
+      "id": "cinematic-single-person-image-003",
+      "title": "影视导演工作台 · 男性角色定妆照",
       "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
-      "qualityScore": 98
+      "tool": "Stable Diffusion / SDXL",
+      "qualityScore": 92
     },
     {
-      "id": "community-task-film-aigc-visual-single-grid-image-single-product-hero",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 单宫格图片 · 生成单张产品主视觉",
+      "id": "cinematic-single-person-image-004",
+      "title": "影视导演工作台 · 古风人物",
       "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
-      "qualityScore": 98
+      "tool": "Runway",
+      "qualityScore": 92
     }
+  ],
+  "promptIds": [
+    "community-task-film-aigc-visual-movie-poster-cinematic-poster",
+    "cinematic-single-person-image-001",
+    "cinematic-single-person-image-002",
+    "cinematic-single-person-image-003",
+    "cinematic-single-person-image-004",
+    "cinematic-single-person-image-005",
+    "cinematic-single-person-image-006",
+    "cinematic-single-person-image-007",
+    "cinematic-single-person-image-008",
+    "cinematic-single-person-image-009",
+    "cinematic-single-person-image-010",
+    "cinematic-single-person-image-011",
+    "cinematic-single-person-image-012",
+    "cinematic-single-person-image-013",
+    "cinematic-single-person-image-014",
+    "cinematic-single-person-image-015",
+    "cinematic-single-person-image-016",
+    "cinematic-single-person-image-017",
+    "cinematic-single-person-image-018",
+    "cinematic-single-person-image-019",
+    "cinematic-single-person-image-020",
+    "cinematic-single-person-image-021",
+    "cinematic-single-person-image-022",
+    "cinematic-single-person-image-023",
+    "cinematic-single-person-image-024",
+    "cinematic-single-person-image-025",
+    "cinematic-multi-panel-image-022"
   ]
 }

@@ -5,6 +5,7 @@ import { promptPathForId, validatePromptV1 } from "./prompt-schema.mjs";
 import { exclusionReportDigest } from "./migration.mjs";
 
 const secretPattern = /((^|[^A-Za-z0-9_-])sk-[A-Za-z0-9_-]{20,}|(^|[^A-Za-z0-9_])gh[pousr]_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{30,}|xox[baprs]-[0-9A-Za-z-]{20,}|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}|https?:\/\/[^\s/:]+:[^\s/@]+@|-----BEGIN (RSA |OPENSSH |EC |)PRIVATE KEY-----)/;
+const PUBLIC_STATUSES = new Set(["published", "published-no-image", "published-proofed"]);
 
 async function walk(dir, predicate = () => true) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -40,6 +41,7 @@ export async function validateRepository(root, expected = {}) {
   const ids = new Set();
   const promptById = new Map();
   const collectionIds = new Set();
+  const collections = [];
   const prompts = [];
 
   for (const file of collectionFiles) {
@@ -48,6 +50,7 @@ export async function validateRepository(root, expected = {}) {
       throw new Error(`Invalid collection: ${path.relative(root, file)}`);
     }
     collectionIds.add(collection.id);
+    collections.push(collection);
   }
 
   for (const file of promptFiles) {
@@ -71,6 +74,27 @@ export async function validateRepository(root, expected = {}) {
       await access(path.join(root, "data", prompt.proof.assetPath)).catch(() => {
         throw new Error(`Prompt ${prompt.id} references missing proof ${prompt.proof.assetPath}`);
       });
+    }
+  }
+
+  for (const collection of collections) {
+    if (!Object.hasOwn(collection, "promptIds")) continue;
+    const promptIds = Array.isArray(collection.promptIds) ? collection.promptIds : [];
+    if (!promptIds.length || new Set(promptIds).size !== promptIds.length) {
+      throw new Error(`Collection ${collection.id} must define unique promptIds.`);
+    }
+    for (const id of promptIds) {
+      const prompt = promptById.get(id);
+      if (!prompt || !PUBLIC_STATUSES.has(prompt.publication.status) || prompt.publication.copyReady === false) {
+        throw new Error(`Collection ${collection.id} references an unavailable prompt: ${id}`);
+      }
+    }
+    const sampleIds = (collection.samplePrompts || []).map((item) => item.id);
+    if (sampleIds.some((id) => !promptIds.includes(id))) {
+      throw new Error(`Collection ${collection.id} contains a sample outside promptIds.`);
+    }
+    if (collection.promptCount !== promptIds.length) {
+      throw new Error(`Collection ${collection.id} promptCount mismatch.`);
     }
   }
 

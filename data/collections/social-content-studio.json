@@ -4,45 +4,58 @@
   "title": "小红书与社媒内容",
   "summary": "标题、封面、笔记、账号定位和选题拆解，适合批量生成但保留人工编辑口径。",
   "audience": "新媒体 / 内容运营 / 个人品牌",
-  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-image-to-video-product-motion.webp",
+  "coverImageUrl": "/prompts/proofs/generated/community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu.webp",
   "proofModel": "ChatGPT web / GPT Image",
-  "proofType": "GPT Image 效果预览",
-  "promptCount": 14,
+  "proofType": "成员运行记录",
+  "promptCount": 11,
   "samplePrompts": [
     {
-      "id": "community-task-film-aigc-visual-text-to-video-camera-movement",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成镜头运动提示词",
+      "id": "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu",
+      "title": "社区分享 · 影视 / AIGC 视觉创作 · 多宫格图片 · 生成九宫格小红书图",
       "modality": "图像",
       "tool": "ChatGPT / GPT Image",
       "qualityScore": 98
     },
     {
-      "id": "community-task-film-aigc-visual-text-to-video-subject-motion",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成主体运动提示词",
+      "id": "community-task-new-media-short-video-short-video-script-title-cover-tags",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 短视频脚本 · 生成标题 + 封面文案 + 话题标签",
       "modality": "图像",
       "tool": "ChatGPT / GPT Image",
       "qualityScore": 98
     },
     {
-      "id": "community-task-film-aigc-visual-text-to-video-scene-transition",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成场景变化提示词",
+      "id": "cinematic-single-panel-image-018",
+      "title": "影视导演工作台 · 单张小红书封面",
       "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
+      "tool": "Google Veo",
+      "qualityScore": 92
+    },
+    {
+      "id": "community-task-new-media-short-video-account-positioning-account-diagnosis",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 账号定位 · 诊断账号定位",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
       "qualityScore": 98
     },
     {
-      "id": "community-task-film-aigc-visual-text-to-video-duration-rhythm",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成时长和节奏约束",
-      "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
-      "qualityScore": 98
-    },
-    {
-      "id": "community-task-film-aigc-visual-text-to-video-video-stability",
-      "title": "社区分享 · 影视 / AIGC 视觉创作 · 文生视频 · 生成稳定性约束",
-      "modality": "图像",
-      "tool": "ChatGPT / GPT Image",
+      "id": "community-task-new-media-short-video-account-positioning-audience-profile",
+      "title": "社区分享 · 新媒体 / 短视频运营 · 账号定位 · 生成目标用户画像",
+      "modality": "文本",
+      "tool": "ChatGPT / DeepSeek / Claude",
       "qualityScore": 98
     }
+  ],
+  "promptIds": [
+    "community-task-film-aigc-visual-multi-grid-image-nine-grid-xiaohongshu",
+    "community-task-new-media-short-video-short-video-script-title-cover-tags",
+    "cinematic-single-panel-image-018",
+    "community-task-new-media-short-video-account-positioning-account-diagnosis",
+    "community-task-new-media-short-video-account-positioning-audience-profile",
+    "community-task-new-media-short-video-account-positioning-bio-optimization",
+    "community-task-new-media-short-video-account-positioning-content-pillars",
+    "community-task-new-media-short-video-account-positioning-differentiation",
+    "community-task-new-media-short-video-account-positioning-persona-positioning",
+    "community-task-new-media-short-video-short-video-script-xiaohongshu-note",
+    "community-task-new-media-short-video-viral-title-xiaohongshu-title"
   ]
 }
