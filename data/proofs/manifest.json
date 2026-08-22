@@ -1,6 +1,6 @@
 {
   "version": "prompt-preview-images-2026-05-24",
-  "updatedAt": "2026-07-05T04:37:00.093Z",
+  "updatedAt": "2026-08-22T15:06:14.298Z",
   "images": {
     "cinematic-multi-person-image-001": {
       "model": "ChatGPT web / GPT Image",
@@ -712,6 +712,105 @@
       "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-detail-audit.webp",
       "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 检查详情页缺口"
     },
+    "community-task-ecommerce-local-life-detail-page-faq-section": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-detail-page-faq-section",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-faq-section.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 生成详情页 FAQ"
+    },
+    "community-task-ecommerce-local-life-detail-page-page-structure": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-detail-page-page-structure",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-page-structure.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 生成详情页结构"
+    },
+    "community-task-ecommerce-local-life-detail-page-selling-points": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-detail-page-selling-points",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-selling-points.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 提炼详情页卖点"
+    },
+    "community-task-ecommerce-local-life-detail-page-trust-proof": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-detail-page-trust-proof",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-detail-page-trust-proof.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品详情页 · 生成信任背书文案"
+    },
+    "community-task-ecommerce-local-life-group-buying-copy-deal-description": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-group-buying-copy-deal-description",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-group-buying-copy-deal-description.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 团购文案 · 生成团购详情"
+    },
+    "community-task-ecommerce-local-life-group-buying-copy-deal-risk-check": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-group-buying-copy-deal-risk-check",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-group-buying-copy-deal-risk-check.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 团购文案 · 检查团购合规"
+    },
+    "community-task-ecommerce-local-life-group-buying-copy-deal-title": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-group-buying-copy-deal-title",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-group-buying-copy-deal-title.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 团购文案 · 生成团购标题"
+    },
+    "community-task-ecommerce-local-life-group-buying-copy-package-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-group-buying-copy-package-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-group-buying-copy-package-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 团购文案 · 生成套餐说明"
+    },
+    "community-task-ecommerce-local-life-group-buying-copy-redeem-notice": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-group-buying-copy-redeem-notice",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-group-buying-copy-redeem-notice.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 团购文案 · 生成核销须知"
+    },
+    "community-task-ecommerce-local-life-group-buying-copy-urgency-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-group-buying-copy-urgency-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-group-buying-copy-urgency-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 团购文案 · 生成限时稀缺文案"
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-before-after": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-hero-image-selling-before-after",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-before-after.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 生成前后对比图文案"
+    },
     "community-task-ecommerce-local-life-hero-image-selling-feature-callout": {
       "model": "ChatGPT web / GPT Image",
       "generatedAt": "2026-07-05T04:37:00.093Z",
@@ -747,6 +846,60 @@
       "promptId": "community-task-ecommerce-local-life-hero-image-selling-scenario-visual",
       "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-scenario-visual.webp",
       "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 生成场景主图提示词"
+    },
+    "community-task-ecommerce-local-life-hero-image-selling-visual-risk-check": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-hero-image-selling-visual-risk-check",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-hero-image-selling-visual-risk-check.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 主图卖点 · 检查主图合规风险"
+    },
+    "community-task-ecommerce-local-life-influencer-store-visit-photo-shot-list": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-influencer-store-visit-photo-shot-list",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-photo-shot-list.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 生成拍摄清单"
+    },
+    "community-task-ecommerce-local-life-influencer-store-visit-review-rewrite": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-influencer-store-visit-review-rewrite",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-review-rewrite.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 改写达人口吻"
+    },
+    "community-task-ecommerce-local-life-influencer-store-visit-route-plan": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-influencer-store-visit-route-plan",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-route-plan.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 规划体验路线"
+    },
+    "community-task-ecommerce-local-life-influencer-store-visit-short-note": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-influencer-store-visit-short-note",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-short-note.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 生成探店笔记"
+    },
+    "community-task-ecommerce-local-life-influencer-store-visit-store-selling-points": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-influencer-store-visit-store-selling-points",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-influencer-store-visit-store-selling-points.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 达人探店 · 提炼门店卖点"
     },
     "community-task-ecommerce-local-life-influencer-store-visit-store-visit-script": {
       "model": "ChatGPT web / GPT Image",
@@ -811,6 +964,42 @@
       "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-live-stream-script-product-demo.webp",
       "title": "社区分享 · 电商 / 本地生活运营 · 直播话术 · 生成产品讲解话术"
     },
+    "community-task-ecommerce-local-life-private-repeat-community-sale": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-private-repeat-community-sale",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-community-sale.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 生成社群成交文案"
+    },
+    "community-task-ecommerce-local-life-private-repeat-lifecycle-message": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-private-repeat-lifecycle-message",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-lifecycle-message.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 生成生命周期触达"
+    },
+    "community-task-ecommerce-local-life-private-repeat-member-welcome": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-private-repeat-member-welcome",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-member-welcome.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 生成会员欢迎语"
+    },
+    "community-task-ecommerce-local-life-private-repeat-repeat-offer": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-private-repeat-repeat-offer",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-repeat-offer.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 生成复购优惠"
+    },
     "community-task-ecommerce-local-life-private-repeat-repeat-review": {
       "model": "ChatGPT web / GPT Image",
       "generatedAt": "2026-07-05T04:37:00.093Z",
@@ -820,6 +1009,87 @@
       "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-repeat-review.webp",
       "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 复盘复购路径"
     },
+    "community-task-ecommerce-local-life-private-repeat-winback-message": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-private-repeat-winback-message",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-private-repeat-winback-message.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 私域复购 · 召回沉睡用户"
+    },
+    "community-task-ecommerce-local-life-product-title-benefit-title": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-product-title-benefit-title",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-product-title-benefit-title.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品标题 · 生成卖点型商品标题"
+    },
+    "community-task-ecommerce-local-life-product-title-platform-title": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-product-title-platform-title",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-product-title-platform-title.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品标题 · 改写平台标题"
+    },
+    "community-task-ecommerce-local-life-product-title-seo-title": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-product-title-seo-title",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-product-title-seo-title.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品标题 · 生成搜索型商品标题"
+    },
+    "community-task-ecommerce-local-life-product-title-title-ab-test": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-product-title-title-ab-test",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-product-title-title-ab-test.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品标题 · 生成标题测试组"
+    },
+    "community-task-ecommerce-local-life-product-title-title-keywords": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-product-title-title-keywords",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-product-title-title-keywords.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品标题 · 提炼标题关键词"
+    },
+    "community-task-ecommerce-local-life-product-title-title-risk-check": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-product-title-title-risk-check",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-product-title-title-risk-check.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 商品标题 · 检查违规词"
+    },
+    "community-task-ecommerce-local-life-promotion-campaign-campaign-calendar": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-promotion-campaign-campaign-calendar",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-campaign-calendar.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 规划促销节奏"
+    },
+    "community-task-ecommerce-local-life-promotion-campaign-campaign-page-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-promotion-campaign-campaign-page-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-campaign-page-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 生成活动页文案"
+    },
     "community-task-ecommerce-local-life-promotion-campaign-campaign-review": {
       "model": "ChatGPT web / GPT Image",
       "generatedAt": "2026-07-05T04:37:00.093Z",
@@ -828,6 +1098,87 @@
       "promptId": "community-task-ecommerce-local-life-promotion-campaign-campaign-review",
       "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-campaign-review.webp",
       "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 复盘促销活动"
+    },
+    "community-task-ecommerce-local-life-promotion-campaign-campaign-theme": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-promotion-campaign-campaign-theme",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-campaign-theme.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 生成活动主题"
+    },
+    "community-task-ecommerce-local-life-promotion-campaign-coupon-copy": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-promotion-campaign-coupon-copy",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-coupon-copy.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 生成优惠券文案"
+    },
+    "community-task-ecommerce-local-life-promotion-campaign-festival-promotion": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-promotion-campaign-festival-promotion",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-promotion-campaign-festival-promotion.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 活动促销 · 生成节日促销"
+    },
+    "community-task-ecommerce-local-life-review-reply-negative-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-review-reply-negative-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-review-reply-negative-review.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 用户评价回复 · 安抚差评"
+    },
+    "community-task-ecommerce-local-life-review-reply-neutral-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-review-reply-neutral-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-review-reply-neutral-review.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 用户评价回复 · 回复中评"
+    },
+    "community-task-ecommerce-local-life-review-reply-positive-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-review-reply-positive-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-review-reply-positive-review.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 用户评价回复 · 回复好评"
+    },
+    "community-task-ecommerce-local-life-review-reply-question-review": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-review-reply-question-review",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-review-reply-question-review.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 用户评价回复 · 回复评价提问"
+    },
+    "community-task-ecommerce-local-life-review-reply-review-invite": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-review-reply-review-invite",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-review-reply-review-invite.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 用户评价回复 · 引导用户追评"
+    },
+    "community-task-ecommerce-local-life-review-reply-review-summary": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-ecommerce-local-life-review-reply-review-summary",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-ecommerce-local-life-review-reply-review-summary.webp",
+      "title": "社区分享 · 电商 / 本地生活运营 · 用户评价回复 · 总结评价洞察"
     },
     "community-task-film-aigc-visual-image-to-video-portrait-motion": {
       "model": "ChatGPT web / GPT Image",
@@ -1045,6 +1396,60 @@
       "coverImageUrl": "/prompts/proofs/generated/community-task-new-media-short-video-spoken-copy-product-review.webp",
       "title": "社区分享 · 新媒体 / 短视频运营 · 口播文案 · 生成产品体验口播"
     },
+    "community-task-product-ux-acceptance-acceptance-criteria": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-acceptance-acceptance-criteria",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-acceptance-acceptance-criteria.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 功能验收 · 生成验收标准"
+    },
+    "community-task-product-ux-acceptance-acceptance-report": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-acceptance-acceptance-report",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-acceptance-acceptance-report.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 功能验收 · 生成验收报告"
+    },
+    "community-task-product-ux-acceptance-bug-template": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-acceptance-bug-template",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-acceptance-bug-template.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 功能验收 · 生成缺陷描述"
+    },
+    "community-task-product-ux-acceptance-edge-case-check": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-acceptance-edge-case-check",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-acceptance-edge-case-check.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 功能验收 · 补充边界条件"
+    },
+    "community-task-product-ux-acceptance-release-checklist": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-acceptance-release-checklist",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-acceptance-release-checklist.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 功能验收 · 生成上线检查清单"
+    },
+    "community-task-product-ux-acceptance-test-scenarios": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-acceptance-test-scenarios",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-acceptance-test-scenarios.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 功能验收 · 生成测试场景"
+    },
     "community-task-product-ux-competitor-research-competitor-list": {
       "model": "ChatGPT web / GPT Image",
       "generatedAt": "2026-07-05T04:37:00.093Z",
@@ -1125,6 +1530,51 @@
       "promptId": "community-task-product-ux-launch-review-metric-review",
       "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-metric-review.webp",
       "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 复盘核心指标"
+    },
+    "community-task-product-ux-launch-review-next-iteration": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-launch-review-next-iteration",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-next-iteration.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 生成后续迭代"
+    },
+    "community-task-product-ux-launch-review-stakeholder-report": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-launch-review-stakeholder-report",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-stakeholder-report.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 生成汇报材料"
+    },
+    "community-task-product-ux-launch-review-user-feedback": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-launch-review-user-feedback",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-launch-review-user-feedback.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · 上线复盘 · 分析用户反馈"
+    },
+    "community-task-product-ux-prd-writing-business-rules": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-prd-writing-business-rules",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-prd-writing-business-rules.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · PRD 撰写 · 整理业务规则"
+    },
+    "community-task-product-ux-prd-writing-edge-cases": {
+      "model": "ChatGPT web / GPT Image",
+      "generatedAt": "2026-08-22T15:06:14.298Z",
+      "source": "Codex browser automation",
+      "status": "generated",
+      "promptId": "community-task-product-ux-prd-writing-edge-cases",
+      "coverImageUrl": "/prompts/proofs/generated/community-task-product-ux-prd-writing-edge-cases.webp",
+      "title": "社区分享 · 产品经理 / 用户体验 · PRD 撰写 · 补充异常场景"
     },
     "community-task-product-ux-requirement-analysis-priority-ranking": {
       "model": "ChatGPT web / GPT Image",

@@ -66,14 +66,21 @@
     "licenseConfirmed": false,
     "submissionIssueNumber": null
   },
-  "proof": null,
+  "proof": {
+    "assetPath": "proofs/generated/community-task-product-ux-launch-review-user-feedback.webp",
+    "type": "GPT Image 效果预览",
+    "model": "ChatGPT web / GPT Image",
+    "testedAt": "2026-08-22",
+    "resultNote": "预览图来自 public/proofs/generated，按提示词 ID 精确匹配。",
+    "evidenceLevel": "generated-preview"
+  },
   "publication": {
-    "status": "published",
-    "featured": false,
+    "status": "published-proofed",
+    "featured": true,
     "copyReady": true,
     "qualityScore": 98,
     "qualityLevel": "professional",
-    "verifiedAt": "2026-05-24",
+    "verifiedAt": "2026-08-22",
     "collectionIds": [],
     "createdAt": "",
     "updatedAt": "",
